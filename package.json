@@ -1,0 +1,34 @@
+{
+  "name": "icons-pro",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SDK e API Oficial de Ícones e Logos Globais na Cloudflare Edge Anycast (<3ms) com cache R2, busca de marcas, resolução de cores dinâmicas e auto-descoberta on-demand.",
+  "main": "icons-pro.js",
+  "module": "icons-pro.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "node test.js",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "icons",
+    "logos",
+    "brand-icons",
+    "svg",
+    "vector-icons",
+    "cloudflare-r2",
+    "cloudflare-worker",
+    "edge-computing",
+    "sdk"
+  ],
+  "author": "clepta2 <clepta2@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clepta2/icons-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clepta2/icons-pro/issues"
+  },
+  "homepage": "https://github.com/clepta2/icons-pro#readme"
+}
