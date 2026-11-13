@@ -5,13 +5,14 @@
  * 
  * - Padrão de 1 req/s no plano Free (60 RPM) e dupla proteção de vazão (RPM + Cota Diária 86.400s)
  * - Garantia de entrega < 1 segundo (tempo de resposta típico <3ms na borda Anycast)
- * - Auto-descoberta, resolução inteligente de slugs/aliases e injeção dinâmica de cor
+ * - Máxima eficiência na borda: Cache API Anycast, vetores nativos em memória, R2 bucket e stashing automático
  * 
  * @license MIT
  * @see https://github.com/clepta2/icons-pro
  */
 
 import { ICONS_CATALOG } from './catalog.js';
+import { TOP_VECTOR_PATHS } from './top-paths.js';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -272,26 +273,61 @@ function gerarSvgEmblemaMarca(item, corCustomizada) {
 </svg>`;
 }
 
-async function obterSvgDoIcone(item, corCustomizada, env) {
+async function obterSvgDoIcone(item, corCustomizada, env, ctx) {
   const cacheKey = `${item.slug}_${corCustomizada || 'orig'}`;
+
+  // 1. Camada 1: Cache em Memória do Isolate (<0.1ms)
   if (svgMemoryCache.has(cacheKey)) {
-    return svgMemoryCache.get(cacheKey);
+    return { svg: svgMemoryCache.get(cacheKey), source: 'EDGE-MEMORY-HIT' };
   }
 
-  // 1. Tentar R2 se disponível
+  // 2. Camada 2: Vetores SVG Oficiais Embutidos na Borda (<0.1ms - Top 135 marcas globais)
+  if (TOP_VECTOR_PATHS && TOP_VECTOR_PATHS[item.slug]) {
+    const pathD = TOP_VECTOR_PATHS[item.slug];
+    const fill = corCustomizada ? `#${corCustomizada.replace('#', '')}` : `#${item.hex || '000000'}`;
+    const safeTitle = (item.title || item.slug).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    const embeddedSvg = `<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="${fill}"><title>${safeTitle}</title><path d="${pathD}"/></svg>`;
+    svgMemoryCache.set(cacheKey, embeddedSvg);
+    return { svg: embeddedSvg, source: 'EDGE-EMBEDDED-HIT' };
+  }
+
+  // 3. Camada 3: Cloudflare R2 Anycast Edge Storage (<5ms)
   if (env && env.ICONS_R2 && typeof env.ICONS_R2.get === 'function') {
     try {
       const obj = await env.ICONS_R2.get(`icons/svg/${item.slug}.svg`);
       if (obj) {
-        let svg = await obj.text();
-        if (corCustomizada) svg = aplicarCorSvg(svg, corCustomizada);
-        svgMemoryCache.set(cacheKey, svg);
-        return svg;
+        let r2Svg = await obj.text();
+        if (corCustomizada) {
+          r2Svg = aplicarCorSvg(r2Svg, corCustomizada);
+        } else if (!/<svg[^>]*\sfill=/i.test(r2Svg)) {
+          r2Svg = aplicarCorSvg(r2Svg, item.hex);
+        }
+        svgMemoryCache.set(cacheKey, r2Svg);
+        return { svg: r2Svg, source: 'R2-EDGE-HIT' };
       }
     } catch (_) {}
   }
 
-  // 2. Tentar buscar em upstream oficial com timeout estrito de 800ms (garante entrega < 1s)
+  // 4. Camada 4: Armazenamento Local / Static Assets (<1ms em ambiente local/Node)
+  try {
+    const fs = await import('fs');
+    const path = await import('path');
+    const { fileURLToPath } = await import('url');
+    const curDir = path.dirname(fileURLToPath(import.meta.url));
+    const localFile = path.join(curDir, 'svg', `${item.slug}.svg`);
+    if (fs.existsSync(localFile)) {
+      let localSvg = fs.readFileSync(localFile, 'utf8');
+      if (corCustomizada) {
+        localSvg = aplicarCorSvg(localSvg, corCustomizada);
+      } else if (!/<svg[^>]*\sfill=/i.test(localSvg)) {
+        localSvg = aplicarCorSvg(localSvg, item.hex);
+      }
+      svgMemoryCache.set(cacheKey, localSvg);
+      return { svg: localSvg, source: 'LOCAL-EDGE-DISK' };
+    }
+  } catch (_) {}
+
+  // 5. Camada 5: Stashing Automático na Borda com Timeout Seguro de 800ms
   try {
     const upstreamUrl = `https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/${item.slug}.svg`;
     const ctrl = new AbortController();
@@ -311,17 +347,27 @@ async function obterSvgDoIcone(item, corCustomizada, env) {
       } else if (!/<svg[^>]*\sfill=/i.test(finalSvg)) {
         finalSvg = aplicarCorSvg(finalSvg, item.hex);
       }
+
+      // Salva no cache do isolate
       svgMemoryCache.set(cacheKey, finalSvg);
-      return finalSvg;
+
+      // Persiste no R2 em background para que as próximas requisições sejam 100% locais na borda
+      if (ctx && typeof ctx.waitUntil === 'function' && env && env.ICONS_R2 && typeof env.ICONS_R2.put === 'function') {
+        ctx.waitUntil(env.ICONS_R2.put(`icons/svg/${item.slug}.svg`, finalSvg, {
+          httpMetadata: { contentType: 'image/svg+xml' }
+        }));
+      }
+
+      return { svg: finalSvg, source: 'UPSTREAM-EDGE-STASHED' };
     }
   } catch (_) {
-    // Timeout ou erro de rede: aciona fallback instantâneo sem falhar
+    // Timeout ou rede externa indisponível: avança para o motor de fallback
   }
 
-  // 3. Fallback Instantâneo (<1ms): Emblema vetorial de alta definição com cor oficial e iniciais
+  // 6. Camada 6: Motor Vetorial Instantâneo da Borda (<0.1ms - Cor oficial e iniciais)
   const fallbackSvg = gerarSvgEmblemaMarca(item, corCustomizada);
   svgMemoryCache.set(cacheKey, fallbackSvg);
-  return fallbackSvg;
+  return { svg: fallbackSvg, source: 'EDGE-VECTOR-FALLBACK' };
 }
 
 export default {
@@ -368,6 +414,21 @@ export default {
           'Retry-After': String(rate.resetSeconds)
         }
       });
+    }
+
+    // 0.1 Verifica??o de Cache Anycast Nativo Cloudflare (Sub-1ms)
+    const hasEdgeCache = typeof caches !== 'undefined' && caches.default && request.method === 'GET';
+    const cacheKey = hasEdgeCache ? new Request(url.toString(), { method: 'GET' }) : null;
+    if (hasEdgeCache && !path.includes('/health') && !path.includes('/status') && path !== '/') {
+      try {
+        const cached = await caches.default.match(cacheKey);
+        if (cached) {
+          const res = new Response(cached.body, cached);
+          res.headers.set('CF-Cache-Status', 'HIT');
+          res.headers.set('X-Edge-Cache', 'HIT (<1ms Anycast RAM)');
+          return res;
+        }
+      } catch (_) {}
     }
 
     // Status & Health
@@ -447,9 +508,10 @@ export default {
       });
     }
 
-    // Renderização / Entrega de SVG por Slug
-    const match = path.match(/^\/api\/icons\/([a-zA-Z0-9_\-\.]+)(\.(svg|png))?$/i) || path.match(/^\/([a-zA-Z0-9_\-\.]+)(\.(svg|png))?$/i);
-    if (match) {
+    // Renderização / Entrega de SVG por Slug na Borda Anycast
+    const cleanPath = path.replace(/\.(svg|png)$/i, '');
+    const match = cleanPath.match(/^\/api\/icons\/([a-zA-Z0-9_\-\.]+)$/i) || cleanPath.match(/^\/([a-zA-Z0-9_\-\.]+)$/i);
+    if (match && cleanPath !== '/' && cleanPath !== '/health' && cleanPath !== '/status' && cleanPath !== '/api/status' && cleanPath !== '/api/icons/search' && cleanPath !== '/api/icons/info' && cleanPath !== '/search' && cleanPath !== '/info') {
       const rawSlug = match[1];
       const color = url.searchParams.get('color') || url.searchParams.get('c');
       const item = localizarIcone(rawSlug) || {
@@ -458,13 +520,17 @@ export default {
         hex: '10b981'
       };
 
-      const svgContent = await obterSvgDoIcone(item, color, env);
+      const { svg: svgContent, source } = await obterSvgDoIcone(item, color, env, ctx);
 
       return new Response(svgContent, {
         status: 200,
         headers: {
           ...calcResponseHeaders('image/svg+xml; charset=utf-8'),
-          'Cache-Control': 'public, max-age=31536000, immutable'
+          'Cache-Control': 'public, max-age=31536000, s-maxage=31536000, stale-while-revalidate=86400, immutable',
+          'CDN-Cache-Control': 'public, max-age=31536000, immutable',
+          'Cloudflare-CDN-Cache-Control': 'public, max-age=31536000, immutable',
+          'X-Edge-Delivery': source,
+          'X-Edge-Anycast': 'Cloudflare Global Edge Network (330+ POPs)'
         }
       });
     }
