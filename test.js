@@ -154,5 +154,17 @@ assert(resMaster.status === 200, 'Chave Master autorizada com 200 OK');
 assert(resMaster.headers.get('X-RateLimit-Limit') === '5000', 'Plano Master tem limite de 5.000 RPM');
 assert(resMaster.headers.get('X-DailyLimit-Limit') === 'unlimited', 'Plano Master tem cota diária ilimitada');
 
+// ─── 7. TESTE DE EFICIÊNCIA MÁXIMA NA BORDA (ZERO EGRESS / EDGE ANYCAST) ───
+console.log('\n⚡ 7. Teste de Eficiência Máxima na Borda (Edge Cache & Headers Imutáveis)');
+const edgeReq1 = await worker.fetch(new Request('https://api.test/api/icons/whatsapp.svg'));
+assert(edgeReq1.status === 200, 'Requisição WhatsApp responde 200 OK');
+assert(edgeReq1.headers.get('X-Edge-Delivery') === 'EDGE-EMBEDDED-HIT', 'WhatsApp é entregue diretamente dos vetores nativos na borda (EDGE-EMBEDDED-HIT)');
+assert(edgeReq1.headers.get('Cache-Control').includes('immutable'), 'Header Cache-Control contém flag immutable para 1 ano');
+assert(edgeReq1.headers.get('CDN-Cache-Control').includes('immutable'), 'Header CDN-Cache-Control configurado para CDN Anycast');
+assert(edgeReq1.headers.get('X-Edge-Anycast').includes('Cloudflare'), 'Header X-Edge-Anycast confirma presença na rede Anycast');
+
+const edgeReq2 = await worker.fetch(new Request('https://api.test/api/icons/whatsapp.svg'));
+assert(edgeReq2.headers.get('X-Edge-Delivery') === 'EDGE-MEMORY-HIT', 'Segunda requisição é resolvida em memória do isolate (EDGE-MEMORY-HIT)');
+
 console.log(`\n🎉 Todos os ${pass} testes do IconsPro passaram com 100% de sucesso!`);
 
