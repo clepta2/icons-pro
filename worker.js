@@ -66,6 +66,49 @@ const DEFAULT_ICONS = [
   { title: 'TypeScript', slug: 'typescript', hex: '3178C6' }
 ];
 
+let catalogCache = null;
+async function carregarCatalogoCompleto(env = {}) {
+  if (catalogCache) return catalogCache;
+
+  // 1. Tentar ler do R2
+  if (env && env.ICONS_R2 && typeof env.ICONS_R2.get === 'function') {
+    try {
+      const obj = await env.ICONS_R2.get('icons/simple-icons.json');
+      if (obj) {
+        const text = await obj.text();
+        const parsed = JSON.parse(text);
+        catalogCache = parsed.map(i => ({
+          title: i.title,
+          slug: i.slug || i.title.toLowerCase().replace(/[^a-z0-9]/g, ''),
+          hex: i.hex,
+          source: i.source || null
+        }));
+        return catalogCache;
+      }
+    } catch (_) {}
+  }
+
+  // 2. Tentar ler do arquivo local em Node.js
+  try {
+    const fs = await import('fs');
+    const path = await import('path');
+    const p = path.resolve('simple-icons.json');
+    if (fs.existsSync(p)) {
+      const raw = JSON.parse(fs.readFileSync(p, 'utf8'));
+      catalogCache = raw.map(i => ({
+        title: i.title,
+        slug: i.slug || i.title.toLowerCase().replace(/[^a-z0-9]/g, ''),
+        hex: i.hex,
+        source: i.source || null
+      }));
+      return catalogCache;
+    }
+  } catch (_) {}
+
+  catalogCache = DEFAULT_ICONS;
+  return catalogCache;
+}
+
 export default {
   async fetch(request, env = {}, ctx = {}) {
     const url = new URL(request.url);
@@ -95,8 +138,10 @@ export default {
     // Busca de Marcas
     if (path === '/api/icons/search' || path === '/search') {
       const q = (url.searchParams.get('q') || '').toLowerCase().trim();
-      const resultados = DEFAULT_ICONS.filter(i => i.title.toLowerCase().includes(q) || i.slug.includes(q));
-      return new Response(JSON.stringify({ ok: true, total: resultados.length, resultados }), {
+      const limit = Math.min(parseInt(url.searchParams.get('limit') || '50', 10), 200);
+      const catalogo = await carregarCatalogoCompleto(env);
+      const resultados = catalogo.filter(i => !q || i.title.toLowerCase().includes(q) || i.slug.includes(q)).slice(0, limit);
+      return new Response(JSON.stringify({ ok: true, total: resultados.length, catalogoTotal: catalogo.length, resultados }), {
         status: 200,
         headers: { 'Content-Type': 'application/json', ...TELEMETRY }
       });
@@ -105,7 +150,8 @@ export default {
     // Metadados
     if (path === '/api/icons/info' || path === '/info') {
       const name = (url.searchParams.get('name') || url.searchParams.get('slug') || '').toLowerCase().trim();
-      const item = DEFAULT_ICONS.find(i => i.slug === name || i.title.toLowerCase() === name);
+      const catalogo = await carregarCatalogoCompleto(env);
+      const item = catalogo.find(i => i.slug === name || i.title.toLowerCase() === name);
       if (!item) return new Response(JSON.stringify({ ok: false, error: 'ICON_NOT_FOUND' }), { status: 404, headers: { 'Content-Type': 'application/json', ...TELEMETRY } });
       return new Response(JSON.stringify({ ok: true, icone: item }), {
         status: 200,
