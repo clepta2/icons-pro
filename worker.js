@@ -444,27 +444,27 @@ const HTML_STUDIO = `<!DOCTYPE html>
 <body>
 
   <div class="app-shell">
-    <!-- SIDEBAR DA SU?TE PONTE -->
+    <!-- SIDEBAR DA SUÍTE PONTE -->
     <aside class="sidebar">
       <a class="brand" href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">
         <div class="brand-mark">?</div>
         <div class="brand-copy">
           <strong>ponte</strong>
-          <small>API MARKET ? OZPRO</small>
+          <small>API MARKET · OZPRO</small>
         </div>
       </a>
 
       <div class="nav-section-label">APIs de Design & Assets</div>
       <nav class="primary-nav">
         <a class="nav-link is-active" href="#">
-          <span>??</span> <span>?cones & Assets Pro</span>
+          <span>??</span> <span>Ícones & Assets Pro</span>
         </a>
         <a class="nav-link" href="https://clepta2.github.io/graficos-pro/">
-          <span>??</span> <span>Gr?ficos Vetoriais SVG</span>
+          <span>??</span> <span>Gráficos Vetoriais SVG</span>
         </a>
       </nav>
 
-      <div class="nav-section-label">Valida??o & Seguran?a</div>
+      <div class="nav-section-label">Validação & Segurança</div>
       <nav class="primary-nav">
         <a class="nav-link" href="https://clepta2.github.io/boletovalidator-pro/">
           <span>??</span> <span>BoletoValidator Pro</span>
@@ -473,7 +473,7 @@ const HTML_STUDIO = `<!DOCTYPE html>
           <span>??</span> <span>Pix Gateway Pro</span>
         </a>
         <a class="nav-link" href="https://clepta2.github.io/antifraude-pro/">
-          <span>???</span> <span>Seguran?a & Antifraude</span>
+          <span>???</span> <span>Segurança & Antifraude</span>
         </a>
         <a class="nav-link" href="https://clepta2.github.io/passvalidator-pro/">
           <span>??</span> <span>PassValidator HIBP</span>
@@ -488,7 +488,7 @@ const HTML_STUDIO = `<!DOCTYPE html>
       </div>
     </aside>
 
-    <!-- ?REA PRINCIPAL -->
+    <!-- ÁREA PRINCIPAL -->
     <main class="main-area">
       <!-- TOPBAR UNIFICADA -->
       <header class="topbar">
@@ -497,7 +497,7 @@ const HTML_STUDIO = `<!DOCTYPE html>
           <span>?</span>
           <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Design & Assets</a>
           <span>?</span>
-          <strong>?cones & Logos Pro</strong>
+          <strong>Ícones & Logos Pro</strong>
         </div>
 
         <div class="topbar-actions">
@@ -512,41 +512,41 @@ const HTML_STUDIO = `<!DOCTYPE html>
 
       <!-- CONTE?DO -->
       <div class="content-wrap">
-        <!-- GUIA DID?TICO: O QUE EST? ACONTECENDO -->
+        <!-- GUIA DID?TICO: O QUE ESTÁ ACONTECENDO -->
         <div class="guide-card">
           <div class="guide-header">
-            <strong>?? O que esta ferramenta faz e como utilizar?</strong>
+            <strong>?💡 O que esta ferramenta faz e como utilizar?</strong>
             <span class="badge green">Entrega Sub-1ms Anycast</span>
           </div>
           <div class="guide-steps">
             <div class="guide-step">
               <span class="guide-step-tag">Passo 1: Buscar Marca</span>
-              <p>Digite o nome de qualquer marca, tecnologia ou rede social no campo de busca (s?o mais de 3.470 ?cones dispon?veis).</p>
+              <p>Digite o nome de qualquer marca, tecnologia ou rede social no campo de busca (são mais de 3.470 ícones disponíveis).</p>
             </div>
             <div class="guide-step">
               <span class="guide-step-tag">Passo 2: Customizar Cor & Tamanho</span>
-              <p>Altere a cor hexadecimal e o tamanho em pixels. O SVG ? processado e recolorido em tempo real na mem?ria RAM.</p>
+              <p>Altere a cor hexadecimal e o tamanho em pixels. O SVG é processado e recolorido em tempo real na memória RAM.</p>
             </div>
             <div class="guide-step">
               <span class="guide-step-tag">Passo 3: Copiar ou Integrar</span>
-              <p>Copie o c?digo SVG bruto, URL de CDN Anycast ou c?digo de integra??o em Node.js/Python para o seu site ou app.</p>
+              <p>Copie o código SVG bruto, URL de CDN Anycast ou código de integração em Node.js/Python para o seu site ou app.</p>
             </div>
           </div>
         </div>
 
         <div class="badges-bar">
-          <span class="badge green">? 3.470 Marcas Catalogadas</span>
-          <span class="badge blue">? Vetores SVG Oficiais</span>
+          <span class="badge green">● 3.470 Marcas Catalogadas</span>
+          <span class="badge blue">⚡ Vetores SVG Oficiais</span>
           <span class="badge">?? CDN Anycast (<1ms)</span>
-          <span class="badge">?? Cores Hex Personaliz?veis</span>
+          <span class="badge">?? Cores Hex Personalizáveis</span>
         </div>
 
         <div class="grid-layout">
           <!-- PAINEL ESQUERDO: EXPLORADOR E BUSCADOR -->
           <div class="card">
             <div class="card-title">
-              <span>Explorador de ?cones</span>
-              <span style="font-size:11px;color:var(--muted);" id="lblContador">Carregando cat?logo...</span>
+              <span>Explorador de Ícones</span>
+              <span style="font-size:11px;color:var(--muted);" id="lblContador">Carregando catálogo...</span>
             </div>
 
             <div class="form-group">
@@ -744,7 +744,7 @@ const svg = await res.text();\`;
     document.getElementById('btnCopiarSvg').addEventListener('click', () => {
       const svg = boxPreview.innerHTML;
       navigator.clipboard.writeText(svg);
-      alert('C?digo SVG copiado para a ?rea de transfer?ncia!');
+      alert('Código SVG copiado para a área de transferência!');
     });
 
     document.getElementById('btnCopiarUrl').addEventListener('click', () => {
@@ -759,7 +759,7 @@ const svg = await res.text();\`;
       alert('Snippet copiado!');
     });
 
-    // Inicializa??o
+    // Inicialização
     renderizarGrid(filtrarIcones('google'));
     atualizarPreview();
   </script>
@@ -855,6 +855,48 @@ export default {
         status: 200,
         headers: calcResponseHeaders('application/json')
       });
+    }
+
+    
+    // ── ROTA SOBERANA DE FONTES WOFF2 ANYCAST (/api/fonts/:name ou /fonts/:name) ──
+    if (path.startsWith('/api/fonts/') || path.startsWith('/fonts/')) {
+      const fontFile = path.split('/').pop().toLowerCase();
+      try {
+        const fs = await import('fs');
+        const pathModule = await import('path');
+        const { fileURLToPath } = await import('url');
+        const curDir = pathModule.dirname(fileURLToPath(import.meta.url));
+        const localFont = pathModule.join(curDir, 'fonts', fontFile);
+        if (fs.existsSync(localFont)) {
+          const fontBuf = fs.readFileSync(localFont);
+          return new Response(fontBuf, {
+            status: 200,
+            headers: {
+              ...CORS_HEADERS,
+              'Content-Type': 'font/woff2',
+              'Cache-Control': 'public, max-age=31536000, immutable',
+              'X-Ponte-Asset': 'Fontes Soberanas Anycast'
+            }
+          });
+        }
+      } catch (_) {}
+
+      if (env && env.ICONS_R2) {
+        try {
+          const obj = await env.ICONS_R2.get(`fonts/${fontFile}`);
+          if (obj) {
+            return new Response(obj.body, {
+              status: 200,
+              headers: {
+                ...CORS_HEADERS,
+                'Content-Type': 'font/woff2',
+                'Cache-Control': 'public, max-age=31536000, immutable',
+                'X-Ponte-Asset': 'R2 Fontes Anycast'
+              }
+            });
+          }
+        } catch (_) {}
+      }
     }
 
     // Busca de Marcas / Ícones
