@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icons Pro ? Cat?logo de 3.470 ?cones & Logos Globais na Borda</title>
+  <meta name="description" content="Cat?logo oficial e buscador instant?neo de 3.470 marcas e ?cones vetoriais em SVG puro com cache Anycast sub-1ms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ponte-suite.css">
+  <style>
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 12px;
+      max-height: 480px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+    .icon-card {
+      background: var(--paper-elevated);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 14px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.16s ease;
+      text-align: center;
+    }
+    .icon-card:hover {
+      border-color: var(--mint);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+    }
+    .icon-card.active {
+      border-color: var(--mint);
+      background: rgba(163, 230, 53, 0.08);
+    }
+    .icon-card svg {
+      width: 32px;
+      height: 32px;
+      transition: transform 0.16s ease;
+    }
+    .icon-card:hover svg {
+      transform: scale(1.1);
+    }
+    .icon-card span {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+    .icon-preview-box {
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--forest-850);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      min-height: 140px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-shell">
+    <!-- SIDEBAR DA SU?TE PONTE -->
+    <aside class="sidebar">
+      <a class="brand" href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">
+        <div class="brand-mark">?</div>
+        <div class="brand-copy">
+          <strong>ponte</strong>
+          <small>API MARKET ? OZPRO</small>
+        </div>
+      </a>
+
+      <div class="nav-section-label">APIs de Design & Assets</div>
+      <nav class="primary-nav">
+        <a class="nav-link is-active" href="#">
+          <span>??</span> <span>?cones & Assets Pro</span>
+        </a>
+        <a class="nav-link" href="https://clepta2.github.io/graficos-pro/">
+          <span>??</span> <span>Gr?ficos Vetoriais SVG</span>
+        </a>
+      </nav>
+
+      <div class="nav-section-label">Valida??o & Seguran?a</div>
+      <nav class="primary-nav">
+        <a class="nav-link" href="https://clepta2.github.io/boletovalidator-pro/">
+          <span>??</span> <span>BoletoValidator Pro</span>
+        </a>
+        <a class="nav-link" href="https://clepta2.github.io/pixvalidator-pro/">
+          <span>??</span> <span>Pix Gateway Pro</span>
+        </a>
+        <a class="nav-link" href="https://clepta2.github.io/antifraude-pro/">
+          <span>???</span> <span>Seguran?a & Antifraude</span>
+        </a>
+        <a class="nav-link" href="https://clepta2.github.io/passvalidator-pro/">
+          <span>??</span> <span>PassValidator HIBP</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="status-row">
+          <span class="status-dot"></span>
+          <span>Borda Cloudflare Anycast</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ?REA PRINCIPAL -->
+    <main class="main-area">
+      <!-- TOPBAR UNIFICADA -->
+      <header class="topbar">
+        <div class="breadcrumb">
+          <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Workspace</a>
+          <span>?</span>
+          <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Design & Assets</a>
+          <span>?</span>
+          <strong>?cones & Logos Pro</strong>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="api-key-box">
+            <span>??</span>
+            <input type="text" id="inputApiKey" placeholder="ico_live_... (ou Demo)" />
+            <button class="ponte-btn-save" id="btnSalvarKey">Salvar</button>
+          </div>
+          <button class="theme-toggle-btn" id="themeToggle" title="Alternar tema">??</button>
+        </div>
+      </header>
+
+      <!-- CONTE?DO -->
+      <div class="content-wrap">
+        <!-- GUIA DID?TICO: O QUE EST? ACONTECENDO -->
+        <div class="guide-card">
+          <div class="guide-header">
+            <strong>?? O que esta ferramenta faz e como utilizar?</strong>
+            <span class="badge green">Entrega Sub-1ms Anycast</span>
+          </div>
+          <div class="guide-steps">
+            <div class="guide-step">
+              <span class="guide-step-tag">Passo 1: Buscar Marca</span>
+              <p>Digite o nome de qualquer marca, tecnologia ou rede social no campo de busca (s?o mais de 3.470 ?cones dispon?veis).</p>
+            </div>
+            <div class="guide-step">
+              <span class="guide-step-tag">Passo 2: Customizar Cor & Tamanho</span>
+              <p>Altere a cor hexadecimal e o tamanho em pixels. O SVG ? processado e recolorido em tempo real na mem?ria RAM.</p>
+            </div>
+            <div class="guide-step">
+              <span class="guide-step-tag">Passo 3: Copiar ou Integrar</span>
+              <p>Copie o c?digo SVG bruto, URL de CDN Anycast ou c?digo de integra??o em Node.js/Python para o seu site ou app.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="badges-bar">
+          <span class="badge green">? 3.470 Marcas Catalogadas</span>
+          <span class="badge blue">? Vetores SVG Oficiais</span>
+          <span class="badge">?? CDN Anycast (<1ms)</span>
+          <span class="badge">?? Cores Hex Personaliz?veis</span>
+        </div>
+
+        <div class="grid-layout">
+          <!-- PAINEL ESQUERDO: EXPLORADOR E BUSCADOR -->
+          <div class="card">
+            <div class="card-title">
+              <span>Explorador de ?cones</span>
+              <span style="font-size:11px;color:var(--muted);" id="lblContador">Carregando cat?logo...</span>
+            </div>
+
+            <div class="form-group">
+              <label for="txtBusca">Pesquisar por Marca, Empresa ou Linguagem</label>
+              <input type="text" id="txtBusca" placeholder="Ex: google, github, react, python, visa, nubank..." value="google" />
+            </div>
+
+            <div class="icon-grid" id="gridIcones">
+              <!-- Renderizado dinamicamente via JS -->
+            </div>
+          </div>
+
+          <!-- PAINEL DIREITO: CUSTOMIZADOR & EXPORTADOR -->
+          <div class="card">
+            <div class="card-title">
+              <span>Personaliza??o & Exporta??o</span>
+              <span class="badge green" id="badgeSlugAtivo">google</span>
+            </div>
+
+            <div class="icon-preview-box" id="boxPreview">
+              <!-- SVG din?mico -->
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+              <div class="form-group">
+                <label for="inputCor">Cor Hexadecimal</label>
+                <div style="display: flex; gap: 6px;">
+                  <input type="color" id="pickerCor" value="#a3e635" style="width:38px;height:38px;padding:2px;cursor:pointer;border-radius:6px;" />
+                  <input type="text" id="inputCor" value="#a3e635" style="flex:1;" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputTamanho">Tamanho (Pixels)</label>
+                <input type="number" id="inputTamanho" value="64" min="16" max="256" step="8" />
+              </div>
+            </div>
+
+            <div class="btn-row">
+              <button class="btn btn-primary" id="btnCopiarSvg" style="flex:1;">?? Copiar C?digo SVG</button>
+              <button class="btn btn-secondary" id="btnCopiarUrl">?? Copiar URL da CDN</button>
+            </div>
+
+            <!-- SNIPPETS DE INTEGRA??O MULTILINGUAGEM -->
+            <div class="snippet-panel">
+              <div class="snippet-header">
+                <div class="snippet-tabs">
+                  <button class="snippet-tab active" data-lang="curl">cURL</button>
+                  <button class="snippet-tab" data-lang="html">HTML</button>
+                  <button class="snippet-tab" data-lang="js">Node.js</button>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="btnCopiarSnippet">Copiar Snippet</button>
+              </div>
+              <pre class="snippet-code"><code id="codeSnippet">curl "https://icons-pro-api.maputo2.workers.dev/api/icons/google.svg?color=a3e635"</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module">
+    import { ICONS_CATALOG } from './catalog.js';
+
+    // Gerenciador de Chave de API
+    const inputApiKey = document.getElementById('inputApiKey');
+    inputApiKey.value = localStorage.getItem('icons_api_key') || '';
+    document.getElementById('btnSalvarKey').addEventListener('click', () => {
+      localStorage.setItem('icons_api_key', inputApiKey.value.trim());
+      alert('Chave de API salva com sucesso no seu navegador!');
+    });
+
+    // Alternador de Tema
+    const themeBtn = document.getElementById('themeToggle');
+    const updateIcon = () => themeBtn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '??' : '??';
+    themeBtn.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', cur);
+      localStorage.setItem('ponte.theme', cur);
+      updateIcon();
+    });
+    updateIcon();
+
+    // Estado da Aplica??o
+    let iconeSelecionado = ICONS_CATALOG.find(i => i.slug === 'google') || ICONS_CATALOG[0];
+    let corAtual = '#a3e635';
+    let tamanhoAtual = 64;
+    let snippetLang = 'curl';
+
+    const grid = document.getElementById('gridIcones');
+    const txtBusca = document.getElementById('txtBusca');
+    const lblContador = document.getElementById('lblContador');
+    const boxPreview = document.getElementById('boxPreview');
+    const badgeSlug = document.getElementById('badgeSlugAtivo');
+    const pickerCor = document.getElementById('pickerCor');
+    const inputCor = document.getElementById('inputCor');
+    const inputTamanho = document.getElementById('inputTamanho');
+    const codeSnippet = document.getElementById('codeSnippet');
+
+    function filtrarIcones(query) {
+      const q = (query || '').toLowerCase().trim();
+      if (!q) return ICONS_CATALOG.slice(0, 48);
+      return ICONS_CATALOG.filter(i => 
+        i.title.toLowerCase().includes(q) || 
+        i.slug.toLowerCase().includes(q) || 
+        (i.aliases && i.aliases.some(a => a.toLowerCase().includes(q)))
+      ).slice(0, 60);
+    }
+
+    function renderizarGrid(lista) {
+      grid.innerHTML = '';
+      lblContador.textContent = `${lista.length} ?cones exibidos`;
+
+      lista.forEach(item => {
+        const div = document.createElement('div');
+        div.className = `icon-card ${item.slug === iconeSelecionado.slug ? 'active' : ''}`;
+        div.innerHTML = `
+          <img src="https://icons-pro-api.maputo2.workers.dev/api/icons/${item.slug}.svg?color=${(item.hex || 'a3e635').replace('#','')}" alt="${item.title}" style="width:28px;height:28px;" loading="lazy" />
+          <span>${item.title}</span>
+        `;
+        div.addEventListener('click', () => {
+          iconeSelecionado = item;
+          document.querySelectorAll('.icon-card').forEach(c => c.classList.remove('active'));
+          div.classList.add('active');
+          atualizarPreview();
+        });
+        grid.appendChild(div);
+      });
+    }
+
+    txtBusca.addEventListener('input', (e) => {
+      renderizarGrid(filtrarIcones(e.target.value));
+    });
+
+    // Atualiza??o de Cores
+    pickerCor.addEventListener('input', (e) => {
+      corAtual = e.target.value;
+      inputCor.value = corAtual;
+      atualizarPreview();
+    });
+    inputCor.addEventListener('input', (e) => {
+      corAtual = e.target.value;
+      pickerCor.value = corAtual;
+      atualizarPreview();
+    });
+    inputTamanho.addEventListener('input', (e) => {
+      tamanhoAtual = parseInt(e.target.value, 10) || 64;
+      atualizarPreview();
+    });
+
+    async function atualizarPreview() {
+      badgeSlug.textContent = iconeSelecionado.slug;
+      const cleanHex = corAtual.replace('#', '');
+      const url = `https://icons-pro-api.maputo2.workers.dev/api/icons/${iconeSelecionado.slug}.svg?color=${cleanHex}`;
+
+      try {
+        const resp = await fetch(url);
+        const svgText = await resp.text();
+        boxPreview.innerHTML = svgText;
+        const svgEl = boxPreview.querySelector('svg');
+        if (svgEl) {
+          svgEl.setAttribute('width', tamanhoAtual);
+          svgEl.setAttribute('height', tamanhoAtual);
+          svgEl.style.display = 'block';
+        }
+      } catch (err) {
+        boxPreview.innerHTML = `<img src="${url}" width="${tamanhoAtual}" height="${tamanhoAtual}" />`;
+      }
+
+      atualizarSnippet();
+    }
+
+    function atualizarSnippet() {
+      const cleanHex = corAtual.replace('#', '');
+      const url = `https://icons-pro-api.maputo2.workers.dev/api/icons/${iconeSelecionado.slug}.svg?color=${cleanHex}`;
+
+      if (snippetLang === 'curl') {
+        codeSnippet.textContent = `curl "${url}"`;
+      } else if (snippetLang === 'html') {
+        codeSnippet.textContent = `<img src="${url}" alt="${iconeSelecionado.title}" width="${tamanhoAtual}" height="${tamanhoAtual}" />`;
+      } else if (snippetLang === 'js') {
+        codeSnippet.textContent = `const res = await fetch("${url}");
+const svg = await res.text();`;
+      }
+    }
+
+    document.querySelectorAll('.snippet-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.snippet-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        snippetLang = btn.dataset.lang;
+        atualizarSnippet();
+      });
+    });
+
+    document.getElementById('btnCopiarSvg').addEventListener('click', () => {
+      const svg = boxPreview.innerHTML;
+      navigator.clipboard.writeText(svg);
+      alert('C?digo SVG copiado para a ?rea de transfer?ncia!');
+    });
+
+    document.getElementById('btnCopiarUrl').addEventListener('click', () => {
+      const cleanHex = corAtual.replace('#', '');
+      const url = `https://icons-pro-api.maputo2.workers.dev/api/icons/${iconeSelecionado.slug}.svg?color=${cleanHex}`;
+      navigator.clipboard.writeText(url);
+      alert('URL oficial da CDN Anycast copiada!');
+    });
+
+    document.getElementById('btnCopiarSnippet').addEventListener('click', () => {
+      navigator.clipboard.writeText(codeSnippet.textContent);
+      alert('Snippet copiado!');
+    });
+
+    // Inicializa??o
+    renderizarGrid(filtrarIcones('google'));
+    atualizarPreview();
+  </script>
+</body>
+</html>
