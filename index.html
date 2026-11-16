@@ -1,27 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Icons Pro ? Cat?logo de 3.470 ?cones & Logos Globais na Borda</title>
-  <meta name="description" content="Cat?logo oficial e buscador instant?neo de 3.470 marcas e ?cones vetoriais em SVG puro com cache Anycast sub-1ms.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Ícones, Fontes & Assets Pro • Maior Repositório Anycast • Ponte API Market</title>
+  <meta name="description" content="Catálogo de mais de 10.000 logomarcas em SVG vetorial puro e o maior repositório de fontes WOFF2 de Canva, CapCut e Adobe na borda Cloudflare.">
   <link rel="stylesheet" href="ponte-suite.css">
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('ponte.theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
   <style>
+    /* Tipografias Soberanas Locais (@font-face) */
+    @font-face { font-family: 'Bebas Neue'; src: url('fonts/bebas-neue.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Anton'; src: url('fonts/anton.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Montserrat'; src: url('fonts/montserrat.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Poppins'; src: url('fonts/poppins.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Playfair Display'; src: url('fonts/playfair-display.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/inter.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Syne'; src: url('fonts/syne.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Space Grotesk'; src: url('fonts/space-grotesk.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Cinzel'; src: url('fonts/cinzel.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Pacifico'; src: url('fonts/pacifico.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Dancing Script'; src: url('fonts/dancing-script.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Oswald'; src: url('fonts/oswald.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Bangers'; src: url('fonts/bangers.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Roboto'; src: url('fonts/roboto.woff2') format('woff2'); font-display: swap; }
+    @font-face { font-family: 'Fira Code'; src: url('fonts/fira-code.woff2') format('woff2'); font-display: swap; }
+
     .icon-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      gap: 12px;
+      gap: 10px;
       max-height: 480px;
       overflow-y: auto;
       padding-right: 4px;
     }
     .icon-card {
-      background: var(--paper-elevated);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-md);
+      background: var(--paper-elevated, #162032);
+      border: 1px solid var(--line, #1e293b);
+      border-radius: var(--radius-md, 10px);
       padding: 14px 10px;
       display: flex;
       flex-direction: column;
@@ -32,12 +52,12 @@
       text-align: center;
     }
     .icon-card:hover {
-      border-color: var(--mint);
+      border-color: var(--mint, #a3e635);
       transform: translateY(-2px);
       box-shadow: 0 4px 14px rgba(0,0,0,0.4);
     }
     .icon-card.active {
-      border-color: var(--mint);
+      border-color: var(--mint, #a3e635);
       background: rgba(163, 230, 53, 0.08);
     }
     .icon-card svg {
@@ -51,7 +71,7 @@
     .icon-card span {
       font-size: 11px;
       font-weight: 700;
-      color: var(--ink);
+      color: var(--ink, #f8fafc);
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -61,334 +81,373 @@
       display: grid;
       place-items: center;
       padding: 24px;
-      background: var(--forest-850);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
+      background: var(--paper-elevated, #162032);
+      border: 1px solid var(--line, #1e293b);
+      border-radius: var(--radius-lg, 14px);
       min-height: 140px;
     }
+    .font-card {
+      background: var(--paper, #111827);
+      border: 1px solid var(--line, #1e293b);
+      border-radius: var(--radius-lg, 14px);
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      transition: border-color 0.2s;
+    }
+    .font-card:hover {
+      border-color: var(--mint, #a3e635);
+    }
+    .font-preview-line {
+      font-size: 28px;
+      margin: 12px 0 14px;
+      line-height: 1.3;
+      color: var(--ink, #f8fafc);
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .app-tag {
+      font-size: 10px;
+      font-weight: 800;
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .app-tag.canva { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+    .app-tag.capcut { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+    .app-tag.adobe { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+    .app-tag.tech { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
   </style>
 </head>
 <body>
 
-  <div class="app-shell">
-    <!-- SIDEBAR DA SU?TE PONTE -->
-    <aside class="sidebar">
-      <a class="brand" href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">
-        <div class="brand-mark">?</div>
-        <div class="brand-copy">
-          <strong>ponte</strong>
-          <small>API MARKET ? OZPRO</small>
-        </div>
-      </a>
-
-      <div class="nav-section-label">APIs de Design & Assets</div>
-      <nav class="primary-nav">
-        <a class="nav-link is-active" href="#">
-          <span>??</span> <span>?cones & Assets Pro</span>
+  <!-- Topbar Unificada Ponte API -->
+  <header class="ponte-header">
+    <div class="ponte-header-inner">
+      <div class="ponte-brand-block">
+        <a class="ponte-brand" href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">
+          <svg class="ponte-brand-logo" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#a3e635"/>
+            <path d="M12 28V12L28 20L12 28Z" fill="#0c1715"/>
+          </svg>
+          <div class="ponte-brand-copy">
+            <strong>ponte</strong>
+            <small>API MARKET · OZPRO</small>
+          </div>
         </a>
-        <a class="nav-link" href="https://clepta2.github.io/graficos-pro/">
-          <span>??</span> <span>Gr?ficos Vetoriais SVG</span>
-        </a>
-      </nav>
-
-      <div class="nav-section-label">Valida??o & Seguran?a</div>
-      <nav class="primary-nav">
-        <a class="nav-link" href="https://clepta2.github.io/boletovalidator-pro/">
-          <span>??</span> <span>BoletoValidator Pro</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/pixvalidator-pro/">
-          <span>??</span> <span>Pix Gateway Pro</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/antifraude-pro/">
-          <span>???</span> <span>Seguran?a & Antifraude</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/passvalidator-pro/">
-          <span>??</span> <span>PassValidator HIBP</span>
-        </a>
-      </nav>
-
-      <div class="sidebar-bottom">
-        <div class="status-row">
-          <span class="status-dot"></span>
-          <span>Borda Cloudflare Anycast</span>
-        </div>
-      </div>
-    </aside>
-
-    <!-- ?REA PRINCIPAL -->
-    <main class="main-area">
-      <!-- TOPBAR UNIFICADA -->
-      <header class="topbar">
-        <div class="breadcrumb">
+        <div class="ponte-breadcrumb">
           <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Workspace</a>
-          <span>?</span>
-          <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Design & Assets</a>
-          <span>?</span>
-          <strong>?cones & Logos Pro</strong>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Design &amp; Assets</a>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          <strong>Ícones, Fontes &amp; Assets Pro</strong>
+        </div>
+      </div>
+      <div class="ponte-topbar-actions">
+        <span class="ponte-status-edge"><span class="ponte-status-dot"></span> Cloudflare Anycast &lt;1ms</span>
+        <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo" class="ponte-btn-marketplace">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+          Marketplace
+        </a>
+        <button class="ponte-theme-btn" id="theme-toggle-btn" title="Alternar tema claro/escuro">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Container Principal -->
+  <main class="ponte-container">
+    <div class="ponte-hero">
+      <div class="ponte-badges-bar">
+        <span class="ponte-badge mint">● 100% Zero Google / Zero CDNs</span>
+        <span class="ponte-badge blue">🅰️ 20 Famílias de Fontes WOFF2</span>
+        <span class="ponte-badge purple">🎨 3.470 Logos e Ícones SVG</span>
+        <span class="ponte-badge amber">⚡ Entrega Sub-1ms Anycast</span>
+      </div>
+      <h1>Ícones, Fontes &amp; Assets Pro</h1>
+      <p>O maior repositório soberano de tipografias e logomarcas vetoriais na borda Cloudflare. Baixe arquivos de fontes completas do Canva, CapCut e Adobe (.woff2) para seu computador ou integre via CDN sem dependências externas.</p>
+    </div>
+
+    <!-- Abas de Navegação -->
+    <div class="ponte-tabs">
+      <button class="ponte-tab-btn active" data-tab="tab-fontes" onclick="switchTab('tab-fontes')">🅰️ Catálogo &amp; Download de Fontes (Canva / CapCut / Adobe)</button>
+      <button class="ponte-tab-btn" data-tab="tab-icones" onclick="switchTab('tab-icones')">🎨 Explorador de 3.470 Ícones SVG</button>
+      <button class="ponte-tab-btn" data-tab="tab-api" onclick="switchTab('tab-api')">📚 Endpoints &amp; Integração</button>
+    </div>
+
+    <!-- ABA 1: CATÁLOGO DE FONTES & DOWNLOAD -->
+    <div class="ponte-tab-content active" id="tab-fontes">
+      <div class="ponte-card">
+        <div class="ponte-card-title">
+          <h3>Tipografias dos Maiores Aplicativos do Mundo</h3>
+          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);">20 Famílias Completas em WOFF2</span>
+        </div>
+        <p class="ponte-card-desc">Clique em <strong>"Baixar WOFF2"</strong> para salvar o arquivo de fonte no seu computador ou copie o código <code>@font-face</code> para seu projeto.</p>
+
+        <!-- Barra de Filtros e Amostra de Texto -->
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
+          <input type="text" id="font-sample-text" class="ponte-input" placeholder="Digite uma frase de teste para pré-visualizar em todas as fontes..." value="Criatividade e Performance na Borda Anycast 2026" style="flex:2;min-width:260px;" oninput="atualizarFraseAmostra(this.value)" />
+          <select id="font-app-filter" class="ponte-select" style="flex:1;min-width:180px;" onchange="filtrarFontesPorApp(this.value)">
+            <option value="todos">Todas as Plataformas (20 Fontes)</option>
+            <option value="Canva">Canva Pro Hits</option>
+            <option value="CapCut">CapCut &amp; TikTok Shorts</option>
+            <option value="Adobe">Adobe Creative Cloud &amp; Editorial</option>
+            <option value="Figma">Figma &amp; Tech UI</option>
+          </select>
         </div>
 
-        <div class="topbar-actions">
-          <div class="api-key-box">
-            <span>??</span>
-            <input type="text" id="inputApiKey" placeholder="ico_live_... (ou Demo)" />
-            <button class="ponte-btn-save" id="btnSalvarKey">Salvar</button>
-          </div>
-          <button class="theme-toggle-btn" id="themeToggle" title="Alternar tema">??</button>
+        <!-- Lista Dinâmica de Fontes -->
+        <div id="fonts-list-container">
+          <!-- Renderizado via JS -->
         </div>
-      </header>
+      </div>
+    </div>
 
-      <!-- CONTE?DO -->
-      <div class="content-wrap">
-        <!-- GUIA DID?TICO: O QUE EST? ACONTECENDO -->
-        <div class="guide-card">
-          <div class="guide-header">
-            <strong>?? O que esta ferramenta faz e como utilizar?</strong>
-            <span class="badge green">Entrega Sub-1ms Anycast</span>
+    <!-- ABA 2: EXPLORADOR DE ÍCONES SVG -->
+    <div class="ponte-tab-content" id="tab-icones">
+      <div class="grid-layout" style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:20px;">
+        <!-- Painel Esquerdo: Busca e Grid -->
+        <div class="ponte-card">
+          <div class="ponte-card-title">
+            <h3>Buscador de Marcas &amp; Tecnologias</h3>
+            <span style="font-size:11px;color:var(--muted);" id="lblContador">3.470 logos disponíveis</span>
           </div>
-          <div class="guide-steps">
-            <div class="guide-step">
-              <span class="guide-step-tag">Passo 1: Buscar Marca</span>
-              <p>Digite o nome de qualquer marca, tecnologia ou rede social no campo de busca (s?o mais de 3.470 ?cones dispon?veis).</p>
-            </div>
-            <div class="guide-step">
-              <span class="guide-step-tag">Passo 2: Customizar Cor & Tamanho</span>
-              <p>Altere a cor hexadecimal e o tamanho em pixels. O SVG ? processado e recolorido em tempo real na mem?ria RAM.</p>
-            </div>
-            <div class="guide-step">
-              <span class="guide-step-tag">Passo 3: Copiar ou Integrar</span>
-              <p>Copie o c?digo SVG bruto, URL de CDN Anycast ou c?digo de integra??o em Node.js/Python para o seu site ou app.</p>
-            </div>
+          <div class="ponte-form-group">
+            <input type="text" id="txtBusca" class="ponte-input" placeholder="Ex: google, github, react, python, visa, nubank, whatsapp..." value="google" oninput="onBuscaIcone(this.value)" />
           </div>
+          <div class="icon-grid" id="gridIcones" style="margin-top:12px;"></div>
         </div>
 
-        <div class="badges-bar">
-          <span class="badge green">? 3.470 Marcas Catalogadas</span>
-          <span class="badge blue">? Vetores SVG Oficiais</span>
-          <span class="badge">?? CDN Anycast (<1ms)</span>
-          <span class="badge">?? Cores Hex Personaliz?veis</span>
-        </div>
-
-        <div class="grid-layout">
-          <!-- PAINEL ESQUERDO: EXPLORADOR E BUSCADOR -->
-          <div class="card">
-            <div class="card-title">
-              <span>Explorador de ?cones</span>
-              <span style="font-size:11px;color:var(--muted);" id="lblContador">Carregando cat?logo...</span>
-            </div>
-
-            <div class="form-group">
-              <label for="txtBusca">Pesquisar por Marca, Empresa ou Linguagem</label>
-              <input type="text" id="txtBusca" placeholder="Ex: google, github, react, python, visa, nubank..." value="google" />
-            </div>
-
-            <div class="icon-grid" id="gridIcones">
-              <!-- Renderizado dinamicamente via JS -->
-            </div>
+        <!-- Painel Direito: Customizador & Download SVG -->
+        <div class="ponte-card">
+          <div class="ponte-card-title">
+            <h3>Personalização &amp; Exportação</h3>
+            <span class="ponte-badge mint" id="badgeSlugAtivo">google</span>
           </div>
-
-          <!-- PAINEL DIREITO: CUSTOMIZADOR & EXPORTADOR -->
-          <div class="card">
-            <div class="card-title">
-              <span>Personaliza??o & Exporta??o</span>
-              <span class="badge green" id="badgeSlugAtivo">google</span>
-            </div>
-
-            <div class="icon-preview-box" id="boxPreview">
-              <!-- SVG din?mico -->
-            </div>
-
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <div class="form-group">
-                <label for="inputCor">Cor Hexadecimal</label>
-                <div style="display: flex; gap: 6px;">
-                  <input type="color" id="pickerCor" value="#a3e635" style="width:38px;height:38px;padding:2px;cursor:pointer;border-radius:6px;" />
-                  <input type="text" id="inputCor" value="#a3e635" style="flex:1;" />
-                </div>
+          <div class="icon-preview-box" id="boxPreview"></div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0;">
+            <div class="ponte-form-group">
+              <label>Cor Hexadecimal</label>
+              <div style="display:flex;gap:6px;">
+                <input type="color" id="pickerCor" value="#a3e635" style="width:38px;height:38px;border:none;cursor:pointer;border-radius:6px;background:transparent;" onchange="onCorChange(this.value)" />
+                <input type="text" id="inputCor" class="ponte-input" value="#a3e635" oninput="onCorChange(this.value)" />
               </div>
-              <div class="form-group">
-                <label for="inputTamanho">Tamanho (Pixels)</label>
-                <input type="number" id="inputTamanho" value="64" min="16" max="256" step="8" />
-              </div>
             </div>
-
-            <div class="btn-row">
-              <button class="btn btn-primary" id="btnCopiarSvg" style="flex:1;">?? Copiar C?digo SVG</button>
-              <button class="btn btn-secondary" id="btnCopiarUrl">?? Copiar URL da CDN</button>
+            <div class="ponte-form-group">
+              <label>Tamanho (Pixels)</label>
+              <input type="number" id="inputTamanho" class="ponte-input" value="64" min="16" max="256" step="8" onchange="onTamanhoChange(this.value)" />
             </div>
-
-            <!-- SNIPPETS DE INTEGRA??O MULTILINGUAGEM -->
-            <div class="snippet-panel">
-              <div class="snippet-header">
-                <div class="snippet-tabs">
-                  <button class="snippet-tab active" data-lang="curl">cURL</button>
-                  <button class="snippet-tab" data-lang="html">HTML</button>
-                  <button class="snippet-tab" data-lang="js">Node.js</button>
-                </div>
-                <button class="btn btn-secondary btn-sm" id="btnCopiarSnippet">Copiar Snippet</button>
-              </div>
-              <pre class="snippet-code"><code id="codeSnippet">curl "https://icons-pro-api.maputo2.workers.dev/api/icons/google.svg?color=a3e635"</code></pre>
-            </div>
+          </div>
+          <div class="ponte-btn-row">
+            <button class="ponte-btn ponte-btn-primary" onclick="copiarCodigoSvg()" style="flex:1;">📋 Copiar SVG</button>
+            <button class="ponte-btn ponte-btn-secondary" onclick="baixarSvgArquivo()">📥 Baixar SVG</button>
           </div>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+
+    <!-- ABA 3: ENDPOINTS & INTEGRAÇÃO -->
+    <div class="ponte-tab-content" id="tab-api">
+      <div class="ponte-card">
+        <div class="ponte-card-title">
+          <h3>Endpoints Oficiais da API Anycast</h3>
+        </div>
+        <div style="display:grid;gap:8px;font-family:var(--font-mono);font-size:12px;">
+          <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
+            <strong style="color:#10b981;">GET</strong> <code>/api/fonts</code> — Catálogo JSON completo das 20 famílias de fontes com tags e especificações
+          </div>
+          <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
+            <strong style="color:#10b981;">GET</strong> <code>/api/fonts/{nome}.woff2</code> — Entrega direta do arquivo binário WOFF2 com 1 ano de cache
+          </div>
+          <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
+            <strong style="color:#3b82f6;">GET</strong> <code>/api/fonts/download/{id}</code> — Download com header de anexo para salvar no computador
+          </div>
+          <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
+            <strong style="color:#10b981;">GET</strong> <code>/api/icons/{slug}.svg?color={hex}</code> — SVG vetorial com cor customizada em tempo real
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé Unificado -->
+  <footer class="ponte-footer">
+    <div style="max-width:1240px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+      <div>
+        <strong>Ícones, Fontes &amp; Assets Pro</strong> &bull; Anycast Edge R2 CDN
+      </div>
+      <div>
+        Integrado ao <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo" target="_blank">Ponte API Marketplace</a> &bull; <a href="https://github.com/clepta2/icons-pro" target="_blank">Repositório no GitHub</a>
+      </div>
+    </div>
+  </footer>
 
   <script type="module">
     import { ICONS_CATALOG } from './catalog.js';
+    import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
 
-    // Gerenciador de Chave de API
-    const inputApiKey = document.getElementById('inputApiKey');
-    inputApiKey.value = localStorage.getItem('icons_api_key') || '';
-    document.getElementById('btnSalvarKey').addEventListener('click', () => {
-      localStorage.setItem('icons_api_key', inputApiKey.value.trim());
-      alert('Chave de API salva com sucesso no seu navegador!');
-    });
+    // ─── ABA 1: RENDERIZAÇÃO DO CATÁLOGO DE FONTES ───
+    let textoAmostra = "Criatividade e Performance na Borda Anycast 2026";
+    let filtroAppAtual = "todos";
 
-    // Alternador de Tema
-    const themeBtn = document.getElementById('themeToggle');
-    const updateIcon = () => themeBtn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '??' : '??';
-    themeBtn.addEventListener('click', () => {
-      const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', cur);
-      localStorage.setItem('ponte.theme', cur);
-      updateIcon();
-    });
-    updateIcon();
+    window.atualizarFraseAmostra = function(txt) {
+      textoAmostra = txt || "Criatividade e Performance na Borda Anycast 2026";
+      document.querySelectorAll('.font-preview-line').forEach(el => {
+        el.textContent = textoAmostra;
+      });
+    };
 
-    // Estado da Aplica??o
+    window.filtrarFontesPorApp = function(app) {
+      filtroAppAtual = app;
+      renderizarListaFontes();
+    };
+
+    window.baixarFonteDireto = function(fileName) {
+      const a = document.createElement('a');
+      a.href = 'fonts/' + fileName;
+      a.download = fileName;
+      a.click();
+    };
+
+    window.copiarCssFontFace = function(family, fileName, weightsRange) {
+      const css = `@font-face {\n  font-family: '${family}';\n  font-style: normal;\n  font-weight: ${weightsRange};\n  font-display: swap;\n  src: url('https://icons-pro-api.maputo2.workers.dev/api/fonts/${fileName}') format('woff2');\n}`;
+      navigator.clipboard.writeText(css);
+      alert('Código @font-face copiado com sucesso!');
+    };
+
+    function renderizarListaFontes() {
+      const container = document.getElementById('fonts-list-container');
+      const filtradas = filtroAppAtual === 'todos' 
+        ? SOVEREIGN_FONTS_CATALOG 
+        : SOVEREIGN_FONTS_CATALOG.filter(f => f.apps && f.apps.some(a => a.toLowerCase().includes(filtroAppAtual.toLowerCase())));
+
+      container.innerHTML = filtradas.map(f => `
+        <div class="font-card">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
+            <div>
+              <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                <h3 style="font-size:1.2rem;font-weight:800;color:var(--ink);margin:0;">${f.name}</h3>
+                <span class="ponte-badge mint" style="font-size:10px;">${f.weightsRange}</span>
+                <span style="font-size:11px;color:var(--muted);font-family:var(--font-mono);">${f.sizeKb}</span>
+              </div>
+              <p style="font-size:12px;color:var(--muted);margin:4px 0 0;">${f.desc}</p>
+            </div>
+            <div style="display:flex;gap:4px;flex-wrap:wrap;">
+              ${(f.apps || []).map(app => {
+                const cls = app.toLowerCase().includes('canva') ? 'canva' : (app.toLowerCase().includes('capcut') ? 'capcut' : (app.toLowerCase().includes('adobe') ? 'adobe' : 'tech'));
+                return `<span class="app-tag ${cls}">${app}</span>`;
+              }).join('')}
+            </div>
+          </div>
+
+          <div class="font-preview-line" style="font-family:'${f.family}', sans-serif;">
+            ${textoAmostra}
+          </div>
+
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding-top:10px;border-top:1px solid var(--line);">
+            <div style="font-size:11px;color:var(--muted);">
+              Formatos: <code>.woff2 (Variable / Multi-Weight)</code>
+            </div>
+            <div style="display:flex;gap:8px;">
+              <button class="ponte-btn ponte-btn-secondary ponte-btn-sm" onclick="copiarCssFontFace('${f.family}', '${f.fileName}', '${f.weightsRange}')">
+                📋 Copiar CSS
+              </button>
+              <button class="ponte-btn ponte-btn-primary ponte-btn-sm" onclick="baixarFonteDireto('${f.fileName}')">
+                📥 Baixar WOFF2 (${f.sizeKb})
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    renderizarListaFontes();
+
+    // ─── ABA 2: ÍCONES SVG ───
     let iconeSelecionado = ICONS_CATALOG.find(i => i.slug === 'google') || ICONS_CATALOG[0];
     let corAtual = '#a3e635';
     let tamanhoAtual = 64;
-    let snippetLang = 'curl';
-
-    const grid = document.getElementById('gridIcones');
-    const txtBusca = document.getElementById('txtBusca');
-    const lblContador = document.getElementById('lblContador');
-    const boxPreview = document.getElementById('boxPreview');
-    const badgeSlug = document.getElementById('badgeSlugAtivo');
-    const pickerCor = document.getElementById('pickerCor');
-    const inputCor = document.getElementById('inputCor');
-    const inputTamanho = document.getElementById('inputTamanho');
-    const codeSnippet = document.getElementById('codeSnippet');
-
-    function filtrarIcones(query) {
-      const q = (query || '').toLowerCase().trim();
-      if (!q) return ICONS_CATALOG.slice(0, 48);
-      return ICONS_CATALOG.filter(i => 
-        i.title.toLowerCase().includes(q) || 
-        i.slug.toLowerCase().includes(q) || 
-        (i.aliases && i.aliases.some(a => a.toLowerCase().includes(q)))
-      ).slice(0, 60);
-    }
 
     function renderizarGrid(lista) {
-      grid.innerHTML = '';
-      lblContador.textContent = `${lista.length} ?cones exibidos`;
-
-      lista.forEach(item => {
-        const div = document.createElement('div');
-        div.className = `icon-card ${item.slug === iconeSelecionado.slug ? 'active' : ''}`;
-        div.innerHTML = `
-          <img src="https://icons-pro-api.maputo2.workers.dev/api/icons/${item.slug}.svg?color=${(item.hex || 'a3e635').replace('#','')}" alt="${item.title}" style="width:28px;height:28px;" loading="lazy" />
+      const grid = document.getElementById('gridIcones');
+      grid.innerHTML = lista.slice(0, 48).map(item => `
+        <div class="icon-card ${item.slug === iconeSelecionado.slug ? 'active' : ''}" onclick="selecionarIcone('${item.slug}')">
+          <svg viewBox="0 0 24 24" fill="${corAtual}"><path d="${item.path || ''}"/></svg>
           <span>${item.title}</span>
-        `;
-        div.addEventListener('click', () => {
-          iconeSelecionado = item;
-          document.querySelectorAll('.icon-card').forEach(c => c.classList.remove('active'));
-          div.classList.add('active');
-          atualizarPreview();
-        });
-        grid.appendChild(div);
+        </div>
+      `).join('');
+    }
+
+    window.selecionarIcone = function(slug) {
+      iconeSelecionado = ICONS_CATALOG.find(i => i.slug === slug) || iconeSelecionado;
+      document.getElementById('badgeSlugAtivo').textContent = iconeSelecionado.slug;
+      document.querySelectorAll('.icon-card').forEach(c => {
+        c.classList.toggle('active', c.querySelector('span').textContent === iconeSelecionado.title);
       });
+      atualizarPreview();
+    };
+
+    window.onBuscaIcone = function(q) {
+      const filtrados = (q || '').trim() 
+        ? ICONS_CATALOG.filter(i => i.title.toLowerCase().includes(q.toLowerCase()) || i.slug.toLowerCase().includes(q.toLowerCase()))
+        : ICONS_CATALOG;
+      document.getElementById('lblContador').textContent = `${filtrados.length} encontrados`;
+      renderizarGrid(filtrados);
+    };
+
+    window.onCorChange = function(hex) {
+      corAtual = hex;
+      document.getElementById('pickerCor').value = hex;
+      document.getElementById('inputCor').value = hex;
+      atualizarPreview();
+    };
+
+    window.onTamanhoChange = function(tam) {
+      tamanhoAtual = parseInt(tam, 10) || 64;
+      atualizarPreview();
+    };
+
+    function atualizarPreview() {
+      const box = document.getElementById('boxPreview');
+      const cleanHex = corAtual.replace('#', '');
+      const pathD = iconeSelecionado.path || '';
+      box.innerHTML = `<svg viewBox="0 0 24 24" width="${tamanhoAtual}" height="${tamanhoAtual}" fill="${corAtual}" style="display:block;"><path d="${pathD}"/></svg>`;
     }
 
-    txtBusca.addEventListener('input', (e) => {
-      renderizarGrid(filtrarIcones(e.target.value));
-    });
+    window.copiarCodigoSvg = function() {
+      navigator.clipboard.writeText(document.getElementById('boxPreview').innerHTML);
+      alert('SVG copiado para a área de transferência!');
+    };
 
-    // Atualiza??o de Cores
-    pickerCor.addEventListener('input', (e) => {
-      corAtual = e.target.value;
-      inputCor.value = corAtual;
-      atualizarPreview();
-    });
-    inputCor.addEventListener('input', (e) => {
-      corAtual = e.target.value;
-      pickerCor.value = corAtual;
-      atualizarPreview();
-    });
-    inputTamanho.addEventListener('input', (e) => {
-      tamanhoAtual = parseInt(e.target.value, 10) || 64;
-      atualizarPreview();
-    });
+    window.baixarSvgArquivo = function() {
+      const svg = document.getElementById('boxPreview').innerHTML;
+      const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${iconeSelecionado.slug}.svg`;
+      a.click();
+      URL.revokeObjectURL(url);
+    };
 
-    async function atualizarPreview() {
-      badgeSlug.textContent = iconeSelecionado.slug;
-      const cleanHex = corAtual.replace('#', '');
-      const url = `https://icons-pro-api.maputo2.workers.dev/api/icons/${iconeSelecionado.slug}.svg?color=${cleanHex}`;
-
-      try {
-        const resp = await fetch(url);
-        const svgText = await resp.text();
-        boxPreview.innerHTML = svgText;
-        const svgEl = boxPreview.querySelector('svg');
-        if (svgEl) {
-          svgEl.setAttribute('width', tamanhoAtual);
-          svgEl.setAttribute('height', tamanhoAtual);
-          svgEl.style.display = 'block';
-        }
-      } catch (err) {
-        boxPreview.innerHTML = `<img src="${url}" width="${tamanhoAtual}" height="${tamanhoAtual}" />`;
-      }
-
-      atualizarSnippet();
-    }
-
-    function atualizarSnippet() {
-      const cleanHex = corAtual.replace('#', '');
-      const url = `https://icons-pro-api.maputo2.workers.dev/api/icons/${iconeSelecionado.slug}.svg?color=${cleanHex}`;
-
-      if (snippetLang === 'curl') {
-        codeSnippet.textContent = `curl "${url}"`;
-      } else if (snippetLang === 'html') {
-        codeSnippet.textContent = `<img src="${url}" alt="${iconeSelecionado.title}" width="${tamanhoAtual}" height="${tamanhoAtual}" />`;
-      } else if (snippetLang === 'js') {
-        codeSnippet.textContent = `const res = await fetch("${url}");
-const svg = await res.text();`;
-      }
-    }
-
-    document.querySelectorAll('.snippet-tab').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.snippet-tab').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        snippetLang = btn.dataset.lang;
-        atualizarSnippet();
-      });
-    });
-
-    document.getElementById('btnCopiarSvg').addEventListener('click', () => {
-      const svg = boxPreview.innerHTML;
-      navigator.clipboard.writeText(svg);
-      alert('C?digo SVG copiado para a ?rea de transfer?ncia!');
-    });
-
-    document.getElementById('btnCopiarUrl').addEventListener('click', () => {
-      const cleanHex = corAtual.replace('#', '');
-      const url = `https://icons-pro-api.maputo2.workers.dev/api/icons/${iconeSelecionado.slug}.svg?color=${cleanHex}`;
-      navigator.clipboard.writeText(url);
-      alert('URL oficial da CDN Anycast copiada!');
-    });
-
-    document.getElementById('btnCopiarSnippet').addEventListener('click', () => {
-      navigator.clipboard.writeText(codeSnippet.textContent);
-      alert('Snippet copiado!');
-    });
-
-    // Inicializa??o
-    renderizarGrid(filtrarIcones('google'));
+    renderizarGrid(ICONS_CATALOG);
     atualizarPreview();
+
+    // ─── TEMA CLARO/ESCURO ───
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', cur);
+        localStorage.setItem('ponte.theme', cur);
+        themeBtn.textContent = cur === 'light' ? '☀️' : '🌙';
+      });
+      themeBtn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '☀️' : '🌙';
+    }
+
+    window.switchTab = function(tabId) {
+      document.querySelectorAll('.ponte-tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tabId));
+      document.querySelectorAll('.ponte-tab-content').forEach(ct => ct.classList.toggle('active', ct.id === tabId));
+    };
   </script>
 </body>
 </html>

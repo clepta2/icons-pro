@@ -873,6 +873,32 @@ export default {
       });
     }
 
+    // Download Direto de Arquivo de Fonte WOFF2
+    if (path.startsWith('/api/fonts/download/') || path.startsWith('/fonts/download/')) {
+      let fontName = path.split('/').pop().toLowerCase();
+      if (!fontName.endsWith('.woff2')) fontName += '.woff2';
+      try {
+        const fs = await import('fs');
+        const pathModule = await import('path');
+        const { fileURLToPath } = await import('url');
+        const curDir = pathModule.dirname(fileURLToPath(import.meta.url));
+        const localFont = pathModule.join(curDir, 'fonts', fontName);
+        if (fs.existsSync(localFont)) {
+          const fontBuf = fs.readFileSync(localFont);
+          return new Response(fontBuf, {
+            status: 200,
+            headers: {
+              ...CORS_HEADERS,
+              'Content-Type': 'font/woff2',
+              'Content-Disposition': `attachment; filename="${fontName}"`,
+              'Cache-Control': 'public, max-age=31536000, immutable',
+              'X-Ponte-Asset': 'Download Fonte Soberana'
+            }
+          });
+        }
+      } catch (_) {}
+    }
+
     if (path.startsWith('/api/fonts/') || path.startsWith('/fonts/')) {
       const fontFile = path.split('/').pop().toLowerCase();
       try {
