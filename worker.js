@@ -15,6 +15,7 @@ import { ICONS_CATALOG } from './catalog.js';
 import { TOP_VECTOR_PATHS } from './top-paths.js';
 import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
 import { SOVEREIGN_SYMBOLS_CATALOG } from './symbols-catalog.js';
+import { EMOJIS_CATALOG } from './emojis-catalog.js';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -938,6 +939,23 @@ export default {
     }
 
     
+    // Geração Dinâmica de CSS @font-face Soberano (/api/fonts/css/:id)
+    if (path.startsWith('/api/fonts/css/') || path.startsWith('/fonts/css/')) {
+      const fontId = path.split('/').pop().toLowerCase().replace('.css', '');
+      const font = SOVEREIGN_FONTS_CATALOG.find(f => f.id === fontId);
+      const fontName = font ? font.name : fontId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      const css = `@font-face {\n  font-family: '${fontName}';\n  src: url('/api/fonts/${fontId}.woff2') format('woff2');\n  font-weight: 100 900;\n  font-style: normal;\n  font-display: swap;\n}\n`;
+      return new Response(css, {
+        status: 200,
+        headers: {
+          ...CORS_HEADERS,
+          'Content-Type': 'text/css; charset=utf-8',
+          'Cache-Control': 'public, max-age=31536000, immutable',
+          'X-Ponte-Asset': 'CSS Soberano de Fonte'
+        }
+      });
+    }
+
     // ── ROTA SOBERANA DE SÍMBOLOS, MOEDAS E ENTIDADES HTML (/api/simbolos) ──
     if (path === '/api/simbolos' || path === '/api/simbolos/todos' || path === '/simbolos') {
       const q = (url.searchParams.get('q') || '').trim().toLowerCase();
@@ -956,12 +974,14 @@ export default {
         );
       }
 
+      const categorias = ['Todas', ...new Set(SOVEREIGN_SYMBOLS_CATALOG.map(s => s.cat))];
+
       return new Response(JSON.stringify({
         ok: true,
         service: 'Símbolos, Moedas & Entidades HTML Pro',
         total: list.length,
         totalCatalogo: SOVEREIGN_SYMBOLS_CATALOG.length,
-        categorias: ['Moedas', 'Matemática', 'Setas', 'Status & UI', 'Formas', 'Editorial & Marcas'],
+        categorias,
         simbolos: list
       }, null, 2), {
         status: 200,
@@ -977,6 +997,51 @@ export default {
         s.entity.toLowerCase().includes(q) ||
         (s.tags && s.tags.some(t => t.toLowerCase().includes(q)))
       );
+      return new Response(JSON.stringify({ ok: true, query: q, total: list.length, resultados: list }, null, 2), {
+        status: 200,
+        headers: calcResponseHeaders('application/json')
+      });
+    }
+
+    // ── ROTA SOBERANA DE EMOJIS UNICODE 15.1 (/api/emojis) ──
+    if (path === '/api/emojis' || path === '/api/emojis/todos' || path === '/emojis') {
+      const q = (url.searchParams.get('q') || '').trim().toLowerCase();
+      const grupo = (url.searchParams.get('grupo') || url.searchParams.get('group') || '').trim().toLowerCase();
+      const page = Math.max(1, parseInt(url.searchParams.get('page') || '1', 10));
+      const perPage = Math.min(500, Math.max(1, parseInt(url.searchParams.get('perPage') || '100', 10)));
+
+      let list = EMOJIS_CATALOG;
+      if (grupo && grupo !== 'todos') {
+        list = list.filter(e => e.g.toLowerCase().includes(grupo));
+      }
+      if (q) {
+        list = list.filter(e => e.n.toLowerCase().includes(q) || e.c.includes(q) || e.s.toLowerCase().includes(q));
+      }
+
+      const total = list.length;
+      const startIndex = (page - 1) * perPage;
+      const paginated = list.slice(startIndex, startIndex + perPage);
+      const grupos = ['Todos', ...new Set(EMOJIS_CATALOG.map(e => e.g))];
+
+      return new Response(JSON.stringify({
+        ok: true,
+        service: 'Unicode 15.1 Emojis Pro (5.042 Emojis Soberanos)',
+        page,
+        perPage,
+        total,
+        totalCatalogo: EMOJIS_CATALOG.length,
+        grupos,
+        emojis: paginated
+      }, null, 2), {
+        status: 200,
+        headers: calcResponseHeaders('application/json')
+      });
+    }
+
+    if (path.startsWith('/api/emojis/busca')) {
+      const q = (url.searchParams.get('q') || '').trim().toLowerCase();
+      const limit = Math.min(200, Math.max(1, parseInt(url.searchParams.get('limit') || '50', 10)));
+      const list = EMOJIS_CATALOG.filter(e => e.n.toLowerCase().includes(q) || e.c.includes(q) || e.s.toLowerCase().includes(q)).slice(0, limit);
       return new Response(JSON.stringify({ ok: true, query: q, total: list.length, resultados: list }, null, 2), {
         status: 200,
         headers: calcResponseHeaders('application/json')

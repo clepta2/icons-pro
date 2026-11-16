@@ -4,7 +4,7 @@
  * 100% Zero Depend?ncias Externas ? Offline & Servido Nativamente pela Borda Cloudflare
  */
 
-const SOVEREIGN_SYMBOLS_CATALOG = [
+export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "R$",
     "name": "Real Brasileiro",
