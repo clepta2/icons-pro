@@ -207,18 +207,19 @@
     <div class="ponte-hero">
       <div class="ponte-badges-bar">
         <span class="ponte-badge mint">● 100% Zero Google / Zero CDNs</span>
-        <span class="ponte-badge blue">🅰️ 20 Famílias de Fontes WOFF2</span>
+        <span class="ponte-badge blue">🅰️ 50 Famílias de Fontes WOFF2</span>
         <span class="ponte-badge purple">🎨 3.470 Logos e Ícones SVG</span>
-        <span class="ponte-badge amber">⚡ Entrega Sub-1ms Anycast</span>
+        <span class="ponte-badge amber">🔣 1.466 Símbolos + 5.042 Emojis</span>
       </div>
-      <h1>Ícones, Fontes &amp; Assets Pro</h1>
-      <p>O maior repositório soberano de tipografias e logomarcas vetoriais na borda Cloudflare. Baixe arquivos de fontes completas do Canva, CapCut e Adobe (.woff2) para seu computador ou integre via CDN sem dependências externas.</p>
+      <h1>Ícones, Fontes, Símbolos &amp; Assets Pro</h1>
+      <p>O maior repositório soberano de tipografias, símbolos universais e logomarcas vetoriais na borda Cloudflare. Baixe arquivos de fontes completas do Canva, CapCut e Adobe (.woff2) para seu computador ou integre via CDN sem dependências externas.</p>
     </div>
 
     <!-- Abas de Navegação -->
     <div class="ponte-tabs">
-      <button class="ponte-tab-btn active" data-tab="tab-fontes" onclick="switchTab('tab-fontes')">🅰️ Fontes WOFF2 (Canva / CapCut / Adobe)</button>
-      <button class="ponte-tab-btn" data-tab="tab-simbolos" onclick="switchTab('tab-simbolos')">🔣 Catálogo de Símbolos &amp; Caracteres</button>
+      <button class="ponte-tab-btn active" data-tab="tab-fontes" onclick="switchTab('tab-fontes')">🅰️ Fontes WOFF2 (50 Famílias)</button>
+      <button class="ponte-tab-btn" data-tab="tab-simbolos" onclick="switchTab('tab-simbolos')">🔣 Símbolos Universais (1.466)</button>
+      <button class="ponte-tab-btn" data-tab="tab-emojis" onclick="switchTab('tab-emojis')">😀 Emojis Unicode 15.1 (5.042)</button>
       <button class="ponte-tab-btn" data-tab="tab-icones" onclick="switchTab('tab-icones')">🎨 Explorador de 3.470 Logos SVG</button>
       <button class="ponte-tab-btn" data-tab="tab-api" onclick="switchTab('tab-api')">📚 Endpoints &amp; Integração</button>
     </div>
@@ -228,7 +229,7 @@
       <div class="ponte-card">
         <div class="ponte-card-title">
           <h3>Tipografias dos Maiores Aplicativos do Mundo</h3>
-          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);">20 Famílias Completas em WOFF2</span>
+          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);">50 Famílias Completas em WOFF2</span>
         </div>
         <p class="ponte-card-desc">Clique em <strong>"Baixar WOFF2"</strong> para salvar o arquivo de fonte no seu computador ou copie o código <code>@font-face</code> para seu projeto.</p>
 
@@ -236,11 +237,12 @@
         <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
           <input type="text" id="font-sample-text" class="ponte-input" placeholder="Digite uma frase de teste para pré-visualizar em todas as fontes..." value="Criatividade e Performance na Borda Anycast 2026" style="flex:2;min-width:260px;" oninput="atualizarFraseAmostra(this.value)" />
           <select id="font-app-filter" class="ponte-select" style="flex:1;min-width:180px;" onchange="filtrarFontesPorApp(this.value)">
-            <option value="todos">Todas as Plataformas (20 Fontes)</option>
+            <option value="todos">Todas as Plataformas (50 Famílias)</option>
             <option value="Canva">Canva Pro Hits</option>
             <option value="CapCut">CapCut &amp; TikTok Shorts</option>
             <option value="Adobe">Adobe Creative Cloud &amp; Editorial</option>
             <option value="Figma">Figma &amp; Tech UI</option>
+            <option value="Dev">Desenvolvimento &amp; Monospace</option>
           </select>
         </div>
 
@@ -257,7 +259,7 @@
       <div class="ponte-card">
         <div class="ponte-card-title">
           <h3>Símbolos Matemáticos, Moedas, Setas &amp; Caracteres Especiais</h3>
-          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);" id="symbols-counter">109 símbolos</span>
+          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);" id="symbols-counter">1.466 símbolos</span>
         </div>
         <p class="ponte-card-desc">Clique em qualquer símbolo para <strong>copiar instantaneamente</strong> o caractere Unicode, entidade HTML ou código Hex para seu código.</p>
 
@@ -265,17 +267,53 @@
         <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
           <input type="text" id="symbol-search-input" class="ponte-input" placeholder="Buscar símbolo por nome, tag ou caractere (ex: real, check, seta, infinito, delta, pi)..." style="flex:2;min-width:260px;" oninput="filtrarSimbolos(this.value)" />
           <select id="symbol-cat-select" class="ponte-select" style="flex:1;min-width:180px;" onchange="filtrarSimbolosPorCategoria(this.value)">
-            <option value="todas">Todas as Categorias</option>
-            <option value="Moedas">💵 Moedas &amp; Financeiro</option>
-            <option value="Matemática">📐 Matemática &amp; Lógica</option>
-            <option value="Setas">➔ Setas &amp; Direcionais</option>
-            <option value="Status & UI">✅ Status, Check &amp; Alertas</option>
-            <option value="Formas">● Formas Geométricas</option>
-            <option value="Editorial & Marcas">© Editorial, Leis &amp; Marcas</option>
+            <option value="todas">Todas as Categorias (1.466 Símbolos)</option>
+            <option value="Moedas">💵 Moedas Globais (40+)</option>
+            <option value="Matemática">📐 Matemática &amp; Lógica (256)</option>
+            <option value="Setas">➔ Setas &amp; Direcionais (112)</option>
+            <option value="Box Drawing">🔲 Box Drawing &amp; TUI (160)</option>
+            <option value="Formas">● Formas Geométricas (96)</option>
+            <option value="Dingbats">✨ Dingbats &amp; Estrelas (448)</option>
+            <option value="Teclado">⌨️ Teclado &amp; Sistema (20)</option>
+            <option value="Editorial">© Editorial &amp; Tipografia (31)</option>
+            <option value="Grego &amp; Notação">Ω Grego &amp; Notação Física (48)</option>
+            <option value="Braille">⠵ Padrões Braille (256)</option>
           </select>
         </div>
 
         <div class="symbol-grid" id="symbols-grid-container">
+          <!-- Renderizado via JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ABA: EMOJIS UNICODE 15.1 -->
+    <div class="ponte-tab-content" id="tab-emojis">
+      <div class="ponte-card">
+        <div class="ponte-card-title">
+          <h3>Emojis Unicode 15.1 Oficiais</h3>
+          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);" id="emojis-counter">5.042 emojis</span>
+        </div>
+        <p class="ponte-card-desc">O catálogo completo e padronizado de emojis Unicode. Clique para <strong>copiar instantaneamente</strong> o emoji para seu aplicativo ou código.</p>
+
+        <!-- Filtros e Busca de Emojis -->
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
+          <input type="text" id="emoji-search-input" class="ponte-input" placeholder="Buscar emoji por nome em inglês ou português (ex: rocket, fire, heart, smile, check)..." style="flex:2;min-width:260px;" oninput="filtrarEmojis(this.value)" />
+          <select id="emoji-group-select" class="ponte-select" style="flex:1;min-width:180px;" onchange="filtrarEmojisPorGrupo(this.value)">
+            <option value="todos">Todos os Grupos (5.042 Emojis)</option>
+            <option value="Smileys &amp; Emotion">😀 Smileys &amp; Emoções</option>
+            <option value="People &amp; Body">👋 Pessoas &amp; Gestos</option>
+            <option value="Animals &amp; Nature">🐶 Animais &amp; Natureza</option>
+            <option value="Food &amp; Drink">🍕 Comidas &amp; Bebidas</option>
+            <option value="Travel &amp; Places">🚀 Viagens &amp; Lugares</option>
+            <option value="Activities">⚽ Atividades &amp; Esportes</option>
+            <option value="Objects">💡 Objetos &amp; Ferramentas</option>
+            <option value="Symbols">⚠️ Símbolos &amp; Sinais</option>
+            <option value="Flags">🇧🇷 Bandeiras</option>
+          </select>
+        </div>
+
+        <div class="symbol-grid" id="emojis-grid-container" style="max-height:560px;">
           <!-- Renderizado via JS -->
         </div>
       </div>
@@ -370,6 +408,7 @@
     import { ICONS_CATALOG } from './catalog.js';
     import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
     import { SOVEREIGN_SYMBOLS_CATALOG } from './symbols-catalog.js';
+    import { EMOJIS_CATALOG } from './emojis-catalog.js';
 
     // ─── ABA 1: RENDERIZAÇÃO DO CATÁLOGO DE FONTES ───
     let textoAmostra = "Criatividade e Performance na Borda Anycast 2026";
@@ -404,42 +443,56 @@
       const container = document.getElementById('fonts-list-container');
       const filtradas = filtroAppAtual === 'todos' 
         ? SOVEREIGN_FONTS_CATALOG 
-        : SOVEREIGN_FONTS_CATALOG.filter(f => f.apps && f.apps.some(a => a.toLowerCase().includes(filtroAppAtual.toLowerCase())));
+        : SOVEREIGN_FONTS_CATALOG.filter(f => {
+            const list = f.platforms || f.apps || [];
+            return list.some(a => a.toLowerCase().includes(filtroAppAtual.toLowerCase()));
+          });
 
-      container.innerHTML = filtradas.map(f => `
+      container.innerHTML = filtradas.map(f => {
+        const familyName = f.name;
+        const appsList = f.platforms || f.apps || [];
+        return `
         <div class="font-card">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
             <div>
               <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                 <h3 style="font-size:1.2rem;font-weight:800;color:var(--ink);margin:0;">${f.name}</h3>
-                <span class="ponte-badge mint" style="font-size:10px;">${f.weightsRange}</span>
+                <span class="ponte-badge mint" style="font-size:10px;">${f.weightsRange || (f.weights ? f.weights.join(', ') : '400')}</span>
                 <span style="font-size:11px;color:var(--muted);font-family:var(--font-mono);">${f.sizeKb}</span>
               </div>
               <p style="font-size:12px;color:var(--muted);margin:4px 0 0;">${f.desc}</p>
             </div>
             <div style="display:flex;gap:4px;flex-wrap:wrap;">
-              ${(f.apps || []).map(app => {
+              ${appsList.map(app => {
                 const cls = app.toLowerCase().includes('canva') ? 'canva' : (app.toLowerCase().includes('capcut') ? 'capcut' : (app.toLowerCase().includes('adobe') ? 'adobe' : 'tech'));
                 return `<span class="app-tag ${cls}">${app}</span>`;
               }).join('')}
             </div>
           </div>
 
-          <div class="font-preview-line" style="font-family:'${f.family}', sans-serif;">
+          <div class="font-preview-line" style="font-family:'${familyName}', sans-serif;">
             ${textoAmostra}
           </div>
 
           <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding-top:10px;border-top:1px solid var(--line);">
             <div style="font-size:11px;color:var(--muted);">
-              Formatos: <code>.woff2 (Variable / Multi-Weight)</code>
+              Formatos: <code>.woff2 (Soberano Cloudflare)</code>
             </div>
             <div style="display:flex;gap:8px;">
-              <button class="ponte-btn ponte-btn-secondary ponte-btn-sm" onclick="copiarCssFontFace('${f.family}', '${f.fileName}', '${f.weightsRange}')">
+              <button class="ponte-btn ponte-btn-secondary ponte-btn-sm" onclick="copiarCssFontFace('${familyName}', '${f.fileName}', '${f.weightsRange || '100 900'}')">
                 📋 Copiar CSS
               </button>
               <button class="ponte-btn ponte-btn-primary ponte-btn-sm" onclick="baixarFonteDireto('${f.fileName}')">
                 📥 Baixar WOFF2 (${f.sizeKb})
               </button>
+            </div>
+          </div>
+        </div>
+      `;
+      }).join('');
+    }
+
+    renderizarListaFontes();
             </div>
           </div>
         </div>
@@ -498,7 +551,55 @@
 
     renderizarGridSimbolos();
 
-    // ─── ABA 2: ÍCONES SVG ───
+    // ─── ABA: EMOJIS UNICODE 15.1 ───
+    let grupoEmojiAtual = 'todos';
+    let buscaEmojiAtual = '';
+
+    window.filtrarEmojis = function(q) {
+      buscaEmojiAtual = (q || '').trim().toLowerCase();
+      renderizarGridEmojis();
+    };
+
+    window.filtrarEmojisPorGrupo = function(g) {
+      grupoEmojiAtual = g;
+      renderizarGridEmojis();
+    };
+
+    window.copiarEmoji = function(char, name, hex) {
+      navigator.clipboard.writeText(char);
+      alert('Emoji "' + char + '" copiado!\nNome: ' + name + '\nHex: ' + hex);
+    };
+
+    function renderizarGridEmojis() {
+      const container = document.getElementById('emojis-grid-container');
+      const counter = document.getElementById('emojis-counter');
+      if (!container || !EMOJIS_CATALOG) return;
+
+      let list = EMOJIS_CATALOG;
+      if (grupoEmojiAtual !== 'todos') {
+        list = list.filter(e => e.g.toLowerCase().includes(grupoEmojiAtual.toLowerCase()));
+      }
+      if (buscaEmojiAtual) {
+        list = list.filter(e =>
+          e.n.toLowerCase().includes(buscaEmojiAtual) ||
+          e.c.includes(buscaEmojiAtual) ||
+          e.s.toLowerCase().includes(buscaEmojiAtual)
+        );
+      }
+
+      if (counter) counter.textContent = `${list.length} encontrados`;
+
+      // Render first 200 for maximum performance, smoothly
+      container.innerHTML = list.slice(0, 200).map(e => `
+        <div class="symbol-card" onclick="copiarEmoji('${e.c}', '${e.n}', '${e.h}')" title="Clique para copiar: ${e.n} (${e.h})">
+          <div class="symbol-char" style="font-size:36px;">${e.c}</div>
+          <div class="symbol-name">${e.n}</div>
+          <div class="symbol-meta">${e.s} &bull; ${e.h}</div>
+        </div>
+      `).join('');
+    }
+
+    renderizarGridEmojis();
     let iconeSelecionado = ICONS_CATALOG.find(i => i.slug === 'google') || ICONS_CATALOG[0];
     let corAtual = '#a3e635';
     let tamanhoAtual = 64;
