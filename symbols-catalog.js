@@ -1,7 +1,7 @@
 /**
  * Sovereign Universal Symbols & Unicode Master Catalog
- * Cat?logo Soberano Universal de S?mbolos, Moedas, Matem?tica, Setas, Box Drawing e Dingbats
- * 100% Zero Depend?ncias Externas ? Offline & Servido Nativamente pela Borda Cloudflare
+ * Catálogo Soberano Universal de Símbolos, Moedas, Matemática, Setas, Box Drawing e Dingbats
+ * 100% Zero Dependências Externas · Offline & Servido Nativamente pela Borda Cloudflare
  */
 
 export const SOVEREIGN_SYMBOLS_CATALOG = [
@@ -9,7 +9,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "R$",
     "name": "Real Brasileiro",
     "cat": "Moedas",
-    "subcat": "Am?ricas",
+    "subcat": "Américas",
     "hex": "U+0052 U+0024",
     "entity": "R$",
     "tags": [
@@ -23,7 +23,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "$",
-    "name": "D?lar Americano / Cifr?o Universal",
+    "name": "Dólar Americano / Cifrão Universal",
     "cat": "Moedas",
     "subcat": "Global",
     "hex": "U+0024",
@@ -38,7 +38,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "€",
     "name": "Euro",
     "cat": "Moedas",
     "subcat": "Europa",
@@ -52,7 +52,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "£",
     "name": "Libra Esterlina",
     "cat": "Moedas",
     "subcat": "Europa",
@@ -67,10 +67,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Iene Japon?s / Yuan Chin?s",
+    "char": "¥",
+    "name": "Iene Japonês / Yuan Chinês",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+00A5",
     "entity": "&yen;",
     "tags": [
@@ -84,7 +84,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₿",
     "name": "Bitcoin",
     "cat": "Moedas",
     "subcat": "Criptomoedas",
@@ -100,7 +100,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "¢",
     "name": "Centavo / Cent",
     "cat": "Moedas",
     "subcat": "Subunidades",
@@ -114,10 +114,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₹",
     "name": "Rupia Indiana",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20B9",
     "entity": "&#8377;",
     "tags": [
@@ -128,10 +128,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₽",
     "name": "Rublo Russo",
     "cat": "Moedas",
-    "subcat": "Europa/?sia",
+    "subcat": "Europa/Ásia",
     "hex": "U+20BD",
     "entity": "&#8381;",
     "tags": [
@@ -142,10 +142,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₩",
     "name": "Won Sul-Coreano",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20A9",
     "entity": "&#8361;",
     "tags": [
@@ -156,10 +156,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₺",
     "name": "Lira Turca",
     "cat": "Moedas",
-    "subcat": "Oriente M?dio",
+    "subcat": "Oriente Médio",
     "hex": "U+20BA",
     "entity": "&#8378;",
     "tags": [
@@ -170,7 +170,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₴",
     "name": "Hryvnia Ucraniana",
     "cat": "Moedas",
     "subcat": "Europa",
@@ -184,10 +184,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₦",
     "name": "Naira Nigeriana",
     "cat": "Moedas",
-    "subcat": "?frica",
+    "subcat": "África",
     "hex": "U+20A6",
     "entity": "&#8358;",
     "tags": [
@@ -198,10 +198,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₫",
     "name": "Dong Vietnamita",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20AB",
     "entity": "&#8363;",
     "tags": [
@@ -211,10 +211,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₱",
     "name": "Peso Filipino",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20B1",
     "entity": "&#8369;",
     "tags": [
@@ -225,10 +225,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₲",
     "name": "Guarani Paraguaio",
     "cat": "Moedas",
-    "subcat": "Am?rica do Sul",
+    "subcat": "América do Sul",
     "hex": "U+20B2",
     "entity": "&#8370;",
     "tags": [
@@ -239,10 +239,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Cedi Gan?s",
+    "char": "₵",
+    "name": "Cedi Ganês",
     "cat": "Moedas",
-    "subcat": "?frica",
+    "subcat": "África",
     "hex": "U+20B5",
     "entity": "&#8373;",
     "tags": [
@@ -253,10 +253,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₸",
     "name": "Tenge Cazaque",
     "cat": "Moedas",
-    "subcat": "?sia Central",
+    "subcat": "Ásia Central",
     "hex": "U+20B8",
     "entity": "&#8376;",
     "tags": [
@@ -267,10 +267,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Dram Arm?nio",
+    "char": "֏",
+    "name": "Dram Armênio",
     "cat": "Moedas",
-    "subcat": "Europa/?sia",
+    "subcat": "Europa/Ásia",
     "hex": "U+058F",
     "entity": "&#1423;",
     "tags": [
@@ -280,10 +280,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Afghani Afeg?o",
+    "char": "؋",
+    "name": "Afghani Afegão",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+060B",
     "entity": "&#1547;",
     "tags": [
@@ -293,10 +293,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Baht Tailand?s",
+    "char": "฿",
+    "name": "Baht Tailandês",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+0E3F",
     "entity": "&#3647;",
     "tags": [
@@ -307,10 +307,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "៛",
     "name": "Riel Cambojano",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+17DB",
     "entity": "&#6107;",
     "tags": [
@@ -321,10 +321,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₭",
     "name": "Kip Laosiano",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20AD",
     "entity": "&#8365;",
     "tags": [
@@ -334,10 +334,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₮",
     "name": "Tugrik Mongol",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20AE",
     "entity": "&#8366;",
     "tags": [
@@ -347,10 +347,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₡",
     "name": "Colon Costarriquenho / Salvadorenho",
     "cat": "Moedas",
-    "subcat": "Am?rica Central",
+    "subcat": "América Central",
     "hex": "U+20A2",
     "entity": "&#8354;",
     "tags": [
@@ -361,10 +361,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Cruzeiro Hist?rico Brasileiro",
+    "char": "₢",
+    "name": "Cruzeiro Histórico Brasileiro",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20A2",
     "entity": "&#8354;",
     "tags": [
@@ -374,23 +374,23 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Franco Franc?s Hist?rico",
+    "char": "₣",
+    "name": "Franco Francês Histórico",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20A3",
     "entity": "&#8355;",
     "tags": [
       "franco",
       "franc",
-      "fran?a"
+      "frança"
     ]
   },
   {
-    "char": "?",
-    "name": "Lira Italiana Hist?rica",
+    "char": "₤",
+    "name": "Lira Italiana Histórica",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20A4",
     "entity": "&#8356;",
     "tags": [
@@ -399,8 +399,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Mill / Mil?simo de D?lar",
+    "char": "₥",
+    "name": "Mill / Milésimo de Dólar",
     "cat": "Moedas",
     "subcat": "Subunidades",
     "hex": "U+20A5",
@@ -412,10 +412,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Peseta Espanhola Hist?rica",
+    "char": "₧",
+    "name": "Peseta Espanhola Histórica",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20A7",
     "entity": "&#8359;",
     "tags": [
@@ -425,10 +425,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "R?pia Gen?rica (Paquist?o / Sri Lanka)",
+    "char": "₨",
+    "name": "Rúpia Genérica (Paquistão / Sri Lanka)",
     "cat": "Moedas",
-    "subcat": "?sia",
+    "subcat": "Ásia",
     "hex": "U+20A8",
     "entity": "&#8360;",
     "tags": [
@@ -440,10 +440,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₪",
     "name": "Novo Shekel Israelense",
     "cat": "Moedas",
-    "subcat": "Oriente M?dio",
+    "subcat": "Oriente Médio",
     "hex": "U+20AA",
     "entity": "&#8362;",
     "tags": [
@@ -454,10 +454,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Penny Germ?nico Antigo",
+    "char": "₰",
+    "name": "Penny Germânico Antigo",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20B0",
     "entity": "&#8368;",
     "tags": [
@@ -466,10 +466,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Dracma Grega Hist?rica",
+    "char": "₯",
+    "name": "Dracma Grega Histórica",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20AF",
     "entity": "&#8367;",
     "tags": [
@@ -478,10 +478,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Austral Argentino Hist?rico",
+    "char": "₳",
+    "name": "Austral Argentino Histórico",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20B3",
     "entity": "&#8371;",
     "tags": [
@@ -490,10 +490,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₶",
     "name": "Livre Tournois",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20B6",
     "entity": "&#8374;",
     "tags": [
@@ -502,10 +502,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Spesmilo (L?ngua Internacional)",
+    "char": "₷",
+    "name": "Spesmilo (Língua Internacional)",
     "cat": "Moedas",
-    "subcat": "Hist?rico",
+    "subcat": "Histórico",
     "hex": "U+20B7",
     "entity": "&#8375;",
     "tags": [
@@ -514,10 +514,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₼",
     "name": "Manat Azerbaijano",
     "cat": "Moedas",
-    "subcat": "Europa/?sia",
+    "subcat": "Europa/Ásia",
     "hex": "U+20BC",
     "entity": "&#8380;",
     "tags": [
@@ -527,10 +527,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "₾",
     "name": "Lari Georgiano",
     "cat": "Moedas",
-    "subcat": "Europa/?sia",
+    "subcat": "Europa/Ásia",
     "hex": "U+20BE",
     "entity": "&#8382;",
     "tags": [
@@ -540,8 +540,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "S?mbolo de Moeda Gen?rico",
+    "char": "¤",
+    "name": "Símbolo de Moeda Genérico",
     "cat": "Moedas",
     "subcat": "Universal",
     "hex": "U+00A4",
@@ -556,7 +556,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∀",
     "name": "Para Todo (Quantificador Universal)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2200",
     "entity": "&#8704;",
@@ -572,7 +572,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∁",
     "name": "Complemento",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2201",
     "entity": "&#8705;",
@@ -588,7 +588,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∂",
     "name": "Derivada Parcial",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2202",
     "entity": "&#8706;",
@@ -604,7 +604,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∃",
     "name": "Existe (Quantificador Existencial)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2203",
     "entity": "&#8707;",
@@ -619,8 +619,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∄",
-    "name": "N?o Existe",
-    "cat": "Matem?tica",
+    "name": "Não Existe",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2204",
     "entity": "&#8708;",
@@ -636,7 +636,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∅",
     "name": "Conjunto Vazio",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2205",
     "entity": "&#8709;",
@@ -652,7 +652,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∆",
     "name": "Incremento / Delta",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2206",
     "entity": "&#8710;",
@@ -668,7 +668,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∇",
     "name": "Nabla / Gradiente",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2207",
     "entity": "&#8711;",
@@ -684,7 +684,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∈",
     "name": "Pertence a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2208",
     "entity": "&#8712;",
@@ -699,8 +699,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∉",
-    "name": "N?o Pertence a",
-    "cat": "Matem?tica",
+    "name": "Não Pertence a",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2209",
     "entity": "&#8713;",
@@ -716,7 +716,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∊",
     "name": "Pequeno Pertence a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+220A",
     "entity": "&#8714;",
@@ -731,8 +731,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∋",
-    "name": "Cont?m como Membro",
-    "cat": "Matem?tica",
+    "name": "Contém como Membro",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+220B",
     "entity": "&#8715;",
@@ -747,8 +747,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∌",
-    "name": "N?o Cont?m como Membro",
-    "cat": "Matem?tica",
+    "name": "Não Contém como Membro",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+220C",
     "entity": "&#8716;",
@@ -763,8 +763,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∍",
-    "name": "Operador Matem?tico (U+220D)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+220D)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+220D",
     "entity": "&#8717;",
@@ -779,8 +779,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∎",
-    "name": "Operador Matem?tico (U+220E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+220E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+220E",
     "entity": "&#8718;",
@@ -795,8 +795,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∏",
-    "name": "Produt?rio",
-    "cat": "Matem?tica",
+    "name": "Produtório",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+220F",
     "entity": "&#8719;",
@@ -812,7 +812,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∐",
     "name": "Coproduto",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2210",
     "entity": "&#8720;",
@@ -827,8 +827,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∑",
-    "name": "Somat?rio",
-    "cat": "Matem?tica",
+    "name": "Somatório",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2211",
     "entity": "&#8721;",
@@ -843,8 +843,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "−",
-    "name": "Menos Matem?tico",
-    "cat": "Matem?tica",
+    "name": "Menos Matemático",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2212",
     "entity": "&#8722;",
@@ -860,7 +860,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∓",
     "name": "Menos ou Mais",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2213",
     "entity": "&#8723;",
@@ -876,7 +876,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∔",
     "name": "Ponto Mais",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2214",
     "entity": "&#8724;",
@@ -891,8 +891,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∕",
-    "name": "Barra de Divis?o",
-    "cat": "Matem?tica",
+    "name": "Barra de Divisão",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2215",
     "entity": "&#8725;",
@@ -907,8 +907,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∖",
-    "name": "Diferen?a de Conjunto",
-    "cat": "Matem?tica",
+    "name": "Diferença de Conjunto",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2216",
     "entity": "&#8726;",
@@ -924,7 +924,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∗",
     "name": "Operador Asterisco",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2217",
     "entity": "&#8727;",
@@ -939,8 +939,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∘",
-    "name": "Composi??o de Fun??es (Ring)",
-    "cat": "Matem?tica",
+    "name": "Composição de Funções (Ring)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2218",
     "entity": "&#8728;",
@@ -955,8 +955,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∙",
-    "name": "Ponto de Multiplica??o",
-    "cat": "Matem?tica",
+    "name": "Ponto de Multiplicação",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2219",
     "entity": "&#8729;",
@@ -972,7 +972,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "√",
     "name": "Raiz Quadrada",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+221A",
     "entity": "&#8730;",
@@ -987,8 +987,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∛",
-    "name": "Raiz C?bica",
-    "cat": "Matem?tica",
+    "name": "Raiz Cúbica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+221B",
     "entity": "&#8731;",
@@ -1004,7 +1004,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∜",
     "name": "Raiz Quarta",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+221C",
     "entity": "&#8732;",
@@ -1020,7 +1020,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∝",
     "name": "Proporcional a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+221D",
     "entity": "&#8733;",
@@ -1036,7 +1036,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∞",
     "name": "Infinito",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+221E",
     "entity": "&#8734;",
@@ -1051,8 +1051,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∟",
-    "name": "?ngulo Reto",
-    "cat": "Matem?tica",
+    "name": "Ângulo Reto",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+221F",
     "entity": "&#8735;",
@@ -1067,8 +1067,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∠",
-    "name": "?ngulo",
-    "cat": "Matem?tica",
+    "name": "Ângulo",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2220",
     "entity": "&#8736;",
@@ -1083,8 +1083,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∡",
-    "name": "?ngulo Medido",
-    "cat": "Matem?tica",
+    "name": "Ângulo Medido",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2221",
     "entity": "&#8737;",
@@ -1099,8 +1099,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∢",
-    "name": "?ngulo Esf?rico",
-    "cat": "Matem?tica",
+    "name": "Ângulo Esférico",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2222",
     "entity": "&#8738;",
@@ -1116,7 +1116,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∣",
     "name": "Divide",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2223",
     "entity": "&#8739;",
@@ -1131,8 +1131,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∤",
-    "name": "N?o Divide",
-    "cat": "Matem?tica",
+    "name": "Não Divide",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2224",
     "entity": "&#8740;",
@@ -1148,7 +1148,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∥",
     "name": "Paralelo a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2225",
     "entity": "&#8741;",
@@ -1163,8 +1163,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∦",
-    "name": "N?o Paralelo a",
-    "cat": "Matem?tica",
+    "name": "Não Paralelo a",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2226",
     "entity": "&#8742;",
@@ -1179,8 +1179,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∧",
-    "name": "E L?gico (Conjun??o)",
-    "cat": "Matem?tica",
+    "name": "E Lógico (Conjunção)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2227",
     "entity": "&#8743;",
@@ -1195,8 +1195,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∨",
-    "name": "OU L?gico (Disjun??o)",
-    "cat": "Matem?tica",
+    "name": "OU Lógico (Disjunção)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2228",
     "entity": "&#8744;",
@@ -1211,8 +1211,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∩",
-    "name": "Interse??o de Conjuntos",
-    "cat": "Matem?tica",
+    "name": "Interseção de Conjuntos",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2229",
     "entity": "&#8745;",
@@ -1227,8 +1227,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∪",
-    "name": "Uni?o de Conjuntos",
-    "cat": "Matem?tica",
+    "name": "União de Conjuntos",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+222A",
     "entity": "&#8746;",
@@ -1244,7 +1244,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∫",
     "name": "Integral Simples",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+222B",
     "entity": "&#8747;",
@@ -1260,7 +1260,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∬",
     "name": "Integral Dupla",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+222C",
     "entity": "&#8748;",
@@ -1276,7 +1276,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∭",
     "name": "Integral Tripla",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+222D",
     "entity": "&#8749;",
@@ -1292,7 +1292,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∮",
     "name": "Integral de Linha (Contorno)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+222E",
     "entity": "&#8750;",
@@ -1307,8 +1307,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∯",
-    "name": "Integral de Superf?cie",
-    "cat": "Matem?tica",
+    "name": "Integral de Superfície",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+222F",
     "entity": "&#8751;",
@@ -1324,7 +1324,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∰",
     "name": "Integral de Volume",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2230",
     "entity": "&#8752;",
@@ -1339,8 +1339,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∱",
-    "name": "Operador Matem?tico (U+2231)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2231)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2231",
     "entity": "&#8753;",
@@ -1355,8 +1355,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∲",
-    "name": "Operador Matem?tico (U+2232)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2232)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2232",
     "entity": "&#8754;",
@@ -1371,8 +1371,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∳",
-    "name": "Operador Matem?tico (U+2233)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2233)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2233",
     "entity": "&#8755;",
@@ -1387,8 +1387,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∴",
-    "name": "Portanto (Conclus?o)",
-    "cat": "Matem?tica",
+    "name": "Portanto (Conclusão)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2234",
     "entity": "&#8756;",
@@ -1404,7 +1404,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∵",
     "name": "Porque / Dado Que",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2235",
     "entity": "&#8757;",
@@ -1419,8 +1419,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∶",
-    "name": "Propor??o",
-    "cat": "Matem?tica",
+    "name": "Proporção",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2236",
     "entity": "&#8758;",
@@ -1435,8 +1435,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∷",
-    "name": "Propor??o Dupla",
-    "cat": "Matem?tica",
+    "name": "Proporção Dupla",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2237",
     "entity": "&#8759;",
@@ -1452,7 +1452,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∸",
     "name": "Menos com Ponto",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2238",
     "entity": "&#8760;",
@@ -1467,8 +1467,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∹",
-    "name": "Operador Matem?tico (U+2239)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2239)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2239",
     "entity": "&#8761;",
@@ -1483,8 +1483,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∺",
-    "name": "Operador Matem?tico (U+223A)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+223A)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+223A",
     "entity": "&#8762;",
@@ -1499,8 +1499,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∻",
-    "name": "Operador Matem?tico (U+223B)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+223B)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+223B",
     "entity": "&#8763;",
@@ -1516,7 +1516,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∼",
     "name": "Tilde Operador / Similar a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+223C",
     "entity": "&#8764;",
@@ -1532,7 +1532,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "∽",
     "name": "Tilde Invertido",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+223D",
     "entity": "&#8765;",
@@ -1547,8 +1547,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∾",
-    "name": "Operador Matem?tico (U+223E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+223E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+223E",
     "entity": "&#8766;",
@@ -1563,8 +1563,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "∿",
-    "name": "Operador Matem?tico (U+223F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+223F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+223F",
     "entity": "&#8767;",
@@ -1580,7 +1580,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≀",
     "name": "Produto Wreath",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2240",
     "entity": "&#8768;",
@@ -1595,8 +1595,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≁",
-    "name": "N?o Similar a",
-    "cat": "Matem?tica",
+    "name": "Não Similar a",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2241",
     "entity": "&#8769;",
@@ -1612,7 +1612,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≂",
     "name": "Igual ou Equivalente",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2242",
     "entity": "&#8770;",
@@ -1628,7 +1628,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≃",
     "name": "Assintoticamente Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2243",
     "entity": "&#8771;",
@@ -1643,8 +1643,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≄",
-    "name": "N?o Assintoticamente Igual",
-    "cat": "Matem?tica",
+    "name": "Não Assintoticamente Igual",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2244",
     "entity": "&#8772;",
@@ -1660,7 +1660,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≅",
     "name": "Aproximadamente Igual a (Congruente)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2245",
     "entity": "&#8773;",
@@ -1675,8 +1675,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≆",
-    "name": "Aproximadamente mas N?o Igual",
-    "cat": "Matem?tica",
+    "name": "Aproximadamente mas Não Igual",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2246",
     "entity": "&#8774;",
@@ -1692,7 +1692,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≇",
     "name": "Nem Aproximadamente Nem Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2247",
     "entity": "&#8775;",
@@ -1708,7 +1708,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≈",
     "name": "Quase Igual a (Aproximado)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2248",
     "entity": "&#8776;",
@@ -1723,8 +1723,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≉",
-    "name": "N?o Quase Igual a",
-    "cat": "Matem?tica",
+    "name": "Não Quase Igual a",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2249",
     "entity": "&#8777;",
@@ -1740,7 +1740,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≊",
     "name": "Quase Igual ou Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+224A",
     "entity": "&#8778;",
@@ -1755,8 +1755,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≋",
-    "name": "Operador Matem?tico (U+224B)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+224B)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+224B",
     "entity": "&#8779;",
@@ -1771,8 +1771,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≌",
-    "name": "Operador Matem?tico (U+224C)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+224C)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+224C",
     "entity": "&#8780;",
@@ -1788,7 +1788,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≍",
     "name": "Equivalente a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+224D",
     "entity": "&#8781;",
@@ -1803,8 +1803,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≎",
-    "name": "Operador Matem?tico (U+224E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+224E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+224E",
     "entity": "&#8782;",
@@ -1819,8 +1819,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≏",
-    "name": "Operador Matem?tico (U+224F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+224F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+224F",
     "entity": "&#8783;",
@@ -1835,8 +1835,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≐",
-    "name": "Operador Matem?tico (U+2250)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2250)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2250",
     "entity": "&#8784;",
@@ -1851,8 +1851,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≑",
-    "name": "Operador Matem?tico (U+2251)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2251)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2251",
     "entity": "&#8785;",
@@ -1867,8 +1867,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≒",
-    "name": "Operador Matem?tico (U+2252)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2252)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2252",
     "entity": "&#8786;",
@@ -1883,8 +1883,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≓",
-    "name": "Operador Matem?tico (U+2253)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2253)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2253",
     "entity": "&#8787;",
@@ -1899,8 +1899,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≔",
-    "name": "Operador Matem?tico (U+2254)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2254)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2254",
     "entity": "&#8788;",
@@ -1915,8 +1915,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≕",
-    "name": "Operador Matem?tico (U+2255)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2255)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2255",
     "entity": "&#8789;",
@@ -1931,8 +1931,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≖",
-    "name": "Operador Matem?tico (U+2256)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2256)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2256",
     "entity": "&#8790;",
@@ -1947,8 +1947,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≗",
-    "name": "Operador Matem?tico (U+2257)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2257)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2257",
     "entity": "&#8791;",
@@ -1963,8 +1963,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≘",
-    "name": "Operador Matem?tico (U+2258)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2258)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2258",
     "entity": "&#8792;",
@@ -1979,8 +1979,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≙",
-    "name": "Operador Matem?tico (U+2259)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2259)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2259",
     "entity": "&#8793;",
@@ -1995,8 +1995,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≚",
-    "name": "Operador Matem?tico (U+225A)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+225A)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+225A",
     "entity": "&#8794;",
@@ -2011,8 +2011,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≛",
-    "name": "Operador Matem?tico (U+225B)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+225B)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+225B",
     "entity": "&#8795;",
@@ -2027,8 +2027,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≜",
-    "name": "Operador Matem?tico (U+225C)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+225C)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+225C",
     "entity": "&#8796;",
@@ -2043,8 +2043,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≝",
-    "name": "Operador Matem?tico (U+225D)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+225D)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+225D",
     "entity": "&#8797;",
@@ -2059,8 +2059,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≞",
-    "name": "Operador Matem?tico (U+225E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+225E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+225E",
     "entity": "&#8798;",
@@ -2075,8 +2075,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≟",
-    "name": "Operador Matem?tico (U+225F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+225F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+225F",
     "entity": "&#8799;",
@@ -2091,8 +2091,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≠",
-    "name": "Diferente de (N?o Igual)",
-    "cat": "Matem?tica",
+    "name": "Diferente de (Não Igual)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2260",
     "entity": "&#8800;",
@@ -2107,8 +2107,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≡",
-    "name": "Identicamente Igual a (Congru?ncia)",
-    "cat": "Matem?tica",
+    "name": "Identicamente Igual a (Congruência)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2261",
     "entity": "&#8801;",
@@ -2123,8 +2123,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≢",
-    "name": "N?o Identicamente Igual a",
-    "cat": "Matem?tica",
+    "name": "Não Identicamente Igual a",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2262",
     "entity": "&#8802;",
@@ -2139,8 +2139,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≣",
-    "name": "Operador Matem?tico (U+2263)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2263)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2263",
     "entity": "&#8803;",
@@ -2156,7 +2156,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≤",
     "name": "Menor ou Igual a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2264",
     "entity": "&#8804;",
@@ -2172,7 +2172,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≥",
     "name": "Maior ou Igual a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2265",
     "entity": "&#8805;",
@@ -2188,7 +2188,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≦",
     "name": "Menor que sobre Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2266",
     "entity": "&#8806;",
@@ -2204,7 +2204,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≧",
     "name": "Maior que sobre Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2267",
     "entity": "&#8807;",
@@ -2219,8 +2219,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≨",
-    "name": "Operador Matem?tico (U+2268)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2268)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2268",
     "entity": "&#8808;",
@@ -2235,8 +2235,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≩",
-    "name": "Operador Matem?tico (U+2269)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2269)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2269",
     "entity": "&#8809;",
@@ -2252,7 +2252,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≪",
     "name": "Muito Menor que",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+226A",
     "entity": "&#8810;",
@@ -2268,7 +2268,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≫",
     "name": "Muito Maior que",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+226B",
     "entity": "&#8811;",
@@ -2283,8 +2283,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≬",
-    "name": "Operador Matem?tico (U+226C)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+226C)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+226C",
     "entity": "&#8812;",
@@ -2299,8 +2299,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≭",
-    "name": "Operador Matem?tico (U+226D)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+226D)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+226D",
     "entity": "&#8813;",
@@ -2315,8 +2315,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≮",
-    "name": "Operador Matem?tico (U+226E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+226E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+226E",
     "entity": "&#8814;",
@@ -2331,8 +2331,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≯",
-    "name": "Operador Matem?tico (U+226F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+226F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+226F",
     "entity": "&#8815;",
@@ -2348,7 +2348,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≰",
     "name": "Nem Menor Nem Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2270",
     "entity": "&#8816;",
@@ -2364,7 +2364,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "≱",
     "name": "Nem Maior Nem Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2271",
     "entity": "&#8817;",
@@ -2379,8 +2379,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≲",
-    "name": "Operador Matem?tico (U+2272)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2272)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2272",
     "entity": "&#8818;",
@@ -2395,8 +2395,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≳",
-    "name": "Operador Matem?tico (U+2273)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2273)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2273",
     "entity": "&#8819;",
@@ -2411,8 +2411,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≴",
-    "name": "Operador Matem?tico (U+2274)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2274)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2274",
     "entity": "&#8820;",
@@ -2427,8 +2427,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≵",
-    "name": "Operador Matem?tico (U+2275)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2275)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2275",
     "entity": "&#8821;",
@@ -2443,8 +2443,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≶",
-    "name": "Operador Matem?tico (U+2276)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2276)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2276",
     "entity": "&#8822;",
@@ -2459,8 +2459,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≷",
-    "name": "Operador Matem?tico (U+2277)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2277)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2277",
     "entity": "&#8823;",
@@ -2475,8 +2475,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≸",
-    "name": "Operador Matem?tico (U+2278)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2278)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2278",
     "entity": "&#8824;",
@@ -2491,8 +2491,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≹",
-    "name": "Operador Matem?tico (U+2279)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2279)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2279",
     "entity": "&#8825;",
@@ -2507,8 +2507,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≺",
-    "name": "Operador Matem?tico (U+227A)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+227A)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+227A",
     "entity": "&#8826;",
@@ -2523,8 +2523,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≻",
-    "name": "Operador Matem?tico (U+227B)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+227B)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+227B",
     "entity": "&#8827;",
@@ -2539,8 +2539,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≼",
-    "name": "Operador Matem?tico (U+227C)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+227C)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+227C",
     "entity": "&#8828;",
@@ -2555,8 +2555,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≽",
-    "name": "Operador Matem?tico (U+227D)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+227D)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+227D",
     "entity": "&#8829;",
@@ -2571,8 +2571,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≾",
-    "name": "Operador Matem?tico (U+227E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+227E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+227E",
     "entity": "&#8830;",
@@ -2587,8 +2587,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "≿",
-    "name": "Operador Matem?tico (U+227F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+227F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+227F",
     "entity": "&#8831;",
@@ -2603,8 +2603,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊀",
-    "name": "Operador Matem?tico (U+2280)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2280)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2280",
     "entity": "&#8832;",
@@ -2619,8 +2619,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊁",
-    "name": "Operador Matem?tico (U+2281)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2281)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2281",
     "entity": "&#8833;",
@@ -2635,8 +2635,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊂",
-    "name": "Subconjunto Pr?prio de (Contido em)",
-    "cat": "Matem?tica",
+    "name": "Subconjunto Próprio de (Contido em)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2282",
     "entity": "&#8834;",
@@ -2651,8 +2651,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊃",
-    "name": "Superconjunto Pr?prio de (Cont?m)",
-    "cat": "Matem?tica",
+    "name": "Superconjunto Próprio de (Contém)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2283",
     "entity": "&#8835;",
@@ -2667,8 +2667,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊄",
-    "name": "N?o ? Subconjunto de",
-    "cat": "Matem?tica",
+    "name": "Não é Subconjunto de",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2284",
     "entity": "&#8836;",
@@ -2683,8 +2683,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊅",
-    "name": "N?o ? Superconjunto de",
-    "cat": "Matem?tica",
+    "name": "Não é Superconjunto de",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2285",
     "entity": "&#8837;",
@@ -2700,7 +2700,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊆",
     "name": "Subconjunto ou Igual a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2286",
     "entity": "&#8838;",
@@ -2716,7 +2716,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊇",
     "name": "Superconjunto ou Igual a",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2287",
     "entity": "&#8839;",
@@ -2732,7 +2732,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊈",
     "name": "Nem Subconjunto Nem Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2288",
     "entity": "&#8840;",
@@ -2748,7 +2748,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊉",
     "name": "Nem Superconjunto Nem Igual",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2289",
     "entity": "&#8841;",
@@ -2763,8 +2763,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊊",
-    "name": "Subconjunto N?o Igual",
-    "cat": "Matem?tica",
+    "name": "Subconjunto Não Igual",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+228A",
     "entity": "&#8842;",
@@ -2779,8 +2779,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊋",
-    "name": "Superconjunto N?o Igual",
-    "cat": "Matem?tica",
+    "name": "Superconjunto Não Igual",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+228B",
     "entity": "&#8843;",
@@ -2795,8 +2795,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊌",
-    "name": "Operador Matem?tico (U+228C)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+228C)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+228C",
     "entity": "&#8844;",
@@ -2811,8 +2811,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊍",
-    "name": "Operador Matem?tico (U+228D)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+228D)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+228D",
     "entity": "&#8845;",
@@ -2827,8 +2827,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊎",
-    "name": "Uni?o Multiconjunto (Soma)",
-    "cat": "Matem?tica",
+    "name": "União Multiconjunto (Soma)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+228E",
     "entity": "&#8846;",
@@ -2843,8 +2843,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊏",
-    "name": "Operador Matem?tico (U+228F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+228F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+228F",
     "entity": "&#8847;",
@@ -2859,8 +2859,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊐",
-    "name": "Operador Matem?tico (U+2290)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2290)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2290",
     "entity": "&#8848;",
@@ -2875,8 +2875,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊑",
-    "name": "Operador Matem?tico (U+2291)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2291)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2291",
     "entity": "&#8849;",
@@ -2891,8 +2891,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊒",
-    "name": "Operador Matem?tico (U+2292)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2292)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2292",
     "entity": "&#8850;",
@@ -2907,8 +2907,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊓",
-    "name": "Operador Matem?tico (U+2293)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2293)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2293",
     "entity": "&#8851;",
@@ -2923,8 +2923,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊔",
-    "name": "Operador Matem?tico (U+2294)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+2294)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2294",
     "entity": "&#8852;",
@@ -2940,7 +2940,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊕",
     "name": "Mais Circulado (XOR / Soma Direta)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2295",
     "entity": "&#8853;",
@@ -2956,7 +2956,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊖",
     "name": "Menos Circulado",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2296",
     "entity": "&#8854;",
@@ -2972,7 +2972,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊗",
     "name": "Vezes Circulado (Produto Tensorial)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2297",
     "entity": "&#8855;",
@@ -2987,8 +2987,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊘",
-    "name": "Divis?o Circulada",
-    "cat": "Matem?tica",
+    "name": "Divisão Circulada",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2298",
     "entity": "&#8856;",
@@ -3004,7 +3004,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊙",
     "name": "Ponto Circulado",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+2299",
     "entity": "&#8857;",
@@ -3019,8 +3019,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊚",
-    "name": "C?rculo Aberto Circulado",
-    "cat": "Matem?tica",
+    "name": "Círculo Aberto Circulado",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+229A",
     "entity": "&#8858;",
@@ -3035,8 +3035,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊛",
-    "name": "Operador Matem?tico (U+229B)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+229B)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+229B",
     "entity": "&#8859;",
@@ -3051,8 +3051,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊜",
-    "name": "Operador Matem?tico (U+229C)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+229C)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+229C",
     "entity": "&#8860;",
@@ -3067,8 +3067,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊝",
-    "name": "Operador Matem?tico (U+229D)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+229D)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+229D",
     "entity": "&#8861;",
@@ -3083,8 +3083,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊞",
-    "name": "Operador Matem?tico (U+229E)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+229E)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+229E",
     "entity": "&#8862;",
@@ -3099,8 +3099,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊟",
-    "name": "Operador Matem?tico (U+229F)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+229F)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+229F",
     "entity": "&#8863;",
@@ -3115,8 +3115,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊠",
-    "name": "Operador Matem?tico (U+22A0)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22A0)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A0",
     "entity": "&#8864;",
@@ -3131,8 +3131,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊡",
-    "name": "Operador Matem?tico (U+22A1)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22A1)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A1",
     "entity": "&#8865;",
@@ -3147,8 +3147,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊢",
-    "name": "Tee Direita (Afirma??o / Prova)",
-    "cat": "Matem?tica",
+    "name": "Tee Direita (Afirmação / Prova)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A2",
     "entity": "&#8866;",
@@ -3164,7 +3164,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊣",
     "name": "Tee Esquerda",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A3",
     "entity": "&#8867;",
@@ -3180,7 +3180,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊤",
     "name": "Tee Superior (Tautologia / Top)",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A4",
     "entity": "&#8868;",
@@ -3195,8 +3195,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊥",
-    "name": "Tee Inferior (Contradi??o / Perpendicular)",
-    "cat": "Matem?tica",
+    "name": "Tee Inferior (Contradição / Perpendicular)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A5",
     "entity": "&#8869;",
@@ -3211,8 +3211,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊦",
-    "name": "Operador Matem?tico (U+22A6)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22A6)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A6",
     "entity": "&#8870;",
@@ -3227,8 +3227,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊧",
-    "name": "Operador Matem?tico (U+22A7)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22A7)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A7",
     "entity": "&#8871;",
@@ -3244,7 +3244,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⊨",
     "name": "Entailment / Verdadeiro em",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A8",
     "entity": "&#8872;",
@@ -3259,8 +3259,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊩",
-    "name": "Operador Matem?tico (U+22A9)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22A9)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22A9",
     "entity": "&#8873;",
@@ -3275,8 +3275,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊪",
-    "name": "Operador Matem?tico (U+22AA)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22AA)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22AA",
     "entity": "&#8874;",
@@ -3291,8 +3291,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊫",
-    "name": "Operador Matem?tico (U+22AB)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22AB)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22AB",
     "entity": "&#8875;",
@@ -3307,8 +3307,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊬",
-    "name": "Operador Matem?tico (U+22AC)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22AC)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22AC",
     "entity": "&#8876;",
@@ -3323,8 +3323,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊭",
-    "name": "Operador Matem?tico (U+22AD)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22AD)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22AD",
     "entity": "&#8877;",
@@ -3339,8 +3339,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊮",
-    "name": "Operador Matem?tico (U+22AE)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22AE)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22AE",
     "entity": "&#8878;",
@@ -3355,8 +3355,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊯",
-    "name": "Operador Matem?tico (U+22AF)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22AF)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22AF",
     "entity": "&#8879;",
@@ -3371,8 +3371,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊰",
-    "name": "Operador Matem?tico (U+22B0)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B0)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B0",
     "entity": "&#8880;",
@@ -3387,8 +3387,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊱",
-    "name": "Operador Matem?tico (U+22B1)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B1)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B1",
     "entity": "&#8881;",
@@ -3403,8 +3403,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊲",
-    "name": "Operador Matem?tico (U+22B2)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B2)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B2",
     "entity": "&#8882;",
@@ -3419,8 +3419,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊳",
-    "name": "Operador Matem?tico (U+22B3)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B3)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B3",
     "entity": "&#8883;",
@@ -3435,8 +3435,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊴",
-    "name": "Operador Matem?tico (U+22B4)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B4)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B4",
     "entity": "&#8884;",
@@ -3451,8 +3451,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊵",
-    "name": "Operador Matem?tico (U+22B5)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B5)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B5",
     "entity": "&#8885;",
@@ -3467,8 +3467,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊶",
-    "name": "Operador Matem?tico (U+22B6)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B6)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B6",
     "entity": "&#8886;",
@@ -3483,8 +3483,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊷",
-    "name": "Operador Matem?tico (U+22B7)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B7)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B7",
     "entity": "&#8887;",
@@ -3499,8 +3499,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊸",
-    "name": "Operador Matem?tico (U+22B8)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B8)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B8",
     "entity": "&#8888;",
@@ -3515,8 +3515,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊹",
-    "name": "Operador Matem?tico (U+22B9)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22B9)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22B9",
     "entity": "&#8889;",
@@ -3531,8 +3531,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊺",
-    "name": "Operador Matem?tico (U+22BA)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22BA)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22BA",
     "entity": "&#8890;",
@@ -3547,8 +3547,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊻",
-    "name": "Operador Matem?tico (U+22BB)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22BB)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22BB",
     "entity": "&#8891;",
@@ -3563,8 +3563,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊼",
-    "name": "Operador Matem?tico (U+22BC)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22BC)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22BC",
     "entity": "&#8892;",
@@ -3579,8 +3579,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊽",
-    "name": "Operador Matem?tico (U+22BD)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22BD)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22BD",
     "entity": "&#8893;",
@@ -3595,8 +3595,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊾",
-    "name": "Operador Matem?tico (U+22BE)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22BE)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22BE",
     "entity": "&#8894;",
@@ -3611,8 +3611,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⊿",
-    "name": "Operador Matem?tico (U+22BF)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22BF)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22BF",
     "entity": "&#8895;",
@@ -3627,8 +3627,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋀",
-    "name": "Operador Matem?tico (U+22C0)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22C0)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C0",
     "entity": "&#8896;",
@@ -3643,8 +3643,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋁",
-    "name": "Operador Matem?tico (U+22C1)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22C1)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C1",
     "entity": "&#8897;",
@@ -3659,8 +3659,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋂",
-    "name": "Operador Matem?tico (U+22C2)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22C2)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C2",
     "entity": "&#8898;",
@@ -3675,8 +3675,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋃",
-    "name": "Operador Matem?tico (U+22C3)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22C3)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C3",
     "entity": "&#8899;",
@@ -3692,7 +3692,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⋄",
     "name": "Diamante Operador",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C4",
     "entity": "&#8900;",
@@ -3708,7 +3708,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⋅",
     "name": "Ponto Operador",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C5",
     "entity": "&#8901;",
@@ -3724,7 +3724,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⋆",
     "name": "Estrela Operador",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C6",
     "entity": "&#8902;",
@@ -3739,8 +3739,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋇",
-    "name": "Operador Matem?tico (U+22C7)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22C7)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C7",
     "entity": "&#8903;",
@@ -3756,7 +3756,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   {
     "char": "⋈",
     "name": "Gravata / Bowtie",
-    "cat": "Matem?tica",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C8",
     "entity": "&#8904;",
@@ -3771,8 +3771,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋉",
-    "name": "Operador Matem?tico (U+22C9)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22C9)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22C9",
     "entity": "&#8905;",
@@ -3787,8 +3787,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋊",
-    "name": "Operador Matem?tico (U+22CA)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22CA)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22CA",
     "entity": "&#8906;",
@@ -3803,8 +3803,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋋",
-    "name": "Operador Matem?tico (U+22CB)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22CB)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22CB",
     "entity": "&#8907;",
@@ -3819,8 +3819,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋌",
-    "name": "Operador Matem?tico (U+22CC)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22CC)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22CC",
     "entity": "&#8908;",
@@ -3835,8 +3835,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋍",
-    "name": "Operador Matem?tico (U+22CD)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22CD)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22CD",
     "entity": "&#8909;",
@@ -3851,8 +3851,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋎",
-    "name": "Operador Matem?tico (U+22CE)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22CE)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22CE",
     "entity": "&#8910;",
@@ -3867,8 +3867,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋏",
-    "name": "Operador Matem?tico (U+22CF)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22CF)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22CF",
     "entity": "&#8911;",
@@ -3883,8 +3883,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋐",
-    "name": "Operador Matem?tico (U+22D0)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D0)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D0",
     "entity": "&#8912;",
@@ -3899,8 +3899,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋑",
-    "name": "Operador Matem?tico (U+22D1)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D1)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D1",
     "entity": "&#8913;",
@@ -3915,8 +3915,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋒",
-    "name": "Operador Matem?tico (U+22D2)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D2)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D2",
     "entity": "&#8914;",
@@ -3931,8 +3931,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋓",
-    "name": "Operador Matem?tico (U+22D3)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D3)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D3",
     "entity": "&#8915;",
@@ -3947,8 +3947,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋔",
-    "name": "Operador Matem?tico (U+22D4)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D4)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D4",
     "entity": "&#8916;",
@@ -3963,8 +3963,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋕",
-    "name": "Operador Matem?tico (U+22D5)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D5)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D5",
     "entity": "&#8917;",
@@ -3979,8 +3979,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋖",
-    "name": "Operador Matem?tico (U+22D6)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D6)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D6",
     "entity": "&#8918;",
@@ -3995,8 +3995,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋗",
-    "name": "Operador Matem?tico (U+22D7)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D7)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D7",
     "entity": "&#8919;",
@@ -4011,8 +4011,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋘",
-    "name": "Operador Matem?tico (U+22D8)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D8)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D8",
     "entity": "&#8920;",
@@ -4027,8 +4027,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋙",
-    "name": "Operador Matem?tico (U+22D9)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22D9)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22D9",
     "entity": "&#8921;",
@@ -4043,8 +4043,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋚",
-    "name": "Operador Matem?tico (U+22DA)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22DA)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22DA",
     "entity": "&#8922;",
@@ -4059,8 +4059,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋛",
-    "name": "Operador Matem?tico (U+22DB)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22DB)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22DB",
     "entity": "&#8923;",
@@ -4075,8 +4075,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋜",
-    "name": "Operador Matem?tico (U+22DC)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22DC)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22DC",
     "entity": "&#8924;",
@@ -4091,8 +4091,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋝",
-    "name": "Operador Matem?tico (U+22DD)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22DD)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22DD",
     "entity": "&#8925;",
@@ -4107,8 +4107,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋞",
-    "name": "Operador Matem?tico (U+22DE)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22DE)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22DE",
     "entity": "&#8926;",
@@ -4123,8 +4123,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋟",
-    "name": "Operador Matem?tico (U+22DF)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22DF)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22DF",
     "entity": "&#8927;",
@@ -4139,8 +4139,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋠",
-    "name": "Operador Matem?tico (U+22E0)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E0)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E0",
     "entity": "&#8928;",
@@ -4155,8 +4155,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋡",
-    "name": "Operador Matem?tico (U+22E1)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E1)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E1",
     "entity": "&#8929;",
@@ -4171,8 +4171,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋢",
-    "name": "Operador Matem?tico (U+22E2)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E2)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E2",
     "entity": "&#8930;",
@@ -4187,8 +4187,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋣",
-    "name": "Operador Matem?tico (U+22E3)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E3)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E3",
     "entity": "&#8931;",
@@ -4203,8 +4203,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋤",
-    "name": "Operador Matem?tico (U+22E4)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E4)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E4",
     "entity": "&#8932;",
@@ -4219,8 +4219,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋥",
-    "name": "Operador Matem?tico (U+22E5)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E5)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E5",
     "entity": "&#8933;",
@@ -4235,8 +4235,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋦",
-    "name": "Operador Matem?tico (U+22E6)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E6)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E6",
     "entity": "&#8934;",
@@ -4251,8 +4251,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋧",
-    "name": "Operador Matem?tico (U+22E7)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E7)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E7",
     "entity": "&#8935;",
@@ -4267,8 +4267,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋨",
-    "name": "Operador Matem?tico (U+22E8)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E8)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E8",
     "entity": "&#8936;",
@@ -4283,8 +4283,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋩",
-    "name": "Operador Matem?tico (U+22E9)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22E9)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22E9",
     "entity": "&#8937;",
@@ -4299,8 +4299,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋪",
-    "name": "Operador Matem?tico (U+22EA)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22EA)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22EA",
     "entity": "&#8938;",
@@ -4315,8 +4315,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋫",
-    "name": "Operador Matem?tico (U+22EB)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22EB)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22EB",
     "entity": "&#8939;",
@@ -4331,8 +4331,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋬",
-    "name": "Operador Matem?tico (U+22EC)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22EC)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22EC",
     "entity": "&#8940;",
@@ -4347,8 +4347,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋭",
-    "name": "Operador Matem?tico (U+22ED)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22ED)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22ED",
     "entity": "&#8941;",
@@ -4363,8 +4363,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋮",
-    "name": "Retic?ncias Verticais",
-    "cat": "Matem?tica",
+    "name": "Reticências Verticais",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22EE",
     "entity": "&#8942;",
@@ -4379,8 +4379,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋯",
-    "name": "Retic?ncias Centrais",
-    "cat": "Matem?tica",
+    "name": "Reticências Centrais",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22EF",
     "entity": "&#8943;",
@@ -4395,8 +4395,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋰",
-    "name": "Retic?ncias Diagonais Ascendentes",
-    "cat": "Matem?tica",
+    "name": "Reticências Diagonais Ascendentes",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F0",
     "entity": "&#8944;",
@@ -4411,8 +4411,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋱",
-    "name": "Retic?ncias Diagonais Descendentes",
-    "cat": "Matem?tica",
+    "name": "Reticências Diagonais Descendentes",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F1",
     "entity": "&#8945;",
@@ -4427,8 +4427,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋲",
-    "name": "Operador Matem?tico (U+22F2)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F2)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F2",
     "entity": "&#8946;",
@@ -4443,8 +4443,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋳",
-    "name": "Operador Matem?tico (U+22F3)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F3)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F3",
     "entity": "&#8947;",
@@ -4459,8 +4459,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋴",
-    "name": "Operador Matem?tico (U+22F4)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F4)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F4",
     "entity": "&#8948;",
@@ -4475,8 +4475,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋵",
-    "name": "Operador Matem?tico (U+22F5)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F5)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F5",
     "entity": "&#8949;",
@@ -4491,8 +4491,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋶",
-    "name": "Operador Matem?tico (U+22F6)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F6)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F6",
     "entity": "&#8950;",
@@ -4507,8 +4507,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋷",
-    "name": "Operador Matem?tico (U+22F7)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F7)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F7",
     "entity": "&#8951;",
@@ -4523,8 +4523,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋸",
-    "name": "Operador Matem?tico (U+22F8)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F8)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F8",
     "entity": "&#8952;",
@@ -4539,8 +4539,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋹",
-    "name": "Operador Matem?tico (U+22F9)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22F9)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22F9",
     "entity": "&#8953;",
@@ -4555,8 +4555,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋺",
-    "name": "Operador Matem?tico (U+22FA)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22FA)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22FA",
     "entity": "&#8954;",
@@ -4571,8 +4571,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋻",
-    "name": "Operador Matem?tico (U+22FB)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22FB)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22FB",
     "entity": "&#8955;",
@@ -4587,8 +4587,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋼",
-    "name": "Operador Matem?tico (U+22FC)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22FC)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22FC",
     "entity": "&#8956;",
@@ -4603,8 +4603,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋽",
-    "name": "Operador Matem?tico (U+22FD)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22FD)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22FD",
     "entity": "&#8957;",
@@ -4619,8 +4619,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋾",
-    "name": "Operador Matem?tico (U+22FE)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22FE)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22FE",
     "entity": "&#8958;",
@@ -4635,8 +4635,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⋿",
-    "name": "Operador Matem?tico (U+22FF)",
-    "cat": "Matem?tica",
+    "name": "Operador Matemático (U+22FF)",
+    "cat": "Matemática",
     "subcat": "Operadores & Teoria dos Conjuntos",
     "hex": "U+22FF",
     "entity": "&#8959;",
@@ -4653,7 +4653,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "←",
     "name": "Seta para Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2190",
     "entity": "&#8592;",
     "tags": [
@@ -4670,7 +4670,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↑",
     "name": "Seta para Cima",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2191",
     "entity": "&#8593;",
     "tags": [
@@ -4687,7 +4687,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "→",
     "name": "Seta para Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2192",
     "entity": "&#8594;",
     "tags": [
@@ -4704,7 +4704,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↓",
     "name": "Seta para Baixo",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2193",
     "entity": "&#8595;",
     "tags": [
@@ -4721,7 +4721,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↔",
     "name": "Seta Esquerda-Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2194",
     "entity": "&#8596;",
     "tags": [
@@ -4738,7 +4738,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↕",
     "name": "Seta Cima-Baixo",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2195",
     "entity": "&#8597;",
     "tags": [
@@ -4755,7 +4755,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↖",
     "name": "Seta Noroeste",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2196",
     "entity": "&#8598;",
     "tags": [
@@ -4772,7 +4772,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↗",
     "name": "Seta Nordeste",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2197",
     "entity": "&#8599;",
     "tags": [
@@ -4789,7 +4789,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↘",
     "name": "Seta Sudeste",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2198",
     "entity": "&#8600;",
     "tags": [
@@ -4806,7 +4806,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↙",
     "name": "Seta Sudoeste",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+2199",
     "entity": "&#8601;",
     "tags": [
@@ -4823,7 +4823,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↚",
     "name": "Seta Esquerda Cortada",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+219A",
     "entity": "&#8602;",
     "tags": [
@@ -4840,7 +4840,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↛",
     "name": "Seta Direita Cortada",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+219B",
     "entity": "&#8603;",
     "tags": [
@@ -4857,7 +4857,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↜",
     "name": "Seta Ondulada para Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+219C",
     "entity": "&#8604;",
     "tags": [
@@ -4874,7 +4874,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↝",
     "name": "Seta Ondulada para Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+219D",
     "entity": "&#8605;",
     "tags": [
@@ -4891,7 +4891,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↞",
     "name": "Seta Dupla para Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+219E",
     "entity": "&#8606;",
     "tags": [
@@ -4908,7 +4908,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↟",
     "name": "Seta Dupla para Cima",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+219F",
     "entity": "&#8607;",
     "tags": [
@@ -4925,7 +4925,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↠",
     "name": "Seta Dupla para Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A0",
     "entity": "&#8608;",
     "tags": [
@@ -4942,7 +4942,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↡",
     "name": "Seta Dupla para Baixo",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A1",
     "entity": "&#8609;",
     "tags": [
@@ -4959,7 +4959,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↢",
     "name": "Seta Esquerda com Cauda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A2",
     "entity": "&#8610;",
     "tags": [
@@ -4976,7 +4976,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↣",
     "name": "Seta Direita com Cauda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A3",
     "entity": "&#8611;",
     "tags": [
@@ -4993,7 +4993,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↤",
     "name": "Seta Esquerda com Barra",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A4",
     "entity": "&#8612;",
     "tags": [
@@ -5010,7 +5010,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↥",
     "name": "Seta Cima com Barra",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A5",
     "entity": "&#8613;",
     "tags": [
@@ -5027,7 +5027,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↦",
     "name": "Seta Direita com Barra (Mapeia para)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A6",
     "entity": "&#8614;",
     "tags": [
@@ -5044,7 +5044,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↧",
     "name": "Seta Baixo com Barra",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A7",
     "entity": "&#8615;",
     "tags": [
@@ -5061,7 +5061,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↨",
     "name": "Seta Direcional (U+21A8)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A8",
     "entity": "&#8616;",
     "tags": [
@@ -5078,7 +5078,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↩",
     "name": "Seta Curva para Esquerda (Retorno)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21A9",
     "entity": "&#8617;",
     "tags": [
@@ -5095,7 +5095,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↪",
     "name": "Seta Curva para Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21AA",
     "entity": "&#8618;",
     "tags": [
@@ -5110,9 +5110,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↫",
-    "name": "Seta Esquerda com La?o",
+    "name": "Seta Esquerda com Laço",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21AB",
     "entity": "&#8619;",
     "tags": [
@@ -5127,9 +5127,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↬",
-    "name": "Seta Direita com La?o",
+    "name": "Seta Direita com Laço",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21AC",
     "entity": "&#8620;",
     "tags": [
@@ -5146,7 +5146,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↭",
     "name": "Seta Esquerda-Direita Ondulada",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21AD",
     "entity": "&#8621;",
     "tags": [
@@ -5163,7 +5163,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↮",
     "name": "Seta Direcional (U+21AE)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21AE",
     "entity": "&#8622;",
     "tags": [
@@ -5180,7 +5180,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↯",
     "name": "Seta Direcional (U+21AF)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21AF",
     "entity": "&#8623;",
     "tags": [
@@ -5197,7 +5197,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↰",
     "name": "Seta Cima Virando Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B0",
     "entity": "&#8624;",
     "tags": [
@@ -5214,7 +5214,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↱",
     "name": "Seta Cima Virando Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B1",
     "entity": "&#8625;",
     "tags": [
@@ -5231,7 +5231,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↲",
     "name": "Seta Baixo Virando Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B2",
     "entity": "&#8626;",
     "tags": [
@@ -5248,7 +5248,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↳",
     "name": "Seta Baixo Virando Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B3",
     "entity": "&#8627;",
     "tags": [
@@ -5265,7 +5265,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↴",
     "name": "Seta Direcional (U+21B4)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B4",
     "entity": "&#8628;",
     "tags": [
@@ -5282,7 +5282,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↵",
     "name": "Seta de Quebra de Linha (Enter)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B5",
     "entity": "&#8629;",
     "tags": [
@@ -5297,9 +5297,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↶",
-    "name": "Seta Curva Anti-hor?ria",
+    "name": "Seta Curva Anti-horária",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B6",
     "entity": "&#8630;",
     "tags": [
@@ -5314,9 +5314,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↷",
-    "name": "Seta Curva Hor?ria",
+    "name": "Seta Curva Horária",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B7",
     "entity": "&#8631;",
     "tags": [
@@ -5333,7 +5333,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↸",
     "name": "Seta Direcional (U+21B8)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B8",
     "entity": "&#8632;",
     "tags": [
@@ -5350,7 +5350,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "↹",
     "name": "Seta Direcional (U+21B9)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21B9",
     "entity": "&#8633;",
     "tags": [
@@ -5365,9 +5365,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↺",
-    "name": "Seta Aberta Circular Anti-hor?ria (Desfazer)",
+    "name": "Seta Aberta Circular Anti-horária (Desfazer)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21BA",
     "entity": "&#8634;",
     "tags": [
@@ -5382,9 +5382,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↻",
-    "name": "Seta Aberta Circular Hor?ria (Refazer)",
+    "name": "Seta Aberta Circular Horária (Refazer)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21BB",
     "entity": "&#8635;",
     "tags": [
@@ -5399,9 +5399,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↼",
-    "name": "Arp?o para Esquerda Superior",
+    "name": "Arpão para Esquerda Superior",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21BC",
     "entity": "&#8636;",
     "tags": [
@@ -5416,9 +5416,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↽",
-    "name": "Arp?o para Esquerda Inferior",
+    "name": "Arpão para Esquerda Inferior",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21BD",
     "entity": "&#8637;",
     "tags": [
@@ -5433,9 +5433,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↾",
-    "name": "Arp?o para Cima Direita",
+    "name": "Arpão para Cima Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21BE",
     "entity": "&#8638;",
     "tags": [
@@ -5450,9 +5450,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "↿",
-    "name": "Arp?o para Cima Esquerda",
+    "name": "Arpão para Cima Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21BF",
     "entity": "&#8639;",
     "tags": [
@@ -5467,9 +5467,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⇀",
-    "name": "Arp?o para Direita Superior",
+    "name": "Arpão para Direita Superior",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C0",
     "entity": "&#8640;",
     "tags": [
@@ -5484,9 +5484,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⇁",
-    "name": "Arp?o para Direita Inferior",
+    "name": "Arpão para Direita Inferior",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C1",
     "entity": "&#8641;",
     "tags": [
@@ -5503,7 +5503,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇂",
     "name": "Seta Direcional (U+21C2)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C2",
     "entity": "&#8642;",
     "tags": [
@@ -5520,7 +5520,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇃",
     "name": "Seta Direcional (U+21C3)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C3",
     "entity": "&#8643;",
     "tags": [
@@ -5537,7 +5537,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇄",
     "name": "Setas Paralelas Esquerda sobre Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C4",
     "entity": "&#8644;",
     "tags": [
@@ -5554,7 +5554,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇅",
     "name": "Setas Paralelas Cima e Baixo",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C5",
     "entity": "&#8645;",
     "tags": [
@@ -5571,7 +5571,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇆",
     "name": "Setas Paralelas Direita sobre Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C6",
     "entity": "&#8646;",
     "tags": [
@@ -5588,7 +5588,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇇",
     "name": "Setas Paralelas Esquerda Dupla",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C7",
     "entity": "&#8647;",
     "tags": [
@@ -5605,7 +5605,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇈",
     "name": "Setas Paralelas Cima Dupla",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C8",
     "entity": "&#8648;",
     "tags": [
@@ -5622,7 +5622,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇉",
     "name": "Setas Paralelas Direita Dupla",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21C9",
     "entity": "&#8649;",
     "tags": [
@@ -5639,7 +5639,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇊",
     "name": "Setas Paralelas Baixo Dupla",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21CA",
     "entity": "&#8650;",
     "tags": [
@@ -5654,9 +5654,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⇋",
-    "name": "Arp?es Opostos Esquerda sobre Direita",
+    "name": "Arpões Opostos Esquerda sobre Direita",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21CB",
     "entity": "&#8651;",
     "tags": [
@@ -5671,9 +5671,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⇌",
-    "name": "Arp?es Opostos Direita sobre Esquerda (Equil?brio)",
+    "name": "Arpões Opostos Direita sobre Esquerda (Equilíbrio)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21CC",
     "entity": "&#8652;",
     "tags": [
@@ -5690,7 +5690,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇍",
     "name": "Seta Direcional (U+21CD)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21CD",
     "entity": "&#8653;",
     "tags": [
@@ -5707,7 +5707,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇎",
     "name": "Seta Direcional (U+21CE)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21CE",
     "entity": "&#8654;",
     "tags": [
@@ -5724,7 +5724,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇏",
     "name": "Seta Direcional (U+21CF)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21CF",
     "entity": "&#8655;",
     "tags": [
@@ -5741,7 +5741,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇐",
     "name": "Seta Dupla para Esquerda",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D0",
     "entity": "&#8656;",
     "tags": [
@@ -5758,7 +5758,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇑",
     "name": "Seta Dupla para Cima",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D1",
     "entity": "&#8657;",
     "tags": [
@@ -5775,7 +5775,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇒",
     "name": "Seta Dupla para Direita (Implica)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D2",
     "entity": "&#8658;",
     "tags": [
@@ -5792,7 +5792,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇓",
     "name": "Seta Dupla para Baixo",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D3",
     "entity": "&#8659;",
     "tags": [
@@ -5809,7 +5809,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇔",
     "name": "Seta Dupla Esquerda-Direita (Se e Somente Se)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D4",
     "entity": "&#8660;",
     "tags": [
@@ -5826,7 +5826,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇕",
     "name": "Seta Dupla Cima-Baixo",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D5",
     "entity": "&#8661;",
     "tags": [
@@ -5843,7 +5843,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇖",
     "name": "Seta Direcional (U+21D6)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D6",
     "entity": "&#8662;",
     "tags": [
@@ -5860,7 +5860,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇗",
     "name": "Seta Direcional (U+21D7)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D7",
     "entity": "&#8663;",
     "tags": [
@@ -5877,7 +5877,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇘",
     "name": "Seta Direcional (U+21D8)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D8",
     "entity": "&#8664;",
     "tags": [
@@ -5894,7 +5894,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇙",
     "name": "Seta Direcional (U+21D9)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21D9",
     "entity": "&#8665;",
     "tags": [
@@ -5911,7 +5911,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇚",
     "name": "Seta Direcional (U+21DA)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21DA",
     "entity": "&#8666;",
     "tags": [
@@ -5928,7 +5928,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇛",
     "name": "Seta Direcional (U+21DB)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21DB",
     "entity": "&#8667;",
     "tags": [
@@ -5945,7 +5945,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇜",
     "name": "Seta Direcional (U+21DC)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21DC",
     "entity": "&#8668;",
     "tags": [
@@ -5962,7 +5962,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇝",
     "name": "Seta Direcional (U+21DD)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21DD",
     "entity": "&#8669;",
     "tags": [
@@ -5979,7 +5979,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇞",
     "name": "Seta Direcional (U+21DE)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21DE",
     "entity": "&#8670;",
     "tags": [
@@ -5996,7 +5996,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇟",
     "name": "Seta Direcional (U+21DF)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21DF",
     "entity": "&#8671;",
     "tags": [
@@ -6013,7 +6013,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇠",
     "name": "Seta Direcional (U+21E0)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E0",
     "entity": "&#8672;",
     "tags": [
@@ -6030,7 +6030,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇡",
     "name": "Seta Direcional (U+21E1)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E1",
     "entity": "&#8673;",
     "tags": [
@@ -6047,7 +6047,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇢",
     "name": "Seta Direcional (U+21E2)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E2",
     "entity": "&#8674;",
     "tags": [
@@ -6064,7 +6064,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇣",
     "name": "Seta Direcional (U+21E3)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E3",
     "entity": "&#8675;",
     "tags": [
@@ -6081,7 +6081,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇤",
     "name": "Seta Direcional (U+21E4)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E4",
     "entity": "&#8676;",
     "tags": [
@@ -6098,7 +6098,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇥",
     "name": "Seta Direcional (U+21E5)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E5",
     "entity": "&#8677;",
     "tags": [
@@ -6115,7 +6115,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇦",
     "name": "Seta Direcional (U+21E6)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E6",
     "entity": "&#8678;",
     "tags": [
@@ -6132,7 +6132,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇧",
     "name": "Seta Direcional (U+21E7)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E7",
     "entity": "&#8679;",
     "tags": [
@@ -6149,7 +6149,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇨",
     "name": "Seta Direcional (U+21E8)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E8",
     "entity": "&#8680;",
     "tags": [
@@ -6166,7 +6166,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇩",
     "name": "Seta Direcional (U+21E9)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21E9",
     "entity": "&#8681;",
     "tags": [
@@ -6183,7 +6183,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇪",
     "name": "Seta Direcional (U+21EA)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21EA",
     "entity": "&#8682;",
     "tags": [
@@ -6200,7 +6200,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇫",
     "name": "Seta Direcional (U+21EB)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21EB",
     "entity": "&#8683;",
     "tags": [
@@ -6217,7 +6217,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇬",
     "name": "Seta Direcional (U+21EC)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21EC",
     "entity": "&#8684;",
     "tags": [
@@ -6234,7 +6234,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇭",
     "name": "Seta Direcional (U+21ED)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21ED",
     "entity": "&#8685;",
     "tags": [
@@ -6251,7 +6251,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇮",
     "name": "Seta Direcional (U+21EE)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21EE",
     "entity": "&#8686;",
     "tags": [
@@ -6268,7 +6268,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇯",
     "name": "Seta Direcional (U+21EF)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21EF",
     "entity": "&#8687;",
     "tags": [
@@ -6285,7 +6285,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇰",
     "name": "Seta Direcional (U+21F0)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F0",
     "entity": "&#8688;",
     "tags": [
@@ -6302,7 +6302,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇱",
     "name": "Seta Direcional (U+21F1)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F1",
     "entity": "&#8689;",
     "tags": [
@@ -6319,7 +6319,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇲",
     "name": "Seta Direcional (U+21F2)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F2",
     "entity": "&#8690;",
     "tags": [
@@ -6336,7 +6336,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇳",
     "name": "Seta Direcional (U+21F3)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F3",
     "entity": "&#8691;",
     "tags": [
@@ -6353,7 +6353,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇴",
     "name": "Seta Direcional (U+21F4)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F4",
     "entity": "&#8692;",
     "tags": [
@@ -6370,7 +6370,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇵",
     "name": "Seta Direcional (U+21F5)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F5",
     "entity": "&#8693;",
     "tags": [
@@ -6387,7 +6387,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇶",
     "name": "Seta Direcional (U+21F6)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F6",
     "entity": "&#8694;",
     "tags": [
@@ -6404,7 +6404,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇷",
     "name": "Seta Direcional (U+21F7)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F7",
     "entity": "&#8695;",
     "tags": [
@@ -6421,7 +6421,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇸",
     "name": "Seta Direcional (U+21F8)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F8",
     "entity": "&#8696;",
     "tags": [
@@ -6438,7 +6438,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇹",
     "name": "Seta Direcional (U+21F9)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21F9",
     "entity": "&#8697;",
     "tags": [
@@ -6455,7 +6455,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇺",
     "name": "Seta Direcional (U+21FA)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21FA",
     "entity": "&#8698;",
     "tags": [
@@ -6472,7 +6472,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇻",
     "name": "Seta Direcional (U+21FB)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21FB",
     "entity": "&#8699;",
     "tags": [
@@ -6489,7 +6489,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇼",
     "name": "Seta Direcional (U+21FC)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21FC",
     "entity": "&#8700;",
     "tags": [
@@ -6506,7 +6506,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇽",
     "name": "Seta Direcional (U+21FD)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21FD",
     "entity": "&#8701;",
     "tags": [
@@ -6523,7 +6523,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇾",
     "name": "Seta Direcional (U+21FE)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21FE",
     "entity": "&#8702;",
     "tags": [
@@ -6540,7 +6540,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     "char": "⇿",
     "name": "Seta Direcional (U+21FF)",
     "cat": "Setas",
-    "subcat": "Direcionais & Navega??o",
+    "subcat": "Direcionais & Navegação",
     "hex": "U+21FF",
     "entity": "&#8703;",
     "tags": [
@@ -8859,7 +8859,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▀",
-    "name": "Elemento de Bloco S?lido (U+2580)",
+    "name": "Elemento de Bloco Sólido (U+2580)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2580",
@@ -8876,7 +8876,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▁",
-    "name": "Elemento de Bloco S?lido (U+2581)",
+    "name": "Elemento de Bloco Sólido (U+2581)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2581",
@@ -8893,7 +8893,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▂",
-    "name": "Elemento de Bloco S?lido (U+2582)",
+    "name": "Elemento de Bloco Sólido (U+2582)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2582",
@@ -8910,7 +8910,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▃",
-    "name": "Elemento de Bloco S?lido (U+2583)",
+    "name": "Elemento de Bloco Sólido (U+2583)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2583",
@@ -8927,7 +8927,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▄",
-    "name": "Elemento de Bloco S?lido (U+2584)",
+    "name": "Elemento de Bloco Sólido (U+2584)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2584",
@@ -8944,7 +8944,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▅",
-    "name": "Elemento de Bloco S?lido (U+2585)",
+    "name": "Elemento de Bloco Sólido (U+2585)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2585",
@@ -8961,7 +8961,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▆",
-    "name": "Elemento de Bloco S?lido (U+2586)",
+    "name": "Elemento de Bloco Sólido (U+2586)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2586",
@@ -8978,7 +8978,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▇",
-    "name": "Elemento de Bloco S?lido (U+2587)",
+    "name": "Elemento de Bloco Sólido (U+2587)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2587",
@@ -8995,7 +8995,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "█",
-    "name": "Elemento de Bloco S?lido (U+2588)",
+    "name": "Elemento de Bloco Sólido (U+2588)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2588",
@@ -9012,7 +9012,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▉",
-    "name": "Elemento de Bloco S?lido (U+2589)",
+    "name": "Elemento de Bloco Sólido (U+2589)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2589",
@@ -9029,7 +9029,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▊",
-    "name": "Elemento de Bloco S?lido (U+258A)",
+    "name": "Elemento de Bloco Sólido (U+258A)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+258A",
@@ -9046,7 +9046,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▋",
-    "name": "Elemento de Bloco S?lido (U+258B)",
+    "name": "Elemento de Bloco Sólido (U+258B)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+258B",
@@ -9063,7 +9063,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▌",
-    "name": "Elemento de Bloco S?lido (U+258C)",
+    "name": "Elemento de Bloco Sólido (U+258C)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+258C",
@@ -9080,7 +9080,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▍",
-    "name": "Elemento de Bloco S?lido (U+258D)",
+    "name": "Elemento de Bloco Sólido (U+258D)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+258D",
@@ -9097,7 +9097,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▎",
-    "name": "Elemento de Bloco S?lido (U+258E)",
+    "name": "Elemento de Bloco Sólido (U+258E)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+258E",
@@ -9114,7 +9114,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▏",
-    "name": "Elemento de Bloco S?lido (U+258F)",
+    "name": "Elemento de Bloco Sólido (U+258F)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+258F",
@@ -9131,7 +9131,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▐",
-    "name": "Elemento de Bloco S?lido (U+2590)",
+    "name": "Elemento de Bloco Sólido (U+2590)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2590",
@@ -9148,7 +9148,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "░",
-    "name": "Elemento de Bloco S?lido (U+2591)",
+    "name": "Elemento de Bloco Sólido (U+2591)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2591",
@@ -9165,7 +9165,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▒",
-    "name": "Elemento de Bloco S?lido (U+2592)",
+    "name": "Elemento de Bloco Sólido (U+2592)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2592",
@@ -9182,7 +9182,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▓",
-    "name": "Elemento de Bloco S?lido (U+2593)",
+    "name": "Elemento de Bloco Sólido (U+2593)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2593",
@@ -9199,7 +9199,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▔",
-    "name": "Elemento de Bloco S?lido (U+2594)",
+    "name": "Elemento de Bloco Sólido (U+2594)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2594",
@@ -9216,7 +9216,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▕",
-    "name": "Elemento de Bloco S?lido (U+2595)",
+    "name": "Elemento de Bloco Sólido (U+2595)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2595",
@@ -9233,7 +9233,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▖",
-    "name": "Elemento de Bloco S?lido (U+2596)",
+    "name": "Elemento de Bloco Sólido (U+2596)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2596",
@@ -9250,7 +9250,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▗",
-    "name": "Elemento de Bloco S?lido (U+2597)",
+    "name": "Elemento de Bloco Sólido (U+2597)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2597",
@@ -9267,7 +9267,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▘",
-    "name": "Elemento de Bloco S?lido (U+2598)",
+    "name": "Elemento de Bloco Sólido (U+2598)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2598",
@@ -9284,7 +9284,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▙",
-    "name": "Elemento de Bloco S?lido (U+2599)",
+    "name": "Elemento de Bloco Sólido (U+2599)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+2599",
@@ -9301,7 +9301,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▚",
-    "name": "Elemento de Bloco S?lido (U+259A)",
+    "name": "Elemento de Bloco Sólido (U+259A)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+259A",
@@ -9318,7 +9318,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▛",
-    "name": "Elemento de Bloco S?lido (U+259B)",
+    "name": "Elemento de Bloco Sólido (U+259B)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+259B",
@@ -9335,7 +9335,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▜",
-    "name": "Elemento de Bloco S?lido (U+259C)",
+    "name": "Elemento de Bloco Sólido (U+259C)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+259C",
@@ -9352,7 +9352,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▝",
-    "name": "Elemento de Bloco S?lido (U+259D)",
+    "name": "Elemento de Bloco Sólido (U+259D)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+259D",
@@ -9369,7 +9369,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▞",
-    "name": "Elemento de Bloco S?lido (U+259E)",
+    "name": "Elemento de Bloco Sólido (U+259E)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+259E",
@@ -9386,7 +9386,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▟",
-    "name": "Elemento de Bloco S?lido (U+259F)",
+    "name": "Elemento de Bloco Sólido (U+259F)",
     "cat": "Box Drawing",
     "subcat": "Blocos & Textura",
     "hex": "U+259F",
@@ -9403,7 +9403,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "■",
-    "name": "Forma Geom?trica (U+25A0)",
+    "name": "Forma Geométrica (U+25A0)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A0",
@@ -9420,7 +9420,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "□",
-    "name": "Forma Geom?trica (U+25A1)",
+    "name": "Forma Geométrica (U+25A1)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A1",
@@ -9437,7 +9437,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▢",
-    "name": "Forma Geom?trica (U+25A2)",
+    "name": "Forma Geométrica (U+25A2)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A2",
@@ -9454,7 +9454,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▣",
-    "name": "Forma Geom?trica (U+25A3)",
+    "name": "Forma Geométrica (U+25A3)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A3",
@@ -9471,7 +9471,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▤",
-    "name": "Forma Geom?trica (U+25A4)",
+    "name": "Forma Geométrica (U+25A4)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A4",
@@ -9488,7 +9488,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▥",
-    "name": "Forma Geom?trica (U+25A5)",
+    "name": "Forma Geométrica (U+25A5)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A5",
@@ -9505,7 +9505,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▦",
-    "name": "Forma Geom?trica (U+25A6)",
+    "name": "Forma Geométrica (U+25A6)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A6",
@@ -9522,7 +9522,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▧",
-    "name": "Forma Geom?trica (U+25A7)",
+    "name": "Forma Geométrica (U+25A7)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A7",
@@ -9539,7 +9539,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▨",
-    "name": "Forma Geom?trica (U+25A8)",
+    "name": "Forma Geométrica (U+25A8)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A8",
@@ -9556,7 +9556,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▩",
-    "name": "Forma Geom?trica (U+25A9)",
+    "name": "Forma Geométrica (U+25A9)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25A9",
@@ -9573,7 +9573,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▪",
-    "name": "Forma Geom?trica (U+25AA)",
+    "name": "Forma Geométrica (U+25AA)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25AA",
@@ -9590,7 +9590,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▫",
-    "name": "Forma Geom?trica (U+25AB)",
+    "name": "Forma Geométrica (U+25AB)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25AB",
@@ -9607,7 +9607,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▬",
-    "name": "Forma Geom?trica (U+25AC)",
+    "name": "Forma Geométrica (U+25AC)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25AC",
@@ -9624,7 +9624,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▭",
-    "name": "Forma Geom?trica (U+25AD)",
+    "name": "Forma Geométrica (U+25AD)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25AD",
@@ -9641,7 +9641,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▮",
-    "name": "Forma Geom?trica (U+25AE)",
+    "name": "Forma Geométrica (U+25AE)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25AE",
@@ -9658,7 +9658,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▯",
-    "name": "Forma Geom?trica (U+25AF)",
+    "name": "Forma Geométrica (U+25AF)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25AF",
@@ -9675,7 +9675,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▰",
-    "name": "Forma Geom?trica (U+25B0)",
+    "name": "Forma Geométrica (U+25B0)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B0",
@@ -9692,7 +9692,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▱",
-    "name": "Forma Geom?trica (U+25B1)",
+    "name": "Forma Geométrica (U+25B1)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B1",
@@ -9709,7 +9709,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▲",
-    "name": "Forma Geom?trica (U+25B2)",
+    "name": "Forma Geométrica (U+25B2)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B2",
@@ -9726,7 +9726,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "△",
-    "name": "Forma Geom?trica (U+25B3)",
+    "name": "Forma Geométrica (U+25B3)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B3",
@@ -9743,7 +9743,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▴",
-    "name": "Forma Geom?trica (U+25B4)",
+    "name": "Forma Geométrica (U+25B4)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B4",
@@ -9760,7 +9760,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▵",
-    "name": "Forma Geom?trica (U+25B5)",
+    "name": "Forma Geométrica (U+25B5)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B5",
@@ -9777,7 +9777,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▶",
-    "name": "Forma Geom?trica (U+25B6)",
+    "name": "Forma Geométrica (U+25B6)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B6",
@@ -9794,7 +9794,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▷",
-    "name": "Forma Geom?trica (U+25B7)",
+    "name": "Forma Geométrica (U+25B7)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B7",
@@ -9811,7 +9811,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▸",
-    "name": "Forma Geom?trica (U+25B8)",
+    "name": "Forma Geométrica (U+25B8)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B8",
@@ -9828,7 +9828,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▹",
-    "name": "Forma Geom?trica (U+25B9)",
+    "name": "Forma Geométrica (U+25B9)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25B9",
@@ -9845,7 +9845,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "►",
-    "name": "Forma Geom?trica (U+25BA)",
+    "name": "Forma Geométrica (U+25BA)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25BA",
@@ -9862,7 +9862,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▻",
-    "name": "Forma Geom?trica (U+25BB)",
+    "name": "Forma Geométrica (U+25BB)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25BB",
@@ -9879,7 +9879,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▼",
-    "name": "Forma Geom?trica (U+25BC)",
+    "name": "Forma Geométrica (U+25BC)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25BC",
@@ -9896,7 +9896,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▽",
-    "name": "Forma Geom?trica (U+25BD)",
+    "name": "Forma Geométrica (U+25BD)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25BD",
@@ -9913,7 +9913,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▾",
-    "name": "Forma Geom?trica (U+25BE)",
+    "name": "Forma Geométrica (U+25BE)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25BE",
@@ -9930,7 +9930,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "▿",
-    "name": "Forma Geom?trica (U+25BF)",
+    "name": "Forma Geométrica (U+25BF)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25BF",
@@ -9947,7 +9947,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◀",
-    "name": "Forma Geom?trica (U+25C0)",
+    "name": "Forma Geométrica (U+25C0)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C0",
@@ -9964,7 +9964,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◁",
-    "name": "Forma Geom?trica (U+25C1)",
+    "name": "Forma Geométrica (U+25C1)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C1",
@@ -9981,7 +9981,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◂",
-    "name": "Forma Geom?trica (U+25C2)",
+    "name": "Forma Geométrica (U+25C2)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C2",
@@ -9998,7 +9998,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◃",
-    "name": "Forma Geom?trica (U+25C3)",
+    "name": "Forma Geométrica (U+25C3)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C3",
@@ -10015,7 +10015,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◄",
-    "name": "Forma Geom?trica (U+25C4)",
+    "name": "Forma Geométrica (U+25C4)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C4",
@@ -10032,7 +10032,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◅",
-    "name": "Forma Geom?trica (U+25C5)",
+    "name": "Forma Geométrica (U+25C5)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C5",
@@ -10049,7 +10049,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◆",
-    "name": "Forma Geom?trica (U+25C6)",
+    "name": "Forma Geométrica (U+25C6)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C6",
@@ -10066,7 +10066,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◇",
-    "name": "Forma Geom?trica (U+25C7)",
+    "name": "Forma Geométrica (U+25C7)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C7",
@@ -10083,7 +10083,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◈",
-    "name": "Forma Geom?trica (U+25C8)",
+    "name": "Forma Geométrica (U+25C8)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C8",
@@ -10100,7 +10100,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◉",
-    "name": "Forma Geom?trica (U+25C9)",
+    "name": "Forma Geométrica (U+25C9)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25C9",
@@ -10117,7 +10117,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◊",
-    "name": "Forma Geom?trica (U+25CA)",
+    "name": "Forma Geométrica (U+25CA)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25CA",
@@ -10134,7 +10134,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "○",
-    "name": "Forma Geom?trica (U+25CB)",
+    "name": "Forma Geométrica (U+25CB)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25CB",
@@ -10151,7 +10151,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◌",
-    "name": "Forma Geom?trica (U+25CC)",
+    "name": "Forma Geométrica (U+25CC)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25CC",
@@ -10168,7 +10168,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◍",
-    "name": "Forma Geom?trica (U+25CD)",
+    "name": "Forma Geométrica (U+25CD)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25CD",
@@ -10185,7 +10185,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◎",
-    "name": "Forma Geom?trica (U+25CE)",
+    "name": "Forma Geométrica (U+25CE)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25CE",
@@ -10202,7 +10202,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "●",
-    "name": "Forma Geom?trica (U+25CF)",
+    "name": "Forma Geométrica (U+25CF)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25CF",
@@ -10219,7 +10219,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◐",
-    "name": "Forma Geom?trica (U+25D0)",
+    "name": "Forma Geométrica (U+25D0)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D0",
@@ -10236,7 +10236,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◑",
-    "name": "Forma Geom?trica (U+25D1)",
+    "name": "Forma Geométrica (U+25D1)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D1",
@@ -10253,7 +10253,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◒",
-    "name": "Forma Geom?trica (U+25D2)",
+    "name": "Forma Geométrica (U+25D2)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D2",
@@ -10270,7 +10270,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◓",
-    "name": "Forma Geom?trica (U+25D3)",
+    "name": "Forma Geométrica (U+25D3)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D3",
@@ -10287,7 +10287,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◔",
-    "name": "Forma Geom?trica (U+25D4)",
+    "name": "Forma Geométrica (U+25D4)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D4",
@@ -10304,7 +10304,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◕",
-    "name": "Forma Geom?trica (U+25D5)",
+    "name": "Forma Geométrica (U+25D5)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D5",
@@ -10321,7 +10321,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◖",
-    "name": "Forma Geom?trica (U+25D6)",
+    "name": "Forma Geométrica (U+25D6)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D6",
@@ -10338,7 +10338,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◗",
-    "name": "Forma Geom?trica (U+25D7)",
+    "name": "Forma Geométrica (U+25D7)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D7",
@@ -10355,7 +10355,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◘",
-    "name": "Forma Geom?trica (U+25D8)",
+    "name": "Forma Geométrica (U+25D8)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D8",
@@ -10372,7 +10372,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◙",
-    "name": "Forma Geom?trica (U+25D9)",
+    "name": "Forma Geométrica (U+25D9)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25D9",
@@ -10389,7 +10389,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◚",
-    "name": "Forma Geom?trica (U+25DA)",
+    "name": "Forma Geométrica (U+25DA)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25DA",
@@ -10406,7 +10406,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◛",
-    "name": "Forma Geom?trica (U+25DB)",
+    "name": "Forma Geométrica (U+25DB)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25DB",
@@ -10423,7 +10423,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◜",
-    "name": "Forma Geom?trica (U+25DC)",
+    "name": "Forma Geométrica (U+25DC)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25DC",
@@ -10440,7 +10440,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◝",
-    "name": "Forma Geom?trica (U+25DD)",
+    "name": "Forma Geométrica (U+25DD)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25DD",
@@ -10457,7 +10457,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◞",
-    "name": "Forma Geom?trica (U+25DE)",
+    "name": "Forma Geométrica (U+25DE)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25DE",
@@ -10474,7 +10474,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◟",
-    "name": "Forma Geom?trica (U+25DF)",
+    "name": "Forma Geométrica (U+25DF)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25DF",
@@ -10491,7 +10491,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◠",
-    "name": "Forma Geom?trica (U+25E0)",
+    "name": "Forma Geométrica (U+25E0)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E0",
@@ -10508,7 +10508,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◡",
-    "name": "Forma Geom?trica (U+25E1)",
+    "name": "Forma Geométrica (U+25E1)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E1",
@@ -10525,7 +10525,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◢",
-    "name": "Forma Geom?trica (U+25E2)",
+    "name": "Forma Geométrica (U+25E2)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E2",
@@ -10542,7 +10542,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◣",
-    "name": "Forma Geom?trica (U+25E3)",
+    "name": "Forma Geométrica (U+25E3)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E3",
@@ -10559,7 +10559,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◤",
-    "name": "Forma Geom?trica (U+25E4)",
+    "name": "Forma Geométrica (U+25E4)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E4",
@@ -10576,7 +10576,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◥",
-    "name": "Forma Geom?trica (U+25E5)",
+    "name": "Forma Geométrica (U+25E5)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E5",
@@ -10593,7 +10593,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◦",
-    "name": "Forma Geom?trica (U+25E6)",
+    "name": "Forma Geométrica (U+25E6)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E6",
@@ -10610,7 +10610,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◧",
-    "name": "Forma Geom?trica (U+25E7)",
+    "name": "Forma Geométrica (U+25E7)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E7",
@@ -10627,7 +10627,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◨",
-    "name": "Forma Geom?trica (U+25E8)",
+    "name": "Forma Geométrica (U+25E8)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E8",
@@ -10644,7 +10644,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◩",
-    "name": "Forma Geom?trica (U+25E9)",
+    "name": "Forma Geométrica (U+25E9)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25E9",
@@ -10661,7 +10661,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◪",
-    "name": "Forma Geom?trica (U+25EA)",
+    "name": "Forma Geométrica (U+25EA)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25EA",
@@ -10678,7 +10678,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◫",
-    "name": "Forma Geom?trica (U+25EB)",
+    "name": "Forma Geométrica (U+25EB)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25EB",
@@ -10695,7 +10695,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◬",
-    "name": "Forma Geom?trica (U+25EC)",
+    "name": "Forma Geométrica (U+25EC)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25EC",
@@ -10712,7 +10712,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◭",
-    "name": "Forma Geom?trica (U+25ED)",
+    "name": "Forma Geométrica (U+25ED)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25ED",
@@ -10729,7 +10729,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◮",
-    "name": "Forma Geom?trica (U+25EE)",
+    "name": "Forma Geométrica (U+25EE)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25EE",
@@ -10746,7 +10746,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◯",
-    "name": "Forma Geom?trica (U+25EF)",
+    "name": "Forma Geométrica (U+25EF)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25EF",
@@ -10763,7 +10763,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◰",
-    "name": "Forma Geom?trica (U+25F0)",
+    "name": "Forma Geométrica (U+25F0)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F0",
@@ -10780,7 +10780,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◱",
-    "name": "Forma Geom?trica (U+25F1)",
+    "name": "Forma Geométrica (U+25F1)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F1",
@@ -10797,7 +10797,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◲",
-    "name": "Forma Geom?trica (U+25F2)",
+    "name": "Forma Geométrica (U+25F2)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F2",
@@ -10814,7 +10814,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◳",
-    "name": "Forma Geom?trica (U+25F3)",
+    "name": "Forma Geométrica (U+25F3)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F3",
@@ -10831,7 +10831,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◴",
-    "name": "Forma Geom?trica (U+25F4)",
+    "name": "Forma Geométrica (U+25F4)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F4",
@@ -10848,7 +10848,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◵",
-    "name": "Forma Geom?trica (U+25F5)",
+    "name": "Forma Geométrica (U+25F5)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F5",
@@ -10865,7 +10865,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◶",
-    "name": "Forma Geom?trica (U+25F6)",
+    "name": "Forma Geométrica (U+25F6)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F6",
@@ -10882,7 +10882,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◷",
-    "name": "Forma Geom?trica (U+25F7)",
+    "name": "Forma Geométrica (U+25F7)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F7",
@@ -10899,7 +10899,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◸",
-    "name": "Forma Geom?trica (U+25F8)",
+    "name": "Forma Geométrica (U+25F8)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F8",
@@ -10916,7 +10916,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◹",
-    "name": "Forma Geom?trica (U+25F9)",
+    "name": "Forma Geométrica (U+25F9)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25F9",
@@ -10933,7 +10933,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◺",
-    "name": "Forma Geom?trica (U+25FA)",
+    "name": "Forma Geométrica (U+25FA)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25FA",
@@ -10950,7 +10950,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◻",
-    "name": "Forma Geom?trica (U+25FB)",
+    "name": "Forma Geométrica (U+25FB)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25FB",
@@ -10967,7 +10967,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◼",
-    "name": "Forma Geom?trica (U+25FC)",
+    "name": "Forma Geométrica (U+25FC)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25FC",
@@ -10984,7 +10984,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◽",
-    "name": "Forma Geom?trica (U+25FD)",
+    "name": "Forma Geométrica (U+25FD)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25FD",
@@ -11001,7 +11001,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◾",
-    "name": "Forma Geom?trica (U+25FE)",
+    "name": "Forma Geométrica (U+25FE)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25FE",
@@ -11018,7 +11018,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "◿",
-    "name": "Forma Geom?trica (U+25FF)",
+    "name": "Forma Geométrica (U+25FF)",
     "cat": "Formas",
     "subcat": "Geometria & Badges",
     "hex": "U+25FF",
@@ -11035,9 +11035,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☀",
-    "name": "S?mbolo Diverso / ?cone (U+2600)",
+    "name": "Símbolo Diverso / Ícone (U+2600)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2600",
     "entity": "&#9728;",
     "tags": [
@@ -11053,9 +11053,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☁",
-    "name": "S?mbolo Diverso / ?cone (U+2601)",
+    "name": "Símbolo Diverso / Ícone (U+2601)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2601",
     "entity": "&#9729;",
     "tags": [
@@ -11071,9 +11071,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☂",
-    "name": "S?mbolo Diverso / ?cone (U+2602)",
+    "name": "Símbolo Diverso / Ícone (U+2602)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2602",
     "entity": "&#9730;",
     "tags": [
@@ -11089,9 +11089,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☃",
-    "name": "S?mbolo Diverso / ?cone (U+2603)",
+    "name": "Símbolo Diverso / Ícone (U+2603)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2603",
     "entity": "&#9731;",
     "tags": [
@@ -11107,9 +11107,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☄",
-    "name": "S?mbolo Diverso / ?cone (U+2604)",
+    "name": "Símbolo Diverso / Ícone (U+2604)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2604",
     "entity": "&#9732;",
     "tags": [
@@ -11125,9 +11125,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "★",
-    "name": "S?mbolo Diverso / ?cone (U+2605)",
+    "name": "Símbolo Diverso / Ícone (U+2605)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2605",
     "entity": "&#9733;",
     "tags": [
@@ -11143,9 +11143,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☆",
-    "name": "S?mbolo Diverso / ?cone (U+2606)",
+    "name": "Símbolo Diverso / Ícone (U+2606)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2606",
     "entity": "&#9734;",
     "tags": [
@@ -11161,9 +11161,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☇",
-    "name": "S?mbolo Diverso / ?cone (U+2607)",
+    "name": "Símbolo Diverso / Ícone (U+2607)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2607",
     "entity": "&#9735;",
     "tags": [
@@ -11179,9 +11179,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☈",
-    "name": "S?mbolo Diverso / ?cone (U+2608)",
+    "name": "Símbolo Diverso / Ícone (U+2608)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2608",
     "entity": "&#9736;",
     "tags": [
@@ -11197,9 +11197,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☉",
-    "name": "S?mbolo Diverso / ?cone (U+2609)",
+    "name": "Símbolo Diverso / Ícone (U+2609)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2609",
     "entity": "&#9737;",
     "tags": [
@@ -11215,9 +11215,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☊",
-    "name": "S?mbolo Diverso / ?cone (U+260A)",
+    "name": "Símbolo Diverso / Ícone (U+260A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+260A",
     "entity": "&#9738;",
     "tags": [
@@ -11233,9 +11233,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☋",
-    "name": "S?mbolo Diverso / ?cone (U+260B)",
+    "name": "Símbolo Diverso / Ícone (U+260B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+260B",
     "entity": "&#9739;",
     "tags": [
@@ -11251,9 +11251,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☌",
-    "name": "S?mbolo Diverso / ?cone (U+260C)",
+    "name": "Símbolo Diverso / Ícone (U+260C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+260C",
     "entity": "&#9740;",
     "tags": [
@@ -11269,9 +11269,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☍",
-    "name": "S?mbolo Diverso / ?cone (U+260D)",
+    "name": "Símbolo Diverso / Ícone (U+260D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+260D",
     "entity": "&#9741;",
     "tags": [
@@ -11287,9 +11287,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☎",
-    "name": "S?mbolo Diverso / ?cone (U+260E)",
+    "name": "Símbolo Diverso / Ícone (U+260E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+260E",
     "entity": "&#9742;",
     "tags": [
@@ -11305,9 +11305,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☏",
-    "name": "S?mbolo Diverso / ?cone (U+260F)",
+    "name": "Símbolo Diverso / Ícone (U+260F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+260F",
     "entity": "&#9743;",
     "tags": [
@@ -11323,9 +11323,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☐",
-    "name": "S?mbolo Diverso / ?cone (U+2610)",
+    "name": "Símbolo Diverso / Ícone (U+2610)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2610",
     "entity": "&#9744;",
     "tags": [
@@ -11341,9 +11341,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☑",
-    "name": "S?mbolo Diverso / ?cone (U+2611)",
+    "name": "Símbolo Diverso / Ícone (U+2611)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2611",
     "entity": "&#9745;",
     "tags": [
@@ -11359,9 +11359,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☒",
-    "name": "S?mbolo Diverso / ?cone (U+2612)",
+    "name": "Símbolo Diverso / Ícone (U+2612)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2612",
     "entity": "&#9746;",
     "tags": [
@@ -11377,9 +11377,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☓",
-    "name": "S?mbolo Diverso / ?cone (U+2613)",
+    "name": "Símbolo Diverso / Ícone (U+2613)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2613",
     "entity": "&#9747;",
     "tags": [
@@ -11395,9 +11395,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☔",
-    "name": "S?mbolo Diverso / ?cone (U+2614)",
+    "name": "Símbolo Diverso / Ícone (U+2614)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2614",
     "entity": "&#9748;",
     "tags": [
@@ -11413,9 +11413,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☕",
-    "name": "S?mbolo Diverso / ?cone (U+2615)",
+    "name": "Símbolo Diverso / Ícone (U+2615)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2615",
     "entity": "&#9749;",
     "tags": [
@@ -11431,9 +11431,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☖",
-    "name": "S?mbolo Diverso / ?cone (U+2616)",
+    "name": "Símbolo Diverso / Ícone (U+2616)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2616",
     "entity": "&#9750;",
     "tags": [
@@ -11449,9 +11449,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☗",
-    "name": "S?mbolo Diverso / ?cone (U+2617)",
+    "name": "Símbolo Diverso / Ícone (U+2617)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2617",
     "entity": "&#9751;",
     "tags": [
@@ -11467,9 +11467,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☘",
-    "name": "S?mbolo Diverso / ?cone (U+2618)",
+    "name": "Símbolo Diverso / Ícone (U+2618)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2618",
     "entity": "&#9752;",
     "tags": [
@@ -11485,9 +11485,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☙",
-    "name": "S?mbolo Diverso / ?cone (U+2619)",
+    "name": "Símbolo Diverso / Ícone (U+2619)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2619",
     "entity": "&#9753;",
     "tags": [
@@ -11503,9 +11503,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☚",
-    "name": "S?mbolo Diverso / ?cone (U+261A)",
+    "name": "Símbolo Diverso / Ícone (U+261A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+261A",
     "entity": "&#9754;",
     "tags": [
@@ -11521,9 +11521,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☛",
-    "name": "S?mbolo Diverso / ?cone (U+261B)",
+    "name": "Símbolo Diverso / Ícone (U+261B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+261B",
     "entity": "&#9755;",
     "tags": [
@@ -11539,9 +11539,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☜",
-    "name": "S?mbolo Diverso / ?cone (U+261C)",
+    "name": "Símbolo Diverso / Ícone (U+261C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+261C",
     "entity": "&#9756;",
     "tags": [
@@ -11557,9 +11557,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☝",
-    "name": "S?mbolo Diverso / ?cone (U+261D)",
+    "name": "Símbolo Diverso / Ícone (U+261D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+261D",
     "entity": "&#9757;",
     "tags": [
@@ -11575,9 +11575,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☞",
-    "name": "S?mbolo Diverso / ?cone (U+261E)",
+    "name": "Símbolo Diverso / Ícone (U+261E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+261E",
     "entity": "&#9758;",
     "tags": [
@@ -11593,9 +11593,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☟",
-    "name": "S?mbolo Diverso / ?cone (U+261F)",
+    "name": "Símbolo Diverso / Ícone (U+261F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+261F",
     "entity": "&#9759;",
     "tags": [
@@ -11611,9 +11611,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☠",
-    "name": "S?mbolo Diverso / ?cone (U+2620)",
+    "name": "Símbolo Diverso / Ícone (U+2620)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2620",
     "entity": "&#9760;",
     "tags": [
@@ -11629,9 +11629,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☡",
-    "name": "S?mbolo Diverso / ?cone (U+2621)",
+    "name": "Símbolo Diverso / Ícone (U+2621)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2621",
     "entity": "&#9761;",
     "tags": [
@@ -11647,9 +11647,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☢",
-    "name": "S?mbolo Diverso / ?cone (U+2622)",
+    "name": "Símbolo Diverso / Ícone (U+2622)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2622",
     "entity": "&#9762;",
     "tags": [
@@ -11665,9 +11665,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☣",
-    "name": "S?mbolo Diverso / ?cone (U+2623)",
+    "name": "Símbolo Diverso / Ícone (U+2623)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2623",
     "entity": "&#9763;",
     "tags": [
@@ -11683,9 +11683,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☤",
-    "name": "S?mbolo Diverso / ?cone (U+2624)",
+    "name": "Símbolo Diverso / Ícone (U+2624)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2624",
     "entity": "&#9764;",
     "tags": [
@@ -11701,9 +11701,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☥",
-    "name": "S?mbolo Diverso / ?cone (U+2625)",
+    "name": "Símbolo Diverso / Ícone (U+2625)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2625",
     "entity": "&#9765;",
     "tags": [
@@ -11719,9 +11719,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☦",
-    "name": "S?mbolo Diverso / ?cone (U+2626)",
+    "name": "Símbolo Diverso / Ícone (U+2626)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2626",
     "entity": "&#9766;",
     "tags": [
@@ -11737,9 +11737,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☧",
-    "name": "S?mbolo Diverso / ?cone (U+2627)",
+    "name": "Símbolo Diverso / Ícone (U+2627)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2627",
     "entity": "&#9767;",
     "tags": [
@@ -11755,9 +11755,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☨",
-    "name": "S?mbolo Diverso / ?cone (U+2628)",
+    "name": "Símbolo Diverso / Ícone (U+2628)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2628",
     "entity": "&#9768;",
     "tags": [
@@ -11773,9 +11773,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☩",
-    "name": "S?mbolo Diverso / ?cone (U+2629)",
+    "name": "Símbolo Diverso / Ícone (U+2629)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2629",
     "entity": "&#9769;",
     "tags": [
@@ -11791,9 +11791,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☪",
-    "name": "S?mbolo Diverso / ?cone (U+262A)",
+    "name": "Símbolo Diverso / Ícone (U+262A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+262A",
     "entity": "&#9770;",
     "tags": [
@@ -11809,9 +11809,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☫",
-    "name": "S?mbolo Diverso / ?cone (U+262B)",
+    "name": "Símbolo Diverso / Ícone (U+262B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+262B",
     "entity": "&#9771;",
     "tags": [
@@ -11827,9 +11827,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☬",
-    "name": "S?mbolo Diverso / ?cone (U+262C)",
+    "name": "Símbolo Diverso / Ícone (U+262C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+262C",
     "entity": "&#9772;",
     "tags": [
@@ -11845,9 +11845,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☭",
-    "name": "S?mbolo Diverso / ?cone (U+262D)",
+    "name": "Símbolo Diverso / Ícone (U+262D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+262D",
     "entity": "&#9773;",
     "tags": [
@@ -11863,9 +11863,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☮",
-    "name": "S?mbolo Diverso / ?cone (U+262E)",
+    "name": "Símbolo Diverso / Ícone (U+262E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+262E",
     "entity": "&#9774;",
     "tags": [
@@ -11881,9 +11881,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☯",
-    "name": "S?mbolo Diverso / ?cone (U+262F)",
+    "name": "Símbolo Diverso / Ícone (U+262F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+262F",
     "entity": "&#9775;",
     "tags": [
@@ -11899,9 +11899,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☰",
-    "name": "S?mbolo Diverso / ?cone (U+2630)",
+    "name": "Símbolo Diverso / Ícone (U+2630)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2630",
     "entity": "&#9776;",
     "tags": [
@@ -11917,9 +11917,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☱",
-    "name": "S?mbolo Diverso / ?cone (U+2631)",
+    "name": "Símbolo Diverso / Ícone (U+2631)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2631",
     "entity": "&#9777;",
     "tags": [
@@ -11935,9 +11935,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☲",
-    "name": "S?mbolo Diverso / ?cone (U+2632)",
+    "name": "Símbolo Diverso / Ícone (U+2632)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2632",
     "entity": "&#9778;",
     "tags": [
@@ -11953,9 +11953,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☳",
-    "name": "S?mbolo Diverso / ?cone (U+2633)",
+    "name": "Símbolo Diverso / Ícone (U+2633)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2633",
     "entity": "&#9779;",
     "tags": [
@@ -11971,9 +11971,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☴",
-    "name": "S?mbolo Diverso / ?cone (U+2634)",
+    "name": "Símbolo Diverso / Ícone (U+2634)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2634",
     "entity": "&#9780;",
     "tags": [
@@ -11989,9 +11989,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☵",
-    "name": "S?mbolo Diverso / ?cone (U+2635)",
+    "name": "Símbolo Diverso / Ícone (U+2635)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2635",
     "entity": "&#9781;",
     "tags": [
@@ -12007,9 +12007,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☶",
-    "name": "S?mbolo Diverso / ?cone (U+2636)",
+    "name": "Símbolo Diverso / Ícone (U+2636)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2636",
     "entity": "&#9782;",
     "tags": [
@@ -12025,9 +12025,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☷",
-    "name": "S?mbolo Diverso / ?cone (U+2637)",
+    "name": "Símbolo Diverso / Ícone (U+2637)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2637",
     "entity": "&#9783;",
     "tags": [
@@ -12043,9 +12043,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☸",
-    "name": "S?mbolo Diverso / ?cone (U+2638)",
+    "name": "Símbolo Diverso / Ícone (U+2638)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2638",
     "entity": "&#9784;",
     "tags": [
@@ -12061,9 +12061,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☹",
-    "name": "S?mbolo Diverso / ?cone (U+2639)",
+    "name": "Símbolo Diverso / Ícone (U+2639)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2639",
     "entity": "&#9785;",
     "tags": [
@@ -12079,9 +12079,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☺",
-    "name": "S?mbolo Diverso / ?cone (U+263A)",
+    "name": "Símbolo Diverso / Ícone (U+263A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+263A",
     "entity": "&#9786;",
     "tags": [
@@ -12097,9 +12097,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☻",
-    "name": "S?mbolo Diverso / ?cone (U+263B)",
+    "name": "Símbolo Diverso / Ícone (U+263B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+263B",
     "entity": "&#9787;",
     "tags": [
@@ -12115,9 +12115,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☼",
-    "name": "S?mbolo Diverso / ?cone (U+263C)",
+    "name": "Símbolo Diverso / Ícone (U+263C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+263C",
     "entity": "&#9788;",
     "tags": [
@@ -12133,9 +12133,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☽",
-    "name": "S?mbolo Diverso / ?cone (U+263D)",
+    "name": "Símbolo Diverso / Ícone (U+263D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+263D",
     "entity": "&#9789;",
     "tags": [
@@ -12151,9 +12151,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☾",
-    "name": "S?mbolo Diverso / ?cone (U+263E)",
+    "name": "Símbolo Diverso / Ícone (U+263E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+263E",
     "entity": "&#9790;",
     "tags": [
@@ -12169,9 +12169,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "☿",
-    "name": "S?mbolo Diverso / ?cone (U+263F)",
+    "name": "Símbolo Diverso / Ícone (U+263F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+263F",
     "entity": "&#9791;",
     "tags": [
@@ -12187,9 +12187,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♀",
-    "name": "S?mbolo Diverso / ?cone (U+2640)",
+    "name": "Símbolo Diverso / Ícone (U+2640)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2640",
     "entity": "&#9792;",
     "tags": [
@@ -12205,9 +12205,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♁",
-    "name": "S?mbolo Diverso / ?cone (U+2641)",
+    "name": "Símbolo Diverso / Ícone (U+2641)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2641",
     "entity": "&#9793;",
     "tags": [
@@ -12223,9 +12223,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♂",
-    "name": "S?mbolo Diverso / ?cone (U+2642)",
+    "name": "Símbolo Diverso / Ícone (U+2642)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2642",
     "entity": "&#9794;",
     "tags": [
@@ -12241,9 +12241,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♃",
-    "name": "S?mbolo Diverso / ?cone (U+2643)",
+    "name": "Símbolo Diverso / Ícone (U+2643)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2643",
     "entity": "&#9795;",
     "tags": [
@@ -12259,9 +12259,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♄",
-    "name": "S?mbolo Diverso / ?cone (U+2644)",
+    "name": "Símbolo Diverso / Ícone (U+2644)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2644",
     "entity": "&#9796;",
     "tags": [
@@ -12277,9 +12277,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♅",
-    "name": "S?mbolo Diverso / ?cone (U+2645)",
+    "name": "Símbolo Diverso / Ícone (U+2645)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2645",
     "entity": "&#9797;",
     "tags": [
@@ -12295,9 +12295,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♆",
-    "name": "S?mbolo Diverso / ?cone (U+2646)",
+    "name": "Símbolo Diverso / Ícone (U+2646)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2646",
     "entity": "&#9798;",
     "tags": [
@@ -12313,9 +12313,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♇",
-    "name": "S?mbolo Diverso / ?cone (U+2647)",
+    "name": "Símbolo Diverso / Ícone (U+2647)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2647",
     "entity": "&#9799;",
     "tags": [
@@ -12331,9 +12331,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♈",
-    "name": "S?mbolo Diverso / ?cone (U+2648)",
+    "name": "Símbolo Diverso / Ícone (U+2648)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2648",
     "entity": "&#9800;",
     "tags": [
@@ -12349,9 +12349,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♉",
-    "name": "S?mbolo Diverso / ?cone (U+2649)",
+    "name": "Símbolo Diverso / Ícone (U+2649)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2649",
     "entity": "&#9801;",
     "tags": [
@@ -12367,9 +12367,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♊",
-    "name": "S?mbolo Diverso / ?cone (U+264A)",
+    "name": "Símbolo Diverso / Ícone (U+264A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+264A",
     "entity": "&#9802;",
     "tags": [
@@ -12385,9 +12385,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♋",
-    "name": "S?mbolo Diverso / ?cone (U+264B)",
+    "name": "Símbolo Diverso / Ícone (U+264B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+264B",
     "entity": "&#9803;",
     "tags": [
@@ -12403,9 +12403,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♌",
-    "name": "S?mbolo Diverso / ?cone (U+264C)",
+    "name": "Símbolo Diverso / Ícone (U+264C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+264C",
     "entity": "&#9804;",
     "tags": [
@@ -12421,9 +12421,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♍",
-    "name": "S?mbolo Diverso / ?cone (U+264D)",
+    "name": "Símbolo Diverso / Ícone (U+264D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+264D",
     "entity": "&#9805;",
     "tags": [
@@ -12439,9 +12439,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♎",
-    "name": "S?mbolo Diverso / ?cone (U+264E)",
+    "name": "Símbolo Diverso / Ícone (U+264E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+264E",
     "entity": "&#9806;",
     "tags": [
@@ -12457,9 +12457,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♏",
-    "name": "S?mbolo Diverso / ?cone (U+264F)",
+    "name": "Símbolo Diverso / Ícone (U+264F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+264F",
     "entity": "&#9807;",
     "tags": [
@@ -12475,9 +12475,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♐",
-    "name": "S?mbolo Diverso / ?cone (U+2650)",
+    "name": "Símbolo Diverso / Ícone (U+2650)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2650",
     "entity": "&#9808;",
     "tags": [
@@ -12493,9 +12493,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♑",
-    "name": "S?mbolo Diverso / ?cone (U+2651)",
+    "name": "Símbolo Diverso / Ícone (U+2651)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2651",
     "entity": "&#9809;",
     "tags": [
@@ -12511,9 +12511,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♒",
-    "name": "S?mbolo Diverso / ?cone (U+2652)",
+    "name": "Símbolo Diverso / Ícone (U+2652)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2652",
     "entity": "&#9810;",
     "tags": [
@@ -12529,9 +12529,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♓",
-    "name": "S?mbolo Diverso / ?cone (U+2653)",
+    "name": "Símbolo Diverso / Ícone (U+2653)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2653",
     "entity": "&#9811;",
     "tags": [
@@ -12547,9 +12547,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♔",
-    "name": "S?mbolo Diverso / ?cone (U+2654)",
+    "name": "Símbolo Diverso / Ícone (U+2654)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2654",
     "entity": "&#9812;",
     "tags": [
@@ -12565,9 +12565,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♕",
-    "name": "S?mbolo Diverso / ?cone (U+2655)",
+    "name": "Símbolo Diverso / Ícone (U+2655)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2655",
     "entity": "&#9813;",
     "tags": [
@@ -12583,9 +12583,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♖",
-    "name": "S?mbolo Diverso / ?cone (U+2656)",
+    "name": "Símbolo Diverso / Ícone (U+2656)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2656",
     "entity": "&#9814;",
     "tags": [
@@ -12601,9 +12601,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♗",
-    "name": "S?mbolo Diverso / ?cone (U+2657)",
+    "name": "Símbolo Diverso / Ícone (U+2657)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2657",
     "entity": "&#9815;",
     "tags": [
@@ -12619,9 +12619,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♘",
-    "name": "S?mbolo Diverso / ?cone (U+2658)",
+    "name": "Símbolo Diverso / Ícone (U+2658)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2658",
     "entity": "&#9816;",
     "tags": [
@@ -12637,9 +12637,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♙",
-    "name": "S?mbolo Diverso / ?cone (U+2659)",
+    "name": "Símbolo Diverso / Ícone (U+2659)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2659",
     "entity": "&#9817;",
     "tags": [
@@ -12655,9 +12655,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♚",
-    "name": "S?mbolo Diverso / ?cone (U+265A)",
+    "name": "Símbolo Diverso / Ícone (U+265A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+265A",
     "entity": "&#9818;",
     "tags": [
@@ -12673,9 +12673,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♛",
-    "name": "S?mbolo Diverso / ?cone (U+265B)",
+    "name": "Símbolo Diverso / Ícone (U+265B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+265B",
     "entity": "&#9819;",
     "tags": [
@@ -12691,9 +12691,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♜",
-    "name": "S?mbolo Diverso / ?cone (U+265C)",
+    "name": "Símbolo Diverso / Ícone (U+265C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+265C",
     "entity": "&#9820;",
     "tags": [
@@ -12709,9 +12709,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♝",
-    "name": "S?mbolo Diverso / ?cone (U+265D)",
+    "name": "Símbolo Diverso / Ícone (U+265D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+265D",
     "entity": "&#9821;",
     "tags": [
@@ -12727,9 +12727,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♞",
-    "name": "S?mbolo Diverso / ?cone (U+265E)",
+    "name": "Símbolo Diverso / Ícone (U+265E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+265E",
     "entity": "&#9822;",
     "tags": [
@@ -12745,9 +12745,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♟",
-    "name": "S?mbolo Diverso / ?cone (U+265F)",
+    "name": "Símbolo Diverso / Ícone (U+265F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+265F",
     "entity": "&#9823;",
     "tags": [
@@ -12763,9 +12763,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♠",
-    "name": "S?mbolo Diverso / ?cone (U+2660)",
+    "name": "Símbolo Diverso / Ícone (U+2660)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2660",
     "entity": "&#9824;",
     "tags": [
@@ -12781,9 +12781,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♡",
-    "name": "S?mbolo Diverso / ?cone (U+2661)",
+    "name": "Símbolo Diverso / Ícone (U+2661)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2661",
     "entity": "&#9825;",
     "tags": [
@@ -12799,9 +12799,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♢",
-    "name": "S?mbolo Diverso / ?cone (U+2662)",
+    "name": "Símbolo Diverso / Ícone (U+2662)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2662",
     "entity": "&#9826;",
     "tags": [
@@ -12817,9 +12817,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♣",
-    "name": "S?mbolo Diverso / ?cone (U+2663)",
+    "name": "Símbolo Diverso / Ícone (U+2663)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2663",
     "entity": "&#9827;",
     "tags": [
@@ -12835,9 +12835,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♤",
-    "name": "S?mbolo Diverso / ?cone (U+2664)",
+    "name": "Símbolo Diverso / Ícone (U+2664)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2664",
     "entity": "&#9828;",
     "tags": [
@@ -12853,9 +12853,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♥",
-    "name": "S?mbolo Diverso / ?cone (U+2665)",
+    "name": "Símbolo Diverso / Ícone (U+2665)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2665",
     "entity": "&#9829;",
     "tags": [
@@ -12871,9 +12871,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♦",
-    "name": "S?mbolo Diverso / ?cone (U+2666)",
+    "name": "Símbolo Diverso / Ícone (U+2666)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2666",
     "entity": "&#9830;",
     "tags": [
@@ -12889,9 +12889,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♧",
-    "name": "S?mbolo Diverso / ?cone (U+2667)",
+    "name": "Símbolo Diverso / Ícone (U+2667)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2667",
     "entity": "&#9831;",
     "tags": [
@@ -12907,9 +12907,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♨",
-    "name": "S?mbolo Diverso / ?cone (U+2668)",
+    "name": "Símbolo Diverso / Ícone (U+2668)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2668",
     "entity": "&#9832;",
     "tags": [
@@ -12925,9 +12925,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♩",
-    "name": "S?mbolo Diverso / ?cone (U+2669)",
+    "name": "Símbolo Diverso / Ícone (U+2669)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2669",
     "entity": "&#9833;",
     "tags": [
@@ -12943,9 +12943,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♪",
-    "name": "S?mbolo Diverso / ?cone (U+266A)",
+    "name": "Símbolo Diverso / Ícone (U+266A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+266A",
     "entity": "&#9834;",
     "tags": [
@@ -12961,9 +12961,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♫",
-    "name": "S?mbolo Diverso / ?cone (U+266B)",
+    "name": "Símbolo Diverso / Ícone (U+266B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+266B",
     "entity": "&#9835;",
     "tags": [
@@ -12979,9 +12979,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♬",
-    "name": "S?mbolo Diverso / ?cone (U+266C)",
+    "name": "Símbolo Diverso / Ícone (U+266C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+266C",
     "entity": "&#9836;",
     "tags": [
@@ -12997,9 +12997,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♭",
-    "name": "S?mbolo Diverso / ?cone (U+266D)",
+    "name": "Símbolo Diverso / Ícone (U+266D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+266D",
     "entity": "&#9837;",
     "tags": [
@@ -13015,9 +13015,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♮",
-    "name": "S?mbolo Diverso / ?cone (U+266E)",
+    "name": "Símbolo Diverso / Ícone (U+266E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+266E",
     "entity": "&#9838;",
     "tags": [
@@ -13033,9 +13033,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♯",
-    "name": "S?mbolo Diverso / ?cone (U+266F)",
+    "name": "Símbolo Diverso / Ícone (U+266F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+266F",
     "entity": "&#9839;",
     "tags": [
@@ -13051,9 +13051,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♰",
-    "name": "S?mbolo Diverso / ?cone (U+2670)",
+    "name": "Símbolo Diverso / Ícone (U+2670)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2670",
     "entity": "&#9840;",
     "tags": [
@@ -13069,9 +13069,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♱",
-    "name": "S?mbolo Diverso / ?cone (U+2671)",
+    "name": "Símbolo Diverso / Ícone (U+2671)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2671",
     "entity": "&#9841;",
     "tags": [
@@ -13087,9 +13087,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♲",
-    "name": "S?mbolo Diverso / ?cone (U+2672)",
+    "name": "Símbolo Diverso / Ícone (U+2672)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2672",
     "entity": "&#9842;",
     "tags": [
@@ -13105,9 +13105,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♳",
-    "name": "S?mbolo Diverso / ?cone (U+2673)",
+    "name": "Símbolo Diverso / Ícone (U+2673)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2673",
     "entity": "&#9843;",
     "tags": [
@@ -13123,9 +13123,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♴",
-    "name": "S?mbolo Diverso / ?cone (U+2674)",
+    "name": "Símbolo Diverso / Ícone (U+2674)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2674",
     "entity": "&#9844;",
     "tags": [
@@ -13141,9 +13141,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♵",
-    "name": "S?mbolo Diverso / ?cone (U+2675)",
+    "name": "Símbolo Diverso / Ícone (U+2675)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2675",
     "entity": "&#9845;",
     "tags": [
@@ -13159,9 +13159,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♶",
-    "name": "S?mbolo Diverso / ?cone (U+2676)",
+    "name": "Símbolo Diverso / Ícone (U+2676)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2676",
     "entity": "&#9846;",
     "tags": [
@@ -13177,9 +13177,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♷",
-    "name": "S?mbolo Diverso / ?cone (U+2677)",
+    "name": "Símbolo Diverso / Ícone (U+2677)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2677",
     "entity": "&#9847;",
     "tags": [
@@ -13195,9 +13195,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♸",
-    "name": "S?mbolo Diverso / ?cone (U+2678)",
+    "name": "Símbolo Diverso / Ícone (U+2678)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2678",
     "entity": "&#9848;",
     "tags": [
@@ -13213,9 +13213,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♹",
-    "name": "S?mbolo Diverso / ?cone (U+2679)",
+    "name": "Símbolo Diverso / Ícone (U+2679)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2679",
     "entity": "&#9849;",
     "tags": [
@@ -13231,9 +13231,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♺",
-    "name": "S?mbolo Diverso / ?cone (U+267A)",
+    "name": "Símbolo Diverso / Ícone (U+267A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+267A",
     "entity": "&#9850;",
     "tags": [
@@ -13249,9 +13249,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♻",
-    "name": "S?mbolo Diverso / ?cone (U+267B)",
+    "name": "Símbolo Diverso / Ícone (U+267B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+267B",
     "entity": "&#9851;",
     "tags": [
@@ -13267,9 +13267,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♼",
-    "name": "S?mbolo Diverso / ?cone (U+267C)",
+    "name": "Símbolo Diverso / Ícone (U+267C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+267C",
     "entity": "&#9852;",
     "tags": [
@@ -13285,9 +13285,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♽",
-    "name": "S?mbolo Diverso / ?cone (U+267D)",
+    "name": "Símbolo Diverso / Ícone (U+267D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+267D",
     "entity": "&#9853;",
     "tags": [
@@ -13303,9 +13303,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♾",
-    "name": "S?mbolo Diverso / ?cone (U+267E)",
+    "name": "Símbolo Diverso / Ícone (U+267E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+267E",
     "entity": "&#9854;",
     "tags": [
@@ -13321,9 +13321,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "♿",
-    "name": "S?mbolo Diverso / ?cone (U+267F)",
+    "name": "Símbolo Diverso / Ícone (U+267F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+267F",
     "entity": "&#9855;",
     "tags": [
@@ -13339,9 +13339,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚀",
-    "name": "S?mbolo Diverso / ?cone (U+2680)",
+    "name": "Símbolo Diverso / Ícone (U+2680)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2680",
     "entity": "&#9856;",
     "tags": [
@@ -13357,9 +13357,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚁",
-    "name": "S?mbolo Diverso / ?cone (U+2681)",
+    "name": "Símbolo Diverso / Ícone (U+2681)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2681",
     "entity": "&#9857;",
     "tags": [
@@ -13375,9 +13375,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚂",
-    "name": "S?mbolo Diverso / ?cone (U+2682)",
+    "name": "Símbolo Diverso / Ícone (U+2682)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2682",
     "entity": "&#9858;",
     "tags": [
@@ -13393,9 +13393,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚃",
-    "name": "S?mbolo Diverso / ?cone (U+2683)",
+    "name": "Símbolo Diverso / Ícone (U+2683)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2683",
     "entity": "&#9859;",
     "tags": [
@@ -13411,9 +13411,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚄",
-    "name": "S?mbolo Diverso / ?cone (U+2684)",
+    "name": "Símbolo Diverso / Ícone (U+2684)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2684",
     "entity": "&#9860;",
     "tags": [
@@ -13429,9 +13429,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚅",
-    "name": "S?mbolo Diverso / ?cone (U+2685)",
+    "name": "Símbolo Diverso / Ícone (U+2685)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2685",
     "entity": "&#9861;",
     "tags": [
@@ -13447,9 +13447,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚆",
-    "name": "S?mbolo Diverso / ?cone (U+2686)",
+    "name": "Símbolo Diverso / Ícone (U+2686)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2686",
     "entity": "&#9862;",
     "tags": [
@@ -13465,9 +13465,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚇",
-    "name": "S?mbolo Diverso / ?cone (U+2687)",
+    "name": "Símbolo Diverso / Ícone (U+2687)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2687",
     "entity": "&#9863;",
     "tags": [
@@ -13483,9 +13483,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚈",
-    "name": "S?mbolo Diverso / ?cone (U+2688)",
+    "name": "Símbolo Diverso / Ícone (U+2688)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2688",
     "entity": "&#9864;",
     "tags": [
@@ -13501,9 +13501,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚉",
-    "name": "S?mbolo Diverso / ?cone (U+2689)",
+    "name": "Símbolo Diverso / Ícone (U+2689)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2689",
     "entity": "&#9865;",
     "tags": [
@@ -13519,9 +13519,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚊",
-    "name": "S?mbolo Diverso / ?cone (U+268A)",
+    "name": "Símbolo Diverso / Ícone (U+268A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+268A",
     "entity": "&#9866;",
     "tags": [
@@ -13537,9 +13537,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚋",
-    "name": "S?mbolo Diverso / ?cone (U+268B)",
+    "name": "Símbolo Diverso / Ícone (U+268B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+268B",
     "entity": "&#9867;",
     "tags": [
@@ -13555,9 +13555,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚌",
-    "name": "S?mbolo Diverso / ?cone (U+268C)",
+    "name": "Símbolo Diverso / Ícone (U+268C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+268C",
     "entity": "&#9868;",
     "tags": [
@@ -13573,9 +13573,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚍",
-    "name": "S?mbolo Diverso / ?cone (U+268D)",
+    "name": "Símbolo Diverso / Ícone (U+268D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+268D",
     "entity": "&#9869;",
     "tags": [
@@ -13591,9 +13591,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚎",
-    "name": "S?mbolo Diverso / ?cone (U+268E)",
+    "name": "Símbolo Diverso / Ícone (U+268E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+268E",
     "entity": "&#9870;",
     "tags": [
@@ -13609,9 +13609,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚏",
-    "name": "S?mbolo Diverso / ?cone (U+268F)",
+    "name": "Símbolo Diverso / Ícone (U+268F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+268F",
     "entity": "&#9871;",
     "tags": [
@@ -13627,9 +13627,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚐",
-    "name": "S?mbolo Diverso / ?cone (U+2690)",
+    "name": "Símbolo Diverso / Ícone (U+2690)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2690",
     "entity": "&#9872;",
     "tags": [
@@ -13645,9 +13645,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚑",
-    "name": "S?mbolo Diverso / ?cone (U+2691)",
+    "name": "Símbolo Diverso / Ícone (U+2691)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2691",
     "entity": "&#9873;",
     "tags": [
@@ -13663,9 +13663,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚒",
-    "name": "S?mbolo Diverso / ?cone (U+2692)",
+    "name": "Símbolo Diverso / Ícone (U+2692)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2692",
     "entity": "&#9874;",
     "tags": [
@@ -13681,9 +13681,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚓",
-    "name": "S?mbolo Diverso / ?cone (U+2693)",
+    "name": "Símbolo Diverso / Ícone (U+2693)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2693",
     "entity": "&#9875;",
     "tags": [
@@ -13699,9 +13699,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚔",
-    "name": "S?mbolo Diverso / ?cone (U+2694)",
+    "name": "Símbolo Diverso / Ícone (U+2694)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2694",
     "entity": "&#9876;",
     "tags": [
@@ -13717,9 +13717,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚕",
-    "name": "S?mbolo Diverso / ?cone (U+2695)",
+    "name": "Símbolo Diverso / Ícone (U+2695)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2695",
     "entity": "&#9877;",
     "tags": [
@@ -13735,9 +13735,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚖",
-    "name": "S?mbolo Diverso / ?cone (U+2696)",
+    "name": "Símbolo Diverso / Ícone (U+2696)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2696",
     "entity": "&#9878;",
     "tags": [
@@ -13753,9 +13753,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚗",
-    "name": "S?mbolo Diverso / ?cone (U+2697)",
+    "name": "Símbolo Diverso / Ícone (U+2697)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2697",
     "entity": "&#9879;",
     "tags": [
@@ -13771,9 +13771,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚘",
-    "name": "S?mbolo Diverso / ?cone (U+2698)",
+    "name": "Símbolo Diverso / Ícone (U+2698)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2698",
     "entity": "&#9880;",
     "tags": [
@@ -13789,9 +13789,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚙",
-    "name": "S?mbolo Diverso / ?cone (U+2699)",
+    "name": "Símbolo Diverso / Ícone (U+2699)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+2699",
     "entity": "&#9881;",
     "tags": [
@@ -13807,9 +13807,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚚",
-    "name": "S?mbolo Diverso / ?cone (U+269A)",
+    "name": "Símbolo Diverso / Ícone (U+269A)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+269A",
     "entity": "&#9882;",
     "tags": [
@@ -13825,9 +13825,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚛",
-    "name": "S?mbolo Diverso / ?cone (U+269B)",
+    "name": "Símbolo Diverso / Ícone (U+269B)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+269B",
     "entity": "&#9883;",
     "tags": [
@@ -13843,9 +13843,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚜",
-    "name": "S?mbolo Diverso / ?cone (U+269C)",
+    "name": "Símbolo Diverso / Ícone (U+269C)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+269C",
     "entity": "&#9884;",
     "tags": [
@@ -13861,9 +13861,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚝",
-    "name": "S?mbolo Diverso / ?cone (U+269D)",
+    "name": "Símbolo Diverso / Ícone (U+269D)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+269D",
     "entity": "&#9885;",
     "tags": [
@@ -13879,9 +13879,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚞",
-    "name": "S?mbolo Diverso / ?cone (U+269E)",
+    "name": "Símbolo Diverso / Ícone (U+269E)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+269E",
     "entity": "&#9886;",
     "tags": [
@@ -13897,9 +13897,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚟",
-    "name": "S?mbolo Diverso / ?cone (U+269F)",
+    "name": "Símbolo Diverso / Ícone (U+269F)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+269F",
     "entity": "&#9887;",
     "tags": [
@@ -13915,9 +13915,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚠",
-    "name": "S?mbolo Diverso / ?cone (U+26A0)",
+    "name": "Símbolo Diverso / Ícone (U+26A0)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A0",
     "entity": "&#9888;",
     "tags": [
@@ -13933,9 +13933,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚡",
-    "name": "S?mbolo Diverso / ?cone (U+26A1)",
+    "name": "Símbolo Diverso / Ícone (U+26A1)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A1",
     "entity": "&#9889;",
     "tags": [
@@ -13951,9 +13951,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚢",
-    "name": "S?mbolo Diverso / ?cone (U+26A2)",
+    "name": "Símbolo Diverso / Ícone (U+26A2)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A2",
     "entity": "&#9890;",
     "tags": [
@@ -13969,9 +13969,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚣",
-    "name": "S?mbolo Diverso / ?cone (U+26A3)",
+    "name": "Símbolo Diverso / Ícone (U+26A3)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A3",
     "entity": "&#9891;",
     "tags": [
@@ -13987,9 +13987,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚤",
-    "name": "S?mbolo Diverso / ?cone (U+26A4)",
+    "name": "Símbolo Diverso / Ícone (U+26A4)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A4",
     "entity": "&#9892;",
     "tags": [
@@ -14005,9 +14005,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚥",
-    "name": "S?mbolo Diverso / ?cone (U+26A5)",
+    "name": "Símbolo Diverso / Ícone (U+26A5)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A5",
     "entity": "&#9893;",
     "tags": [
@@ -14023,9 +14023,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚦",
-    "name": "S?mbolo Diverso / ?cone (U+26A6)",
+    "name": "Símbolo Diverso / Ícone (U+26A6)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A6",
     "entity": "&#9894;",
     "tags": [
@@ -14041,9 +14041,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚧",
-    "name": "S?mbolo Diverso / ?cone (U+26A7)",
+    "name": "Símbolo Diverso / Ícone (U+26A7)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A7",
     "entity": "&#9895;",
     "tags": [
@@ -14059,9 +14059,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚨",
-    "name": "S?mbolo Diverso / ?cone (U+26A8)",
+    "name": "Símbolo Diverso / Ícone (U+26A8)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A8",
     "entity": "&#9896;",
     "tags": [
@@ -14077,9 +14077,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚩",
-    "name": "S?mbolo Diverso / ?cone (U+26A9)",
+    "name": "Símbolo Diverso / Ícone (U+26A9)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26A9",
     "entity": "&#9897;",
     "tags": [
@@ -14095,9 +14095,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚪",
-    "name": "S?mbolo Diverso / ?cone (U+26AA)",
+    "name": "Símbolo Diverso / Ícone (U+26AA)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26AA",
     "entity": "&#9898;",
     "tags": [
@@ -14113,9 +14113,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚫",
-    "name": "S?mbolo Diverso / ?cone (U+26AB)",
+    "name": "Símbolo Diverso / Ícone (U+26AB)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26AB",
     "entity": "&#9899;",
     "tags": [
@@ -14131,9 +14131,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚬",
-    "name": "S?mbolo Diverso / ?cone (U+26AC)",
+    "name": "Símbolo Diverso / Ícone (U+26AC)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26AC",
     "entity": "&#9900;",
     "tags": [
@@ -14149,9 +14149,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚭",
-    "name": "S?mbolo Diverso / ?cone (U+26AD)",
+    "name": "Símbolo Diverso / Ícone (U+26AD)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26AD",
     "entity": "&#9901;",
     "tags": [
@@ -14167,9 +14167,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚮",
-    "name": "S?mbolo Diverso / ?cone (U+26AE)",
+    "name": "Símbolo Diverso / Ícone (U+26AE)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26AE",
     "entity": "&#9902;",
     "tags": [
@@ -14185,9 +14185,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚯",
-    "name": "S?mbolo Diverso / ?cone (U+26AF)",
+    "name": "Símbolo Diverso / Ícone (U+26AF)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26AF",
     "entity": "&#9903;",
     "tags": [
@@ -14203,9 +14203,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚰",
-    "name": "S?mbolo Diverso / ?cone (U+26B0)",
+    "name": "Símbolo Diverso / Ícone (U+26B0)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B0",
     "entity": "&#9904;",
     "tags": [
@@ -14221,9 +14221,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚱",
-    "name": "S?mbolo Diverso / ?cone (U+26B1)",
+    "name": "Símbolo Diverso / Ícone (U+26B1)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B1",
     "entity": "&#9905;",
     "tags": [
@@ -14239,9 +14239,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚲",
-    "name": "S?mbolo Diverso / ?cone (U+26B2)",
+    "name": "Símbolo Diverso / Ícone (U+26B2)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B2",
     "entity": "&#9906;",
     "tags": [
@@ -14257,9 +14257,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚳",
-    "name": "S?mbolo Diverso / ?cone (U+26B3)",
+    "name": "Símbolo Diverso / Ícone (U+26B3)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B3",
     "entity": "&#9907;",
     "tags": [
@@ -14275,9 +14275,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚴",
-    "name": "S?mbolo Diverso / ?cone (U+26B4)",
+    "name": "Símbolo Diverso / Ícone (U+26B4)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B4",
     "entity": "&#9908;",
     "tags": [
@@ -14293,9 +14293,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚵",
-    "name": "S?mbolo Diverso / ?cone (U+26B5)",
+    "name": "Símbolo Diverso / Ícone (U+26B5)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B5",
     "entity": "&#9909;",
     "tags": [
@@ -14311,9 +14311,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚶",
-    "name": "S?mbolo Diverso / ?cone (U+26B6)",
+    "name": "Símbolo Diverso / Ícone (U+26B6)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B6",
     "entity": "&#9910;",
     "tags": [
@@ -14329,9 +14329,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚷",
-    "name": "S?mbolo Diverso / ?cone (U+26B7)",
+    "name": "Símbolo Diverso / Ícone (U+26B7)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B7",
     "entity": "&#9911;",
     "tags": [
@@ -14347,9 +14347,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚸",
-    "name": "S?mbolo Diverso / ?cone (U+26B8)",
+    "name": "Símbolo Diverso / Ícone (U+26B8)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B8",
     "entity": "&#9912;",
     "tags": [
@@ -14365,9 +14365,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚹",
-    "name": "S?mbolo Diverso / ?cone (U+26B9)",
+    "name": "Símbolo Diverso / Ícone (U+26B9)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26B9",
     "entity": "&#9913;",
     "tags": [
@@ -14383,9 +14383,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚺",
-    "name": "S?mbolo Diverso / ?cone (U+26BA)",
+    "name": "Símbolo Diverso / Ícone (U+26BA)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26BA",
     "entity": "&#9914;",
     "tags": [
@@ -14401,9 +14401,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚻",
-    "name": "S?mbolo Diverso / ?cone (U+26BB)",
+    "name": "Símbolo Diverso / Ícone (U+26BB)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26BB",
     "entity": "&#9915;",
     "tags": [
@@ -14419,9 +14419,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚼",
-    "name": "S?mbolo Diverso / ?cone (U+26BC)",
+    "name": "Símbolo Diverso / Ícone (U+26BC)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26BC",
     "entity": "&#9916;",
     "tags": [
@@ -14437,9 +14437,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚽",
-    "name": "S?mbolo Diverso / ?cone (U+26BD)",
+    "name": "Símbolo Diverso / Ícone (U+26BD)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26BD",
     "entity": "&#9917;",
     "tags": [
@@ -14455,9 +14455,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚾",
-    "name": "S?mbolo Diverso / ?cone (U+26BE)",
+    "name": "Símbolo Diverso / Ícone (U+26BE)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26BE",
     "entity": "&#9918;",
     "tags": [
@@ -14473,9 +14473,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⚿",
-    "name": "S?mbolo Diverso / ?cone (U+26BF)",
+    "name": "Símbolo Diverso / Ícone (U+26BF)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26BF",
     "entity": "&#9919;",
     "tags": [
@@ -14491,9 +14491,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛀",
-    "name": "S?mbolo Diverso / ?cone (U+26C0)",
+    "name": "Símbolo Diverso / Ícone (U+26C0)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C0",
     "entity": "&#9920;",
     "tags": [
@@ -14509,9 +14509,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛁",
-    "name": "S?mbolo Diverso / ?cone (U+26C1)",
+    "name": "Símbolo Diverso / Ícone (U+26C1)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C1",
     "entity": "&#9921;",
     "tags": [
@@ -14527,9 +14527,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛂",
-    "name": "S?mbolo Diverso / ?cone (U+26C2)",
+    "name": "Símbolo Diverso / Ícone (U+26C2)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C2",
     "entity": "&#9922;",
     "tags": [
@@ -14545,9 +14545,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛃",
-    "name": "S?mbolo Diverso / ?cone (U+26C3)",
+    "name": "Símbolo Diverso / Ícone (U+26C3)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C3",
     "entity": "&#9923;",
     "tags": [
@@ -14563,9 +14563,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛄",
-    "name": "S?mbolo Diverso / ?cone (U+26C4)",
+    "name": "Símbolo Diverso / Ícone (U+26C4)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C4",
     "entity": "&#9924;",
     "tags": [
@@ -14581,9 +14581,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛅",
-    "name": "S?mbolo Diverso / ?cone (U+26C5)",
+    "name": "Símbolo Diverso / Ícone (U+26C5)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C5",
     "entity": "&#9925;",
     "tags": [
@@ -14599,9 +14599,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛆",
-    "name": "S?mbolo Diverso / ?cone (U+26C6)",
+    "name": "Símbolo Diverso / Ícone (U+26C6)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C6",
     "entity": "&#9926;",
     "tags": [
@@ -14617,9 +14617,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛇",
-    "name": "S?mbolo Diverso / ?cone (U+26C7)",
+    "name": "Símbolo Diverso / Ícone (U+26C7)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C7",
     "entity": "&#9927;",
     "tags": [
@@ -14635,9 +14635,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛈",
-    "name": "S?mbolo Diverso / ?cone (U+26C8)",
+    "name": "Símbolo Diverso / Ícone (U+26C8)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C8",
     "entity": "&#9928;",
     "tags": [
@@ -14653,9 +14653,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛉",
-    "name": "S?mbolo Diverso / ?cone (U+26C9)",
+    "name": "Símbolo Diverso / Ícone (U+26C9)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26C9",
     "entity": "&#9929;",
     "tags": [
@@ -14671,9 +14671,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛊",
-    "name": "S?mbolo Diverso / ?cone (U+26CA)",
+    "name": "Símbolo Diverso / Ícone (U+26CA)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26CA",
     "entity": "&#9930;",
     "tags": [
@@ -14689,9 +14689,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛋",
-    "name": "S?mbolo Diverso / ?cone (U+26CB)",
+    "name": "Símbolo Diverso / Ícone (U+26CB)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26CB",
     "entity": "&#9931;",
     "tags": [
@@ -14707,9 +14707,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛌",
-    "name": "S?mbolo Diverso / ?cone (U+26CC)",
+    "name": "Símbolo Diverso / Ícone (U+26CC)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26CC",
     "entity": "&#9932;",
     "tags": [
@@ -14725,9 +14725,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛍",
-    "name": "S?mbolo Diverso / ?cone (U+26CD)",
+    "name": "Símbolo Diverso / Ícone (U+26CD)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26CD",
     "entity": "&#9933;",
     "tags": [
@@ -14743,9 +14743,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛎",
-    "name": "S?mbolo Diverso / ?cone (U+26CE)",
+    "name": "Símbolo Diverso / Ícone (U+26CE)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26CE",
     "entity": "&#9934;",
     "tags": [
@@ -14761,9 +14761,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛏",
-    "name": "S?mbolo Diverso / ?cone (U+26CF)",
+    "name": "Símbolo Diverso / Ícone (U+26CF)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26CF",
     "entity": "&#9935;",
     "tags": [
@@ -14779,9 +14779,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛐",
-    "name": "S?mbolo Diverso / ?cone (U+26D0)",
+    "name": "Símbolo Diverso / Ícone (U+26D0)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D0",
     "entity": "&#9936;",
     "tags": [
@@ -14797,9 +14797,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛑",
-    "name": "S?mbolo Diverso / ?cone (U+26D1)",
+    "name": "Símbolo Diverso / Ícone (U+26D1)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D1",
     "entity": "&#9937;",
     "tags": [
@@ -14815,9 +14815,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛒",
-    "name": "S?mbolo Diverso / ?cone (U+26D2)",
+    "name": "Símbolo Diverso / Ícone (U+26D2)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D2",
     "entity": "&#9938;",
     "tags": [
@@ -14833,9 +14833,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛓",
-    "name": "S?mbolo Diverso / ?cone (U+26D3)",
+    "name": "Símbolo Diverso / Ícone (U+26D3)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D3",
     "entity": "&#9939;",
     "tags": [
@@ -14851,9 +14851,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛔",
-    "name": "S?mbolo Diverso / ?cone (U+26D4)",
+    "name": "Símbolo Diverso / Ícone (U+26D4)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D4",
     "entity": "&#9940;",
     "tags": [
@@ -14869,9 +14869,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛕",
-    "name": "S?mbolo Diverso / ?cone (U+26D5)",
+    "name": "Símbolo Diverso / Ícone (U+26D5)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D5",
     "entity": "&#9941;",
     "tags": [
@@ -14887,9 +14887,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛖",
-    "name": "S?mbolo Diverso / ?cone (U+26D6)",
+    "name": "Símbolo Diverso / Ícone (U+26D6)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D6",
     "entity": "&#9942;",
     "tags": [
@@ -14905,9 +14905,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛗",
-    "name": "S?mbolo Diverso / ?cone (U+26D7)",
+    "name": "Símbolo Diverso / Ícone (U+26D7)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D7",
     "entity": "&#9943;",
     "tags": [
@@ -14923,9 +14923,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛘",
-    "name": "S?mbolo Diverso / ?cone (U+26D8)",
+    "name": "Símbolo Diverso / Ícone (U+26D8)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D8",
     "entity": "&#9944;",
     "tags": [
@@ -14941,9 +14941,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛙",
-    "name": "S?mbolo Diverso / ?cone (U+26D9)",
+    "name": "Símbolo Diverso / Ícone (U+26D9)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26D9",
     "entity": "&#9945;",
     "tags": [
@@ -14959,9 +14959,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛚",
-    "name": "S?mbolo Diverso / ?cone (U+26DA)",
+    "name": "Símbolo Diverso / Ícone (U+26DA)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26DA",
     "entity": "&#9946;",
     "tags": [
@@ -14977,9 +14977,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛛",
-    "name": "S?mbolo Diverso / ?cone (U+26DB)",
+    "name": "Símbolo Diverso / Ícone (U+26DB)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26DB",
     "entity": "&#9947;",
     "tags": [
@@ -14995,9 +14995,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛜",
-    "name": "S?mbolo Diverso / ?cone (U+26DC)",
+    "name": "Símbolo Diverso / Ícone (U+26DC)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26DC",
     "entity": "&#9948;",
     "tags": [
@@ -15013,9 +15013,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛝",
-    "name": "S?mbolo Diverso / ?cone (U+26DD)",
+    "name": "Símbolo Diverso / Ícone (U+26DD)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26DD",
     "entity": "&#9949;",
     "tags": [
@@ -15031,9 +15031,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛞",
-    "name": "S?mbolo Diverso / ?cone (U+26DE)",
+    "name": "Símbolo Diverso / Ícone (U+26DE)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26DE",
     "entity": "&#9950;",
     "tags": [
@@ -15049,9 +15049,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛟",
-    "name": "S?mbolo Diverso / ?cone (U+26DF)",
+    "name": "Símbolo Diverso / Ícone (U+26DF)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26DF",
     "entity": "&#9951;",
     "tags": [
@@ -15067,9 +15067,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛠",
-    "name": "S?mbolo Diverso / ?cone (U+26E0)",
+    "name": "Símbolo Diverso / Ícone (U+26E0)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E0",
     "entity": "&#9952;",
     "tags": [
@@ -15085,9 +15085,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛡",
-    "name": "S?mbolo Diverso / ?cone (U+26E1)",
+    "name": "Símbolo Diverso / Ícone (U+26E1)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E1",
     "entity": "&#9953;",
     "tags": [
@@ -15103,9 +15103,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛢",
-    "name": "S?mbolo Diverso / ?cone (U+26E2)",
+    "name": "Símbolo Diverso / Ícone (U+26E2)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E2",
     "entity": "&#9954;",
     "tags": [
@@ -15121,9 +15121,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛣",
-    "name": "S?mbolo Diverso / ?cone (U+26E3)",
+    "name": "Símbolo Diverso / Ícone (U+26E3)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E3",
     "entity": "&#9955;",
     "tags": [
@@ -15139,9 +15139,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛤",
-    "name": "S?mbolo Diverso / ?cone (U+26E4)",
+    "name": "Símbolo Diverso / Ícone (U+26E4)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E4",
     "entity": "&#9956;",
     "tags": [
@@ -15157,9 +15157,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛥",
-    "name": "S?mbolo Diverso / ?cone (U+26E5)",
+    "name": "Símbolo Diverso / Ícone (U+26E5)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E5",
     "entity": "&#9957;",
     "tags": [
@@ -15175,9 +15175,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛦",
-    "name": "S?mbolo Diverso / ?cone (U+26E6)",
+    "name": "Símbolo Diverso / Ícone (U+26E6)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E6",
     "entity": "&#9958;",
     "tags": [
@@ -15193,9 +15193,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛧",
-    "name": "S?mbolo Diverso / ?cone (U+26E7)",
+    "name": "Símbolo Diverso / Ícone (U+26E7)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E7",
     "entity": "&#9959;",
     "tags": [
@@ -15211,9 +15211,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛨",
-    "name": "S?mbolo Diverso / ?cone (U+26E8)",
+    "name": "Símbolo Diverso / Ícone (U+26E8)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E8",
     "entity": "&#9960;",
     "tags": [
@@ -15229,9 +15229,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛩",
-    "name": "S?mbolo Diverso / ?cone (U+26E9)",
+    "name": "Símbolo Diverso / Ícone (U+26E9)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26E9",
     "entity": "&#9961;",
     "tags": [
@@ -15247,9 +15247,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛪",
-    "name": "S?mbolo Diverso / ?cone (U+26EA)",
+    "name": "Símbolo Diverso / Ícone (U+26EA)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26EA",
     "entity": "&#9962;",
     "tags": [
@@ -15265,9 +15265,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛫",
-    "name": "S?mbolo Diverso / ?cone (U+26EB)",
+    "name": "Símbolo Diverso / Ícone (U+26EB)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26EB",
     "entity": "&#9963;",
     "tags": [
@@ -15283,9 +15283,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛬",
-    "name": "S?mbolo Diverso / ?cone (U+26EC)",
+    "name": "Símbolo Diverso / Ícone (U+26EC)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26EC",
     "entity": "&#9964;",
     "tags": [
@@ -15301,9 +15301,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛭",
-    "name": "S?mbolo Diverso / ?cone (U+26ED)",
+    "name": "Símbolo Diverso / Ícone (U+26ED)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26ED",
     "entity": "&#9965;",
     "tags": [
@@ -15319,9 +15319,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛮",
-    "name": "S?mbolo Diverso / ?cone (U+26EE)",
+    "name": "Símbolo Diverso / Ícone (U+26EE)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26EE",
     "entity": "&#9966;",
     "tags": [
@@ -15337,9 +15337,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛯",
-    "name": "S?mbolo Diverso / ?cone (U+26EF)",
+    "name": "Símbolo Diverso / Ícone (U+26EF)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26EF",
     "entity": "&#9967;",
     "tags": [
@@ -15355,9 +15355,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛰",
-    "name": "S?mbolo Diverso / ?cone (U+26F0)",
+    "name": "Símbolo Diverso / Ícone (U+26F0)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F0",
     "entity": "&#9968;",
     "tags": [
@@ -15373,9 +15373,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛱",
-    "name": "S?mbolo Diverso / ?cone (U+26F1)",
+    "name": "Símbolo Diverso / Ícone (U+26F1)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F1",
     "entity": "&#9969;",
     "tags": [
@@ -15391,9 +15391,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛲",
-    "name": "S?mbolo Diverso / ?cone (U+26F2)",
+    "name": "Símbolo Diverso / Ícone (U+26F2)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F2",
     "entity": "&#9970;",
     "tags": [
@@ -15409,9 +15409,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛳",
-    "name": "S?mbolo Diverso / ?cone (U+26F3)",
+    "name": "Símbolo Diverso / Ícone (U+26F3)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F3",
     "entity": "&#9971;",
     "tags": [
@@ -15427,9 +15427,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛴",
-    "name": "S?mbolo Diverso / ?cone (U+26F4)",
+    "name": "Símbolo Diverso / Ícone (U+26F4)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F4",
     "entity": "&#9972;",
     "tags": [
@@ -15445,9 +15445,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛵",
-    "name": "S?mbolo Diverso / ?cone (U+26F5)",
+    "name": "Símbolo Diverso / Ícone (U+26F5)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F5",
     "entity": "&#9973;",
     "tags": [
@@ -15463,9 +15463,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛶",
-    "name": "S?mbolo Diverso / ?cone (U+26F6)",
+    "name": "Símbolo Diverso / Ícone (U+26F6)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F6",
     "entity": "&#9974;",
     "tags": [
@@ -15481,9 +15481,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛷",
-    "name": "S?mbolo Diverso / ?cone (U+26F7)",
+    "name": "Símbolo Diverso / Ícone (U+26F7)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F7",
     "entity": "&#9975;",
     "tags": [
@@ -15499,9 +15499,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛸",
-    "name": "S?mbolo Diverso / ?cone (U+26F8)",
+    "name": "Símbolo Diverso / Ícone (U+26F8)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F8",
     "entity": "&#9976;",
     "tags": [
@@ -15517,9 +15517,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛹",
-    "name": "S?mbolo Diverso / ?cone (U+26F9)",
+    "name": "Símbolo Diverso / Ícone (U+26F9)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26F9",
     "entity": "&#9977;",
     "tags": [
@@ -15535,9 +15535,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛺",
-    "name": "S?mbolo Diverso / ?cone (U+26FA)",
+    "name": "Símbolo Diverso / Ícone (U+26FA)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26FA",
     "entity": "&#9978;",
     "tags": [
@@ -15553,9 +15553,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛻",
-    "name": "S?mbolo Diverso / ?cone (U+26FB)",
+    "name": "Símbolo Diverso / Ícone (U+26FB)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26FB",
     "entity": "&#9979;",
     "tags": [
@@ -15571,9 +15571,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛼",
-    "name": "S?mbolo Diverso / ?cone (U+26FC)",
+    "name": "Símbolo Diverso / Ícone (U+26FC)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26FC",
     "entity": "&#9980;",
     "tags": [
@@ -15589,9 +15589,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛽",
-    "name": "S?mbolo Diverso / ?cone (U+26FD)",
+    "name": "Símbolo Diverso / Ícone (U+26FD)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26FD",
     "entity": "&#9981;",
     "tags": [
@@ -15607,9 +15607,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛾",
-    "name": "S?mbolo Diverso / ?cone (U+26FE)",
+    "name": "Símbolo Diverso / Ícone (U+26FE)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26FE",
     "entity": "&#9982;",
     "tags": [
@@ -15625,9 +15625,9 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⛿",
-    "name": "S?mbolo Diverso / ?cone (U+26FF)",
+    "name": "Símbolo Diverso / Ícone (U+26FF)",
     "cat": "Dingbats",
-    "subcat": "S?mbolos & Clima",
+    "subcat": "Símbolos & Clima",
     "hex": "U+26FF",
     "entity": "&#9983;",
     "tags": [
@@ -15643,7 +15643,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✀",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2700)",
+    "name": "Dingbat / Padrão Tipográfico (U+2700)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2700",
@@ -15661,7 +15661,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✁",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2701)",
+    "name": "Dingbat / Padrão Tipográfico (U+2701)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2701",
@@ -15679,7 +15679,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✂",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2702)",
+    "name": "Dingbat / Padrão Tipográfico (U+2702)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2702",
@@ -15697,7 +15697,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✃",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2703)",
+    "name": "Dingbat / Padrão Tipográfico (U+2703)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2703",
@@ -15715,7 +15715,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✄",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2704)",
+    "name": "Dingbat / Padrão Tipográfico (U+2704)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2704",
@@ -15733,7 +15733,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✅",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2705)",
+    "name": "Dingbat / Padrão Tipográfico (U+2705)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2705",
@@ -15751,7 +15751,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✆",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2706)",
+    "name": "Dingbat / Padrão Tipográfico (U+2706)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2706",
@@ -15769,7 +15769,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✇",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2707)",
+    "name": "Dingbat / Padrão Tipográfico (U+2707)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2707",
@@ -15787,7 +15787,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✈",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2708)",
+    "name": "Dingbat / Padrão Tipográfico (U+2708)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2708",
@@ -15805,7 +15805,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✉",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2709)",
+    "name": "Dingbat / Padrão Tipográfico (U+2709)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2709",
@@ -15823,7 +15823,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✊",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+270A)",
+    "name": "Dingbat / Padrão Tipográfico (U+270A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+270A",
@@ -15841,7 +15841,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✋",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+270B)",
+    "name": "Dingbat / Padrão Tipográfico (U+270B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+270B",
@@ -15859,7 +15859,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✌",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+270C)",
+    "name": "Dingbat / Padrão Tipográfico (U+270C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+270C",
@@ -15877,7 +15877,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✍",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+270D)",
+    "name": "Dingbat / Padrão Tipográfico (U+270D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+270D",
@@ -15895,7 +15895,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✎",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+270E)",
+    "name": "Dingbat / Padrão Tipográfico (U+270E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+270E",
@@ -15913,7 +15913,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✏",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+270F)",
+    "name": "Dingbat / Padrão Tipográfico (U+270F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+270F",
@@ -15931,7 +15931,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✐",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2710)",
+    "name": "Dingbat / Padrão Tipográfico (U+2710)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2710",
@@ -15949,7 +15949,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✑",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2711)",
+    "name": "Dingbat / Padrão Tipográfico (U+2711)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2711",
@@ -15967,7 +15967,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✒",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2712)",
+    "name": "Dingbat / Padrão Tipográfico (U+2712)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2712",
@@ -15985,7 +15985,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✓",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2713)",
+    "name": "Dingbat / Padrão Tipográfico (U+2713)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2713",
@@ -16003,7 +16003,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✔",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2714)",
+    "name": "Dingbat / Padrão Tipográfico (U+2714)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2714",
@@ -16021,7 +16021,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✕",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2715)",
+    "name": "Dingbat / Padrão Tipográfico (U+2715)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2715",
@@ -16039,7 +16039,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✖",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2716)",
+    "name": "Dingbat / Padrão Tipográfico (U+2716)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2716",
@@ -16057,7 +16057,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✗",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2717)",
+    "name": "Dingbat / Padrão Tipográfico (U+2717)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2717",
@@ -16075,7 +16075,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✘",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2718)",
+    "name": "Dingbat / Padrão Tipográfico (U+2718)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2718",
@@ -16093,7 +16093,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✙",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2719)",
+    "name": "Dingbat / Padrão Tipográfico (U+2719)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2719",
@@ -16111,7 +16111,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✚",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+271A)",
+    "name": "Dingbat / Padrão Tipográfico (U+271A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+271A",
@@ -16129,7 +16129,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✛",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+271B)",
+    "name": "Dingbat / Padrão Tipográfico (U+271B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+271B",
@@ -16147,7 +16147,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✜",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+271C)",
+    "name": "Dingbat / Padrão Tipográfico (U+271C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+271C",
@@ -16165,7 +16165,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✝",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+271D)",
+    "name": "Dingbat / Padrão Tipográfico (U+271D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+271D",
@@ -16183,7 +16183,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✞",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+271E)",
+    "name": "Dingbat / Padrão Tipográfico (U+271E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+271E",
@@ -16201,7 +16201,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✟",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+271F)",
+    "name": "Dingbat / Padrão Tipográfico (U+271F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+271F",
@@ -16219,7 +16219,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✠",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2720)",
+    "name": "Dingbat / Padrão Tipográfico (U+2720)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2720",
@@ -16237,7 +16237,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✡",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2721)",
+    "name": "Dingbat / Padrão Tipográfico (U+2721)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2721",
@@ -16255,7 +16255,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✢",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2722)",
+    "name": "Dingbat / Padrão Tipográfico (U+2722)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2722",
@@ -16273,7 +16273,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✣",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2723)",
+    "name": "Dingbat / Padrão Tipográfico (U+2723)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2723",
@@ -16291,7 +16291,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✤",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2724)",
+    "name": "Dingbat / Padrão Tipográfico (U+2724)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2724",
@@ -16309,7 +16309,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✥",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2725)",
+    "name": "Dingbat / Padrão Tipográfico (U+2725)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2725",
@@ -16327,7 +16327,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✦",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2726)",
+    "name": "Dingbat / Padrão Tipográfico (U+2726)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2726",
@@ -16345,7 +16345,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✧",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2727)",
+    "name": "Dingbat / Padrão Tipográfico (U+2727)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2727",
@@ -16363,7 +16363,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✨",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2728)",
+    "name": "Dingbat / Padrão Tipográfico (U+2728)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2728",
@@ -16381,7 +16381,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✩",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2729)",
+    "name": "Dingbat / Padrão Tipográfico (U+2729)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2729",
@@ -16399,7 +16399,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✪",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+272A)",
+    "name": "Dingbat / Padrão Tipográfico (U+272A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+272A",
@@ -16417,7 +16417,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✫",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+272B)",
+    "name": "Dingbat / Padrão Tipográfico (U+272B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+272B",
@@ -16435,7 +16435,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✬",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+272C)",
+    "name": "Dingbat / Padrão Tipográfico (U+272C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+272C",
@@ -16453,7 +16453,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✭",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+272D)",
+    "name": "Dingbat / Padrão Tipográfico (U+272D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+272D",
@@ -16471,7 +16471,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✮",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+272E)",
+    "name": "Dingbat / Padrão Tipográfico (U+272E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+272E",
@@ -16489,7 +16489,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✯",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+272F)",
+    "name": "Dingbat / Padrão Tipográfico (U+272F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+272F",
@@ -16507,7 +16507,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✰",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2730)",
+    "name": "Dingbat / Padrão Tipográfico (U+2730)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2730",
@@ -16525,7 +16525,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✱",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2731)",
+    "name": "Dingbat / Padrão Tipográfico (U+2731)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2731",
@@ -16543,7 +16543,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✲",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2732)",
+    "name": "Dingbat / Padrão Tipográfico (U+2732)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2732",
@@ -16561,7 +16561,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✳",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2733)",
+    "name": "Dingbat / Padrão Tipográfico (U+2733)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2733",
@@ -16579,7 +16579,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✴",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2734)",
+    "name": "Dingbat / Padrão Tipográfico (U+2734)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2734",
@@ -16597,7 +16597,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✵",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2735)",
+    "name": "Dingbat / Padrão Tipográfico (U+2735)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2735",
@@ -16615,7 +16615,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✶",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2736)",
+    "name": "Dingbat / Padrão Tipográfico (U+2736)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2736",
@@ -16633,7 +16633,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✷",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2737)",
+    "name": "Dingbat / Padrão Tipográfico (U+2737)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2737",
@@ -16651,7 +16651,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✸",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2738)",
+    "name": "Dingbat / Padrão Tipográfico (U+2738)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2738",
@@ -16669,7 +16669,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✹",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2739)",
+    "name": "Dingbat / Padrão Tipográfico (U+2739)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2739",
@@ -16687,7 +16687,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✺",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+273A)",
+    "name": "Dingbat / Padrão Tipográfico (U+273A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+273A",
@@ -16705,7 +16705,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✻",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+273B)",
+    "name": "Dingbat / Padrão Tipográfico (U+273B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+273B",
@@ -16723,7 +16723,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✼",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+273C)",
+    "name": "Dingbat / Padrão Tipográfico (U+273C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+273C",
@@ -16741,7 +16741,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✽",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+273D)",
+    "name": "Dingbat / Padrão Tipográfico (U+273D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+273D",
@@ -16759,7 +16759,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✾",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+273E)",
+    "name": "Dingbat / Padrão Tipográfico (U+273E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+273E",
@@ -16777,7 +16777,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "✿",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+273F)",
+    "name": "Dingbat / Padrão Tipográfico (U+273F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+273F",
@@ -16795,7 +16795,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❀",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2740)",
+    "name": "Dingbat / Padrão Tipográfico (U+2740)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2740",
@@ -16813,7 +16813,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❁",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2741)",
+    "name": "Dingbat / Padrão Tipográfico (U+2741)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2741",
@@ -16831,7 +16831,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❂",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2742)",
+    "name": "Dingbat / Padrão Tipográfico (U+2742)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2742",
@@ -16849,7 +16849,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❃",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2743)",
+    "name": "Dingbat / Padrão Tipográfico (U+2743)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2743",
@@ -16867,7 +16867,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❄",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2744)",
+    "name": "Dingbat / Padrão Tipográfico (U+2744)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2744",
@@ -16885,7 +16885,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❅",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2745)",
+    "name": "Dingbat / Padrão Tipográfico (U+2745)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2745",
@@ -16903,7 +16903,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❆",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2746)",
+    "name": "Dingbat / Padrão Tipográfico (U+2746)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2746",
@@ -16921,7 +16921,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❇",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2747)",
+    "name": "Dingbat / Padrão Tipográfico (U+2747)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2747",
@@ -16939,7 +16939,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❈",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2748)",
+    "name": "Dingbat / Padrão Tipográfico (U+2748)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2748",
@@ -16957,7 +16957,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❉",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2749)",
+    "name": "Dingbat / Padrão Tipográfico (U+2749)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2749",
@@ -16975,7 +16975,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❊",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+274A)",
+    "name": "Dingbat / Padrão Tipográfico (U+274A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+274A",
@@ -16993,7 +16993,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❋",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+274B)",
+    "name": "Dingbat / Padrão Tipográfico (U+274B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+274B",
@@ -17011,7 +17011,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❌",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+274C)",
+    "name": "Dingbat / Padrão Tipográfico (U+274C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+274C",
@@ -17029,7 +17029,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❍",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+274D)",
+    "name": "Dingbat / Padrão Tipográfico (U+274D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+274D",
@@ -17047,7 +17047,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❎",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+274E)",
+    "name": "Dingbat / Padrão Tipográfico (U+274E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+274E",
@@ -17065,7 +17065,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❏",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+274F)",
+    "name": "Dingbat / Padrão Tipográfico (U+274F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+274F",
@@ -17083,7 +17083,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❐",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2750)",
+    "name": "Dingbat / Padrão Tipográfico (U+2750)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2750",
@@ -17101,7 +17101,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❑",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2751)",
+    "name": "Dingbat / Padrão Tipográfico (U+2751)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2751",
@@ -17119,7 +17119,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❒",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2752)",
+    "name": "Dingbat / Padrão Tipográfico (U+2752)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2752",
@@ -17137,7 +17137,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❓",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2753)",
+    "name": "Dingbat / Padrão Tipográfico (U+2753)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2753",
@@ -17155,7 +17155,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❔",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2754)",
+    "name": "Dingbat / Padrão Tipográfico (U+2754)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2754",
@@ -17173,7 +17173,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❕",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2755)",
+    "name": "Dingbat / Padrão Tipográfico (U+2755)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2755",
@@ -17191,7 +17191,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❖",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2756)",
+    "name": "Dingbat / Padrão Tipográfico (U+2756)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2756",
@@ -17209,7 +17209,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❗",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2757)",
+    "name": "Dingbat / Padrão Tipográfico (U+2757)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2757",
@@ -17227,7 +17227,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❘",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2758)",
+    "name": "Dingbat / Padrão Tipográfico (U+2758)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2758",
@@ -17245,7 +17245,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❙",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2759)",
+    "name": "Dingbat / Padrão Tipográfico (U+2759)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2759",
@@ -17263,7 +17263,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❚",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+275A)",
+    "name": "Dingbat / Padrão Tipográfico (U+275A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+275A",
@@ -17281,7 +17281,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❛",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+275B)",
+    "name": "Dingbat / Padrão Tipográfico (U+275B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+275B",
@@ -17299,7 +17299,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❜",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+275C)",
+    "name": "Dingbat / Padrão Tipográfico (U+275C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+275C",
@@ -17317,7 +17317,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❝",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+275D)",
+    "name": "Dingbat / Padrão Tipográfico (U+275D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+275D",
@@ -17335,7 +17335,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❞",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+275E)",
+    "name": "Dingbat / Padrão Tipográfico (U+275E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+275E",
@@ -17353,7 +17353,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❟",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+275F)",
+    "name": "Dingbat / Padrão Tipográfico (U+275F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+275F",
@@ -17371,7 +17371,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❠",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2760)",
+    "name": "Dingbat / Padrão Tipográfico (U+2760)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2760",
@@ -17389,7 +17389,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❡",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2761)",
+    "name": "Dingbat / Padrão Tipográfico (U+2761)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2761",
@@ -17407,7 +17407,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❢",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2762)",
+    "name": "Dingbat / Padrão Tipográfico (U+2762)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2762",
@@ -17425,7 +17425,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❣",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2763)",
+    "name": "Dingbat / Padrão Tipográfico (U+2763)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2763",
@@ -17443,7 +17443,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❤",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2764)",
+    "name": "Dingbat / Padrão Tipográfico (U+2764)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2764",
@@ -17461,7 +17461,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❥",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2765)",
+    "name": "Dingbat / Padrão Tipográfico (U+2765)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2765",
@@ -17479,7 +17479,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❦",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2766)",
+    "name": "Dingbat / Padrão Tipográfico (U+2766)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2766",
@@ -17497,7 +17497,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❧",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2767)",
+    "name": "Dingbat / Padrão Tipográfico (U+2767)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2767",
@@ -17515,7 +17515,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❨",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2768)",
+    "name": "Dingbat / Padrão Tipográfico (U+2768)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2768",
@@ -17533,7 +17533,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❩",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2769)",
+    "name": "Dingbat / Padrão Tipográfico (U+2769)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2769",
@@ -17551,7 +17551,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❪",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+276A)",
+    "name": "Dingbat / Padrão Tipográfico (U+276A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+276A",
@@ -17569,7 +17569,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❫",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+276B)",
+    "name": "Dingbat / Padrão Tipográfico (U+276B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+276B",
@@ -17587,7 +17587,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❬",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+276C)",
+    "name": "Dingbat / Padrão Tipográfico (U+276C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+276C",
@@ -17605,7 +17605,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❭",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+276D)",
+    "name": "Dingbat / Padrão Tipográfico (U+276D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+276D",
@@ -17623,7 +17623,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❮",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+276E)",
+    "name": "Dingbat / Padrão Tipográfico (U+276E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+276E",
@@ -17641,7 +17641,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❯",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+276F)",
+    "name": "Dingbat / Padrão Tipográfico (U+276F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+276F",
@@ -17659,7 +17659,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❰",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2770)",
+    "name": "Dingbat / Padrão Tipográfico (U+2770)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2770",
@@ -17677,7 +17677,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❱",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2771)",
+    "name": "Dingbat / Padrão Tipográfico (U+2771)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2771",
@@ -17695,7 +17695,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❲",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2772)",
+    "name": "Dingbat / Padrão Tipográfico (U+2772)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2772",
@@ -17713,7 +17713,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❳",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2773)",
+    "name": "Dingbat / Padrão Tipográfico (U+2773)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2773",
@@ -17731,7 +17731,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❴",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2774)",
+    "name": "Dingbat / Padrão Tipográfico (U+2774)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2774",
@@ -17749,7 +17749,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❵",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2775)",
+    "name": "Dingbat / Padrão Tipográfico (U+2775)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2775",
@@ -17767,7 +17767,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❶",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2776)",
+    "name": "Dingbat / Padrão Tipográfico (U+2776)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2776",
@@ -17785,7 +17785,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❷",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2777)",
+    "name": "Dingbat / Padrão Tipográfico (U+2777)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2777",
@@ -17803,7 +17803,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❸",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2778)",
+    "name": "Dingbat / Padrão Tipográfico (U+2778)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2778",
@@ -17821,7 +17821,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❹",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2779)",
+    "name": "Dingbat / Padrão Tipográfico (U+2779)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2779",
@@ -17839,7 +17839,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❺",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+277A)",
+    "name": "Dingbat / Padrão Tipográfico (U+277A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+277A",
@@ -17857,7 +17857,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❻",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+277B)",
+    "name": "Dingbat / Padrão Tipográfico (U+277B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+277B",
@@ -17875,7 +17875,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❼",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+277C)",
+    "name": "Dingbat / Padrão Tipográfico (U+277C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+277C",
@@ -17893,7 +17893,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❽",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+277D)",
+    "name": "Dingbat / Padrão Tipográfico (U+277D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+277D",
@@ -17911,7 +17911,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❾",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+277E)",
+    "name": "Dingbat / Padrão Tipográfico (U+277E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+277E",
@@ -17929,7 +17929,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "❿",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+277F)",
+    "name": "Dingbat / Padrão Tipográfico (U+277F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+277F",
@@ -17947,7 +17947,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➀",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2780)",
+    "name": "Dingbat / Padrão Tipográfico (U+2780)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2780",
@@ -17965,7 +17965,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➁",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2781)",
+    "name": "Dingbat / Padrão Tipográfico (U+2781)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2781",
@@ -17983,7 +17983,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➂",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2782)",
+    "name": "Dingbat / Padrão Tipográfico (U+2782)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2782",
@@ -18001,7 +18001,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➃",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2783)",
+    "name": "Dingbat / Padrão Tipográfico (U+2783)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2783",
@@ -18019,7 +18019,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➄",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2784)",
+    "name": "Dingbat / Padrão Tipográfico (U+2784)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2784",
@@ -18037,7 +18037,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➅",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2785)",
+    "name": "Dingbat / Padrão Tipográfico (U+2785)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2785",
@@ -18055,7 +18055,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➆",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2786)",
+    "name": "Dingbat / Padrão Tipográfico (U+2786)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2786",
@@ -18073,7 +18073,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➇",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2787)",
+    "name": "Dingbat / Padrão Tipográfico (U+2787)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2787",
@@ -18091,7 +18091,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➈",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2788)",
+    "name": "Dingbat / Padrão Tipográfico (U+2788)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2788",
@@ -18109,7 +18109,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➉",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2789)",
+    "name": "Dingbat / Padrão Tipográfico (U+2789)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2789",
@@ -18127,7 +18127,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➊",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+278A)",
+    "name": "Dingbat / Padrão Tipográfico (U+278A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+278A",
@@ -18145,7 +18145,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➋",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+278B)",
+    "name": "Dingbat / Padrão Tipográfico (U+278B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+278B",
@@ -18163,7 +18163,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➌",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+278C)",
+    "name": "Dingbat / Padrão Tipográfico (U+278C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+278C",
@@ -18181,7 +18181,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➍",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+278D)",
+    "name": "Dingbat / Padrão Tipográfico (U+278D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+278D",
@@ -18199,7 +18199,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➎",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+278E)",
+    "name": "Dingbat / Padrão Tipográfico (U+278E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+278E",
@@ -18217,7 +18217,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➏",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+278F)",
+    "name": "Dingbat / Padrão Tipográfico (U+278F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+278F",
@@ -18235,7 +18235,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➐",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2790)",
+    "name": "Dingbat / Padrão Tipográfico (U+2790)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2790",
@@ -18253,7 +18253,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➑",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2791)",
+    "name": "Dingbat / Padrão Tipográfico (U+2791)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2791",
@@ -18271,7 +18271,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➒",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2792)",
+    "name": "Dingbat / Padrão Tipográfico (U+2792)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2792",
@@ -18289,7 +18289,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➓",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2793)",
+    "name": "Dingbat / Padrão Tipográfico (U+2793)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2793",
@@ -18307,7 +18307,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➔",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2794)",
+    "name": "Dingbat / Padrão Tipográfico (U+2794)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2794",
@@ -18325,7 +18325,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➕",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2795)",
+    "name": "Dingbat / Padrão Tipográfico (U+2795)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2795",
@@ -18343,7 +18343,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➖",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2796)",
+    "name": "Dingbat / Padrão Tipográfico (U+2796)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2796",
@@ -18361,7 +18361,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➗",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2797)",
+    "name": "Dingbat / Padrão Tipográfico (U+2797)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2797",
@@ -18379,7 +18379,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➘",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2798)",
+    "name": "Dingbat / Padrão Tipográfico (U+2798)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2798",
@@ -18397,7 +18397,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➙",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+2799)",
+    "name": "Dingbat / Padrão Tipográfico (U+2799)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+2799",
@@ -18415,7 +18415,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➚",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+279A)",
+    "name": "Dingbat / Padrão Tipográfico (U+279A)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+279A",
@@ -18433,7 +18433,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➛",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+279B)",
+    "name": "Dingbat / Padrão Tipográfico (U+279B)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+279B",
@@ -18451,7 +18451,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➜",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+279C)",
+    "name": "Dingbat / Padrão Tipográfico (U+279C)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+279C",
@@ -18469,7 +18469,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➝",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+279D)",
+    "name": "Dingbat / Padrão Tipográfico (U+279D)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+279D",
@@ -18487,7 +18487,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➞",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+279E)",
+    "name": "Dingbat / Padrão Tipográfico (U+279E)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+279E",
@@ -18505,7 +18505,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➟",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+279F)",
+    "name": "Dingbat / Padrão Tipográfico (U+279F)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+279F",
@@ -18523,7 +18523,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➠",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A0)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A0)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A0",
@@ -18541,7 +18541,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➡",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A1)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A1)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A1",
@@ -18559,7 +18559,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➢",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A2)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A2)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A2",
@@ -18577,7 +18577,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➣",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A3)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A3)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A3",
@@ -18595,7 +18595,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➤",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A4)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A4)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A4",
@@ -18613,7 +18613,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➥",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A5)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A5)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A5",
@@ -18631,7 +18631,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➦",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A6)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A6)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A6",
@@ -18649,7 +18649,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➧",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A7)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A7)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A7",
@@ -18667,7 +18667,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➨",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A8)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A8)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A8",
@@ -18685,7 +18685,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➩",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27A9)",
+    "name": "Dingbat / Padrão Tipográfico (U+27A9)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27A9",
@@ -18703,7 +18703,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➪",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27AA)",
+    "name": "Dingbat / Padrão Tipográfico (U+27AA)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27AA",
@@ -18721,7 +18721,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➫",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27AB)",
+    "name": "Dingbat / Padrão Tipográfico (U+27AB)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27AB",
@@ -18739,7 +18739,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➬",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27AC)",
+    "name": "Dingbat / Padrão Tipográfico (U+27AC)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27AC",
@@ -18757,7 +18757,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➭",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27AD)",
+    "name": "Dingbat / Padrão Tipográfico (U+27AD)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27AD",
@@ -18775,7 +18775,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➮",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27AE)",
+    "name": "Dingbat / Padrão Tipográfico (U+27AE)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27AE",
@@ -18793,7 +18793,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➯",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27AF)",
+    "name": "Dingbat / Padrão Tipográfico (U+27AF)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27AF",
@@ -18811,7 +18811,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➰",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B0)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B0)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B0",
@@ -18829,7 +18829,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➱",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B1)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B1)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B1",
@@ -18847,7 +18847,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➲",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B2)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B2)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B2",
@@ -18865,7 +18865,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➳",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B3)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B3)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B3",
@@ -18883,7 +18883,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➴",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B4)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B4)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B4",
@@ -18901,7 +18901,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➵",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B5)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B5)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B5",
@@ -18919,7 +18919,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➶",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B6)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B6)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B6",
@@ -18937,7 +18937,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➷",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B7)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B7)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B7",
@@ -18955,7 +18955,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➸",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B8)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B8)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B8",
@@ -18973,7 +18973,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➹",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27B9)",
+    "name": "Dingbat / Padrão Tipográfico (U+27B9)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27B9",
@@ -18991,7 +18991,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➺",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27BA)",
+    "name": "Dingbat / Padrão Tipográfico (U+27BA)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27BA",
@@ -19009,7 +19009,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➻",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27BB)",
+    "name": "Dingbat / Padrão Tipográfico (U+27BB)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27BB",
@@ -19027,7 +19027,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➼",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27BC)",
+    "name": "Dingbat / Padrão Tipográfico (U+27BC)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27BC",
@@ -19045,7 +19045,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➽",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27BD)",
+    "name": "Dingbat / Padrão Tipográfico (U+27BD)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27BD",
@@ -19063,7 +19063,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➾",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27BE)",
+    "name": "Dingbat / Padrão Tipográfico (U+27BE)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27BE",
@@ -19081,7 +19081,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "➿",
-    "name": "Dingbat / Padr?o Tipogr?fico (U+27BF)",
+    "name": "Dingbat / Padrão Tipográfico (U+27BF)",
     "cat": "Dingbats",
     "subcat": "Decorativos & Estrelas",
     "hex": "U+27BF",
@@ -19098,7 +19098,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⌘",
     "name": "Command / Cmd (Apple Mac)",
     "cat": "Teclado",
     "subcat": "Modificadores Mac",
@@ -19113,7 +19113,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⌥",
     "name": "Option / Alt (Apple Mac)",
     "cat": "Teclado",
     "subcat": "Modificadores Mac",
@@ -19128,8 +19128,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Shift / Mai?sculas",
+    "char": "⇧",
+    "name": "Shift / Maiúsculas",
     "cat": "Teclado",
     "subcat": "Modificadores Universais",
     "hex": "U+21E7",
@@ -19142,7 +19142,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⌃",
     "name": "Control / Ctrl",
     "cat": "Teclado",
     "subcat": "Modificadores Universais",
@@ -19156,10 +19156,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⎋",
     "name": "Escape / Esc",
     "cat": "Teclado",
-    "subcat": "Teclas de A??o",
+    "subcat": "Teclas de Ação",
     "hex": "U+238B",
     "entity": "&#9099;",
     "tags": [
@@ -19170,10 +19170,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⌫",
     "name": "Backspace / Apagar",
     "cat": "Teclado",
-    "subcat": "Teclas de Edi??o",
+    "subcat": "Teclas de Edição",
     "hex": "U+232B",
     "entity": "&#9003;",
     "tags": [
@@ -19184,10 +19184,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Delete Supr (Deletar ? Frente)",
+    "char": "⌦",
+    "name": "Delete Supr (Deletar à Frente)",
     "cat": "Teclado",
-    "subcat": "Teclas de Edi??o",
+    "subcat": "Teclas de Edição",
     "hex": "U+2326",
     "entity": "&#9002;",
     "tags": [
@@ -19197,10 +19197,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⏎",
     "name": "Return / Enter",
     "cat": "Teclado",
-    "subcat": "Teclas de A??o",
+    "subcat": "Teclas de Ação",
     "hex": "U+23CE",
     "entity": "&#9166;",
     "tags": [
@@ -19211,10 +19211,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Tab / Tabula??o para Frente",
+    "char": "⇥",
+    "name": "Tab / Tabulação para Frente",
     "cat": "Teclado",
-    "subcat": "Navega??o",
+    "subcat": "Navegação",
     "hex": "U+21E5",
     "entity": "&#8677;",
     "tags": [
@@ -19224,10 +19224,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Backtab / Tabula??o Reversa",
+    "char": "⇤",
+    "name": "Backtab / Tabulação Reversa",
     "cat": "Teclado",
-    "subcat": "Navega??o",
+    "subcat": "Navegação",
     "hex": "U+21E4",
     "entity": "&#8676;",
     "tags": [
@@ -19237,8 +19237,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Caps Lock / Trava de Mai?sculas",
+    "char": "⇪",
+    "name": "Caps Lock / Trava de Maiúsculas",
     "cat": "Teclado",
     "subcat": "Modificadores Universais",
     "hex": "U+21EA",
@@ -19250,10 +19250,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Barra de Espa?o (Visual)",
+    "char": "␣",
+    "name": "Barra de Espaço (Visual)",
     "cat": "Teclado",
-    "subcat": "Espa?amento",
+    "subcat": "Espaçamento",
     "hex": "U+2423",
     "entity": "&#9251;",
     "tags": [
@@ -19263,8 +19263,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Eject / Ejetar M?dia",
+    "char": "⏏",
+    "name": "Eject / Ejetar Mídia",
     "cat": "Teclado",
     "subcat": "Hardware",
     "hex": "U+23CF",
@@ -19277,7 +19277,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⏻",
     "name": "Power / Ligar-Desligar",
     "cat": "Teclado",
     "subcat": "Energia",
@@ -19291,7 +19291,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⏼",
     "name": "Interruptor Liga/Desliga",
     "cat": "Teclado",
     "subcat": "Energia",
@@ -19304,7 +19304,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⏽",
     "name": "Estado Ligado (ON)",
     "cat": "Teclado",
     "subcat": "Energia",
@@ -19317,8 +19317,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Sleep / Modo Suspens?o",
+    "char": "⏾",
+    "name": "Sleep / Modo Suspensão",
     "cat": "Teclado",
     "subcat": "Energia",
     "hex": "U+23FE",
@@ -19330,7 +19330,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⎈",
     "name": "Helm / Helm Symbol (Emacs)",
     "cat": "Teclado",
     "subcat": "Terminal",
@@ -19343,7 +19343,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⎙",
     "name": "Print Screen / Imprimir",
     "cat": "Teclado",
     "subcat": "Hardware",
@@ -19356,7 +19356,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "⎚",
     "name": "Clear Screen / Limpar",
     "cat": "Teclado",
     "subcat": "Terminal",
@@ -19369,7 +19369,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "©",
     "name": "Copyright / Direitos Autorais",
     "cat": "Editorial",
     "subcat": "Marcas & Legal",
@@ -19383,7 +19383,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "®",
     "name": "Marca Registrada (Registered)",
     "cat": "Editorial",
     "subcat": "Marcas & Legal",
@@ -19397,7 +19397,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "™",
     "name": "Trademark / Marca Comercial",
     "cat": "Editorial",
     "subcat": "Marcas & Legal",
@@ -19410,8 +19410,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Service Mark / Marca de Servi?o",
+    "char": "℠",
+    "name": "Service Mark / Marca de Serviço",
     "cat": "Editorial",
     "subcat": "Marcas & Legal",
     "hex": "U+2120",
@@ -19423,10 +19423,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Par?grafo Jur?dico (Section Sign)",
+    "char": "§",
+    "name": "Parágrafo Jurídico (Section Sign)",
     "cat": "Editorial",
-    "subcat": "Jur?dico",
+    "subcat": "Jurídico",
     "hex": "U+00A7",
     "entity": "&sect;",
     "tags": [
@@ -19438,8 +19438,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Pilcrow / Fim de Par?grafo",
+    "char": "¶",
+    "name": "Pilcrow / Fim de Parágrafo",
     "cat": "Editorial",
     "subcat": "Tipografia",
     "hex": "U+00B6",
@@ -19452,10 +19452,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "†",
     "name": "Adaga / Cruz Latina (Dagger)",
     "cat": "Editorial",
-    "subcat": "Notas de Rodap?",
+    "subcat": "Notas de Rodapé",
     "hex": "U+2020",
     "entity": "&dagger;",
     "tags": [
@@ -19466,10 +19466,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "‡",
     "name": "Adaga Dupla (Double Dagger)",
     "cat": "Editorial",
-    "subcat": "Notas de Rodap?",
+    "subcat": "Notas de Rodapé",
     "hex": "U+2021",
     "entity": "&Dagger;",
     "tags": [
@@ -19479,7 +19479,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "•",
     "name": "Marcador de Lista (Bullet Point)",
     "cat": "Editorial",
     "subcat": "Listas",
@@ -19493,8 +19493,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Ponto M?dio (Interpunct)",
+    "char": "·",
+    "name": "Ponto Médio (Interpunct)",
     "cat": "Editorial",
     "subcat": "Tipografia",
     "hex": "U+00B7",
@@ -19506,10 +19506,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Em Dash / Travess?o Longo",
+    "char": "—",
+    "name": "Em Dash / Travessão Longo",
     "cat": "Editorial",
-    "subcat": "Travess?es",
+    "subcat": "Travessões",
     "hex": "U+2014",
     "entity": "&mdash;",
     "tags": [
@@ -19520,10 +19520,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "En Dash / Meio Travess?o",
+    "char": "–",
+    "name": "En Dash / Meio Travessão",
     "cat": "Editorial",
-    "subcat": "Travess?es",
+    "subcat": "Travessões",
     "hex": "U+2013",
     "entity": "&ndash;",
     "tags": [
@@ -19533,7 +19533,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "“",
     "name": "Aspas Duplas Esquerdas (Abertura)",
     "cat": "Editorial",
     "subcat": "Aspas",
@@ -19546,7 +19546,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "”",
     "name": "Aspas Duplas Direitas (Fechamento)",
     "cat": "Editorial",
     "subcat": "Aspas",
@@ -19559,8 +19559,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Aspa Simples Esquerda (Apostrofe)",
+    "char": "‘",
+    "name": "Aspa Simples Esquerda",
     "cat": "Editorial",
     "subcat": "Aspas",
     "hex": "U+2018",
@@ -19571,7 +19571,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "’",
     "name": "Aspa Simples Direita",
     "cat": "Editorial",
     "subcat": "Aspas",
@@ -19583,7 +19583,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "«",
     "name": "Guillemet Esquerdo (Aspas Francesas)",
     "cat": "Editorial",
     "subcat": "Aspas Internacionais",
@@ -19595,7 +19595,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "»",
     "name": "Guillemet Direito",
     "cat": "Editorial",
     "subcat": "Aspas Internacionais",
@@ -19607,10 +19607,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "N?mero / S?mbolo de Ordem",
+    "char": "№",
+    "name": "Número / Símbolo de Ordem",
     "cat": "Editorial",
-    "subcat": "Numera??o",
+    "subcat": "Numeração",
     "hex": "U+2116",
     "entity": "&#8470;",
     "tags": [
@@ -19620,10 +19620,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "º",
     "name": "Indicador Ordinal Masculino",
     "cat": "Editorial",
-    "subcat": "Numera??o",
+    "subcat": "Numeração",
     "hex": "U+00BA",
     "entity": "&ordm;",
     "tags": [
@@ -19633,10 +19633,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "ª",
     "name": "Indicador Ordinal Feminino",
     "cat": "Editorial",
-    "subcat": "Numera??o",
+    "subcat": "Numeração",
     "hex": "U+00AA",
     "entity": "&ordf;",
     "tags": [
@@ -19646,10 +19646,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "‰",
     "name": "Por Mil / Por Milhagem",
     "cat": "Editorial",
-    "subcat": "Estat?stica",
+    "subcat": "Estatística",
     "hex": "U+2030",
     "entity": "&permil;",
     "tags": [
@@ -19659,7 +19659,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
+    "char": "‱",
     "name": "Ponto Base (Basis Point / BPS)",
     "cat": "Editorial",
     "subcat": "Financeiro",
@@ -19673,10 +19673,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Um Meio (1/2)",
+    "char": "½",
+    "name": "Fração Um Meio (1/2)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+00BD",
     "entity": "&frac12;",
     "tags": [
@@ -19686,10 +19686,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Um Ter?o (1/3)",
+    "char": "⅓",
+    "name": "Fração Um Terço (1/3)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+2153",
     "entity": "&#8531;",
     "tags": [
@@ -19698,10 +19698,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Dois Ter?os (2/3)",
+    "char": "⅔",
+    "name": "Fração Dois Terços (2/3)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+2154",
     "entity": "&#8532;",
     "tags": [
@@ -19710,10 +19710,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Um Quarto (1/4)",
+    "char": "¼",
+    "name": "Fração Um Quarto (1/4)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+00BC",
     "entity": "&frac14;",
     "tags": [
@@ -19722,10 +19722,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Tr?s Quartos (3/4)",
+    "char": "¾",
+    "name": "Fração Três Quartos (3/4)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+00BE",
     "entity": "&frac34;",
     "tags": [
@@ -19734,10 +19734,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Um Quinto (1/5)",
+    "char": "⅕",
+    "name": "Fração Um Quinto (1/5)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+2155",
     "entity": "&#8533;",
     "tags": [
@@ -19746,10 +19746,10 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
     ]
   },
   {
-    "char": "?",
-    "name": "Fra??o Um Oitavo (1/8)",
+    "char": "⅛",
+    "name": "Fração Um Oitavo (1/8)",
     "cat": "Editorial",
-    "subcat": "Fra??es",
+    "subcat": "Frações",
     "hex": "U+215B",
     "entity": "&#8539;",
     "tags": [
@@ -19759,8 +19759,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Α",
-    "name": "Grego Mai?sculo: Alfa",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Alfa",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+391",
     "entity": "&#913;",
@@ -19774,8 +19774,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "α",
-    "name": "Grego Min?sculo: Alfa",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Alfa",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B1",
     "entity": "&#945;",
@@ -19789,8 +19789,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Β",
-    "name": "Grego Mai?sculo: Beta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Beta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+392",
     "entity": "&#914;",
@@ -19804,8 +19804,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "β",
-    "name": "Grego Min?sculo: Beta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Beta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B2",
     "entity": "&#946;",
@@ -19819,8 +19819,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Γ",
-    "name": "Grego Mai?sculo: Gama",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Gama",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+393",
     "entity": "&#915;",
@@ -19834,8 +19834,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "γ",
-    "name": "Grego Min?sculo: Gama",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Gama",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B3",
     "entity": "&#947;",
@@ -19849,8 +19849,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Δ",
-    "name": "Grego Mai?sculo: Delta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Delta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+394",
     "entity": "&#916;",
@@ -19864,8 +19864,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "δ",
-    "name": "Grego Min?sculo: Delta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Delta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B4",
     "entity": "&#948;",
@@ -19879,8 +19879,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ε",
-    "name": "Grego Mai?sculo: Epsilon",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Epsilon",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+395",
     "entity": "&#917;",
@@ -19894,8 +19894,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ε",
-    "name": "Grego Min?sculo: Epsilon",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Epsilon",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B5",
     "entity": "&#949;",
@@ -19909,8 +19909,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ζ",
-    "name": "Grego Mai?sculo: Zeta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Zeta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+396",
     "entity": "&#918;",
@@ -19924,8 +19924,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ζ",
-    "name": "Grego Min?sculo: Zeta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Zeta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B6",
     "entity": "&#950;",
@@ -19939,8 +19939,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Η",
-    "name": "Grego Mai?sculo: Eta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Eta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+397",
     "entity": "&#919;",
@@ -19954,8 +19954,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "η",
-    "name": "Grego Min?sculo: Eta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Eta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B7",
     "entity": "&#951;",
@@ -19969,8 +19969,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Θ",
-    "name": "Grego Mai?sculo: Theta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Theta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+398",
     "entity": "&#920;",
@@ -19984,8 +19984,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "θ",
-    "name": "Grego Min?sculo: Theta",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Theta",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B8",
     "entity": "&#952;",
@@ -19999,8 +19999,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ι",
-    "name": "Grego Mai?sculo: Iota",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Iota",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+399",
     "entity": "&#921;",
@@ -20014,8 +20014,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ι",
-    "name": "Grego Min?sculo: Iota",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Iota",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3B9",
     "entity": "&#953;",
@@ -20029,8 +20029,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Κ",
-    "name": "Grego Mai?sculo: Capa",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Capa",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+39A",
     "entity": "&#922;",
@@ -20044,8 +20044,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "κ",
-    "name": "Grego Min?sculo: Capa",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Capa",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3BA",
     "entity": "&#954;",
@@ -20059,8 +20059,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Λ",
-    "name": "Grego Mai?sculo: Lambda",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Lambda",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+39B",
     "entity": "&#923;",
@@ -20074,8 +20074,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "λ",
-    "name": "Grego Min?sculo: Lambda",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Lambda",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3BB",
     "entity": "&#955;",
@@ -20089,8 +20089,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Μ",
-    "name": "Grego Mai?sculo: Mu",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Mu",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+39C",
     "entity": "&#924;",
@@ -20104,8 +20104,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "μ",
-    "name": "Grego Min?sculo: Mu",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Mu",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3BC",
     "entity": "&#956;",
@@ -20119,8 +20119,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ν",
-    "name": "Grego Mai?sculo: Nu",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Nu",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+39D",
     "entity": "&#925;",
@@ -20134,8 +20134,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ν",
-    "name": "Grego Min?sculo: Nu",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Nu",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3BD",
     "entity": "&#957;",
@@ -20149,8 +20149,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ξ",
-    "name": "Grego Mai?sculo: Xi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Xi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+39E",
     "entity": "&#926;",
@@ -20164,8 +20164,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ξ",
-    "name": "Grego Min?sculo: Xi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Xi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3BE",
     "entity": "&#958;",
@@ -20179,8 +20179,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ο",
-    "name": "Grego Mai?sculo: Omicron",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Omicron",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+39F",
     "entity": "&#927;",
@@ -20194,8 +20194,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ο",
-    "name": "Grego Min?sculo: Omicron",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Omicron",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3BF",
     "entity": "&#959;",
@@ -20209,8 +20209,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Π",
-    "name": "Grego Mai?sculo: Pi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Pi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A0",
     "entity": "&#928;",
@@ -20224,8 +20224,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "π",
-    "name": "Grego Min?sculo: Pi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Pi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C0",
     "entity": "&#960;",
@@ -20239,8 +20239,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ρ",
-    "name": "Grego Mai?sculo: Rho",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Rho",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A1",
     "entity": "&#929;",
@@ -20254,8 +20254,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ρ",
-    "name": "Grego Min?sculo: Rho",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Rho",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C1",
     "entity": "&#961;",
@@ -20269,8 +20269,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "΢",
-    "name": "Grego Mai?sculo: Sigma",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Sigma",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A2",
     "entity": "&#930;",
@@ -20284,8 +20284,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ς",
-    "name": "Grego Min?sculo: Sigma",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Sigma",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C2",
     "entity": "&#962;",
@@ -20299,8 +20299,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Σ",
-    "name": "Grego Mai?sculo: Tau",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Tau",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A3",
     "entity": "&#931;",
@@ -20314,8 +20314,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "σ",
-    "name": "Grego Min?sculo: Tau",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Tau",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C3",
     "entity": "&#963;",
@@ -20329,8 +20329,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Τ",
-    "name": "Grego Mai?sculo: Upsilon",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Upsilon",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A4",
     "entity": "&#932;",
@@ -20344,8 +20344,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "τ",
-    "name": "Grego Min?sculo: Upsilon",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Upsilon",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C4",
     "entity": "&#964;",
@@ -20359,8 +20359,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Υ",
-    "name": "Grego Mai?sculo: Phi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Phi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A5",
     "entity": "&#933;",
@@ -20374,8 +20374,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "υ",
-    "name": "Grego Min?sculo: Phi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Phi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C5",
     "entity": "&#965;",
@@ -20389,8 +20389,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Φ",
-    "name": "Grego Mai?sculo: Chi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Chi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A6",
     "entity": "&#934;",
@@ -20404,8 +20404,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "φ",
-    "name": "Grego Min?sculo: Chi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Chi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C6",
     "entity": "&#966;",
@@ -20419,8 +20419,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Χ",
-    "name": "Grego Mai?sculo: Psi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Psi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A7",
     "entity": "&#935;",
@@ -20434,8 +20434,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "χ",
-    "name": "Grego Min?sculo: Psi",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Psi",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C7",
     "entity": "&#967;",
@@ -20449,8 +20449,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "Ψ",
-    "name": "Grego Mai?sculo: Omega",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Maiúsculo: Omega",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3A8",
     "entity": "&#936;",
@@ -20464,8 +20464,8 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "ψ",
-    "name": "Grego Min?sculo: Omega",
-    "cat": "Grego & Nota??o",
+    "name": "Grego Minúsculo: Omega",
+    "cat": "Grego & Notação",
     "subcat": "Alfabeto Grego",
     "hex": "U+3C8",
     "entity": "&#968;",
@@ -20479,7 +20479,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠀",
-    "name": "Padr?o Braille (U+2800)",
+    "name": "Padrão Braille (U+2800)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2800",
@@ -20494,7 +20494,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠁",
-    "name": "Padr?o Braille (U+2801)",
+    "name": "Padrão Braille (U+2801)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2801",
@@ -20509,7 +20509,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠂",
-    "name": "Padr?o Braille (U+2802)",
+    "name": "Padrão Braille (U+2802)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2802",
@@ -20524,7 +20524,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠃",
-    "name": "Padr?o Braille (U+2803)",
+    "name": "Padrão Braille (U+2803)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2803",
@@ -20539,7 +20539,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠄",
-    "name": "Padr?o Braille (U+2804)",
+    "name": "Padrão Braille (U+2804)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2804",
@@ -20554,7 +20554,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠅",
-    "name": "Padr?o Braille (U+2805)",
+    "name": "Padrão Braille (U+2805)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2805",
@@ -20569,7 +20569,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠆",
-    "name": "Padr?o Braille (U+2806)",
+    "name": "Padrão Braille (U+2806)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2806",
@@ -20584,7 +20584,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠇",
-    "name": "Padr?o Braille (U+2807)",
+    "name": "Padrão Braille (U+2807)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2807",
@@ -20599,7 +20599,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠈",
-    "name": "Padr?o Braille (U+2808)",
+    "name": "Padrão Braille (U+2808)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2808",
@@ -20614,7 +20614,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠉",
-    "name": "Padr?o Braille (U+2809)",
+    "name": "Padrão Braille (U+2809)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2809",
@@ -20629,7 +20629,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠊",
-    "name": "Padr?o Braille (U+280A)",
+    "name": "Padrão Braille (U+280A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+280A",
@@ -20644,7 +20644,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠋",
-    "name": "Padr?o Braille (U+280B)",
+    "name": "Padrão Braille (U+280B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+280B",
@@ -20659,7 +20659,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠌",
-    "name": "Padr?o Braille (U+280C)",
+    "name": "Padrão Braille (U+280C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+280C",
@@ -20674,7 +20674,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠍",
-    "name": "Padr?o Braille (U+280D)",
+    "name": "Padrão Braille (U+280D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+280D",
@@ -20689,7 +20689,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠎",
-    "name": "Padr?o Braille (U+280E)",
+    "name": "Padrão Braille (U+280E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+280E",
@@ -20704,7 +20704,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠏",
-    "name": "Padr?o Braille (U+280F)",
+    "name": "Padrão Braille (U+280F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+280F",
@@ -20719,7 +20719,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠐",
-    "name": "Padr?o Braille (U+2810)",
+    "name": "Padrão Braille (U+2810)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2810",
@@ -20734,7 +20734,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠑",
-    "name": "Padr?o Braille (U+2811)",
+    "name": "Padrão Braille (U+2811)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2811",
@@ -20749,7 +20749,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠒",
-    "name": "Padr?o Braille (U+2812)",
+    "name": "Padrão Braille (U+2812)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2812",
@@ -20764,7 +20764,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠓",
-    "name": "Padr?o Braille (U+2813)",
+    "name": "Padrão Braille (U+2813)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2813",
@@ -20779,7 +20779,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠔",
-    "name": "Padr?o Braille (U+2814)",
+    "name": "Padrão Braille (U+2814)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2814",
@@ -20794,7 +20794,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠕",
-    "name": "Padr?o Braille (U+2815)",
+    "name": "Padrão Braille (U+2815)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2815",
@@ -20809,7 +20809,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠖",
-    "name": "Padr?o Braille (U+2816)",
+    "name": "Padrão Braille (U+2816)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2816",
@@ -20824,7 +20824,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠗",
-    "name": "Padr?o Braille (U+2817)",
+    "name": "Padrão Braille (U+2817)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2817",
@@ -20839,7 +20839,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠘",
-    "name": "Padr?o Braille (U+2818)",
+    "name": "Padrão Braille (U+2818)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2818",
@@ -20854,7 +20854,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠙",
-    "name": "Padr?o Braille (U+2819)",
+    "name": "Padrão Braille (U+2819)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2819",
@@ -20869,7 +20869,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠚",
-    "name": "Padr?o Braille (U+281A)",
+    "name": "Padrão Braille (U+281A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+281A",
@@ -20884,7 +20884,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠛",
-    "name": "Padr?o Braille (U+281B)",
+    "name": "Padrão Braille (U+281B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+281B",
@@ -20899,7 +20899,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠜",
-    "name": "Padr?o Braille (U+281C)",
+    "name": "Padrão Braille (U+281C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+281C",
@@ -20914,7 +20914,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠝",
-    "name": "Padr?o Braille (U+281D)",
+    "name": "Padrão Braille (U+281D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+281D",
@@ -20929,7 +20929,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠞",
-    "name": "Padr?o Braille (U+281E)",
+    "name": "Padrão Braille (U+281E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+281E",
@@ -20944,7 +20944,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠟",
-    "name": "Padr?o Braille (U+281F)",
+    "name": "Padrão Braille (U+281F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+281F",
@@ -20959,7 +20959,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠠",
-    "name": "Padr?o Braille (U+2820)",
+    "name": "Padrão Braille (U+2820)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2820",
@@ -20974,7 +20974,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠡",
-    "name": "Padr?o Braille (U+2821)",
+    "name": "Padrão Braille (U+2821)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2821",
@@ -20989,7 +20989,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠢",
-    "name": "Padr?o Braille (U+2822)",
+    "name": "Padrão Braille (U+2822)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2822",
@@ -21004,7 +21004,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠣",
-    "name": "Padr?o Braille (U+2823)",
+    "name": "Padrão Braille (U+2823)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2823",
@@ -21019,7 +21019,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠤",
-    "name": "Padr?o Braille (U+2824)",
+    "name": "Padrão Braille (U+2824)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2824",
@@ -21034,7 +21034,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠥",
-    "name": "Padr?o Braille (U+2825)",
+    "name": "Padrão Braille (U+2825)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2825",
@@ -21049,7 +21049,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠦",
-    "name": "Padr?o Braille (U+2826)",
+    "name": "Padrão Braille (U+2826)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2826",
@@ -21064,7 +21064,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠧",
-    "name": "Padr?o Braille (U+2827)",
+    "name": "Padrão Braille (U+2827)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2827",
@@ -21079,7 +21079,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠨",
-    "name": "Padr?o Braille (U+2828)",
+    "name": "Padrão Braille (U+2828)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2828",
@@ -21094,7 +21094,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠩",
-    "name": "Padr?o Braille (U+2829)",
+    "name": "Padrão Braille (U+2829)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2829",
@@ -21109,7 +21109,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠪",
-    "name": "Padr?o Braille (U+282A)",
+    "name": "Padrão Braille (U+282A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+282A",
@@ -21124,7 +21124,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠫",
-    "name": "Padr?o Braille (U+282B)",
+    "name": "Padrão Braille (U+282B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+282B",
@@ -21139,7 +21139,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠬",
-    "name": "Padr?o Braille (U+282C)",
+    "name": "Padrão Braille (U+282C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+282C",
@@ -21154,7 +21154,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠭",
-    "name": "Padr?o Braille (U+282D)",
+    "name": "Padrão Braille (U+282D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+282D",
@@ -21169,7 +21169,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠮",
-    "name": "Padr?o Braille (U+282E)",
+    "name": "Padrão Braille (U+282E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+282E",
@@ -21184,7 +21184,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠯",
-    "name": "Padr?o Braille (U+282F)",
+    "name": "Padrão Braille (U+282F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+282F",
@@ -21199,7 +21199,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠰",
-    "name": "Padr?o Braille (U+2830)",
+    "name": "Padrão Braille (U+2830)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2830",
@@ -21214,7 +21214,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠱",
-    "name": "Padr?o Braille (U+2831)",
+    "name": "Padrão Braille (U+2831)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2831",
@@ -21229,7 +21229,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠲",
-    "name": "Padr?o Braille (U+2832)",
+    "name": "Padrão Braille (U+2832)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2832",
@@ -21244,7 +21244,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠳",
-    "name": "Padr?o Braille (U+2833)",
+    "name": "Padrão Braille (U+2833)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2833",
@@ -21259,7 +21259,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠴",
-    "name": "Padr?o Braille (U+2834)",
+    "name": "Padrão Braille (U+2834)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2834",
@@ -21274,7 +21274,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠵",
-    "name": "Padr?o Braille (U+2835)",
+    "name": "Padrão Braille (U+2835)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2835",
@@ -21289,7 +21289,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠶",
-    "name": "Padr?o Braille (U+2836)",
+    "name": "Padrão Braille (U+2836)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2836",
@@ -21304,7 +21304,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠷",
-    "name": "Padr?o Braille (U+2837)",
+    "name": "Padrão Braille (U+2837)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2837",
@@ -21319,7 +21319,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠸",
-    "name": "Padr?o Braille (U+2838)",
+    "name": "Padrão Braille (U+2838)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2838",
@@ -21334,7 +21334,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠹",
-    "name": "Padr?o Braille (U+2839)",
+    "name": "Padrão Braille (U+2839)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2839",
@@ -21349,7 +21349,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠺",
-    "name": "Padr?o Braille (U+283A)",
+    "name": "Padrão Braille (U+283A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+283A",
@@ -21364,7 +21364,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠻",
-    "name": "Padr?o Braille (U+283B)",
+    "name": "Padrão Braille (U+283B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+283B",
@@ -21379,7 +21379,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠼",
-    "name": "Padr?o Braille (U+283C)",
+    "name": "Padrão Braille (U+283C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+283C",
@@ -21394,7 +21394,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠽",
-    "name": "Padr?o Braille (U+283D)",
+    "name": "Padrão Braille (U+283D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+283D",
@@ -21409,7 +21409,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠾",
-    "name": "Padr?o Braille (U+283E)",
+    "name": "Padrão Braille (U+283E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+283E",
@@ -21424,7 +21424,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⠿",
-    "name": "Padr?o Braille (U+283F)",
+    "name": "Padrão Braille (U+283F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+283F",
@@ -21439,7 +21439,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡀",
-    "name": "Padr?o Braille (U+2840)",
+    "name": "Padrão Braille (U+2840)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2840",
@@ -21454,7 +21454,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡁",
-    "name": "Padr?o Braille (U+2841)",
+    "name": "Padrão Braille (U+2841)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2841",
@@ -21469,7 +21469,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡂",
-    "name": "Padr?o Braille (U+2842)",
+    "name": "Padrão Braille (U+2842)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2842",
@@ -21484,7 +21484,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡃",
-    "name": "Padr?o Braille (U+2843)",
+    "name": "Padrão Braille (U+2843)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2843",
@@ -21499,7 +21499,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡄",
-    "name": "Padr?o Braille (U+2844)",
+    "name": "Padrão Braille (U+2844)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2844",
@@ -21514,7 +21514,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡅",
-    "name": "Padr?o Braille (U+2845)",
+    "name": "Padrão Braille (U+2845)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2845",
@@ -21529,7 +21529,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡆",
-    "name": "Padr?o Braille (U+2846)",
+    "name": "Padrão Braille (U+2846)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2846",
@@ -21544,7 +21544,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡇",
-    "name": "Padr?o Braille (U+2847)",
+    "name": "Padrão Braille (U+2847)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2847",
@@ -21559,7 +21559,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡈",
-    "name": "Padr?o Braille (U+2848)",
+    "name": "Padrão Braille (U+2848)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2848",
@@ -21574,7 +21574,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡉",
-    "name": "Padr?o Braille (U+2849)",
+    "name": "Padrão Braille (U+2849)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2849",
@@ -21589,7 +21589,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡊",
-    "name": "Padr?o Braille (U+284A)",
+    "name": "Padrão Braille (U+284A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+284A",
@@ -21604,7 +21604,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡋",
-    "name": "Padr?o Braille (U+284B)",
+    "name": "Padrão Braille (U+284B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+284B",
@@ -21619,7 +21619,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡌",
-    "name": "Padr?o Braille (U+284C)",
+    "name": "Padrão Braille (U+284C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+284C",
@@ -21634,7 +21634,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡍",
-    "name": "Padr?o Braille (U+284D)",
+    "name": "Padrão Braille (U+284D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+284D",
@@ -21649,7 +21649,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡎",
-    "name": "Padr?o Braille (U+284E)",
+    "name": "Padrão Braille (U+284E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+284E",
@@ -21664,7 +21664,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡏",
-    "name": "Padr?o Braille (U+284F)",
+    "name": "Padrão Braille (U+284F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+284F",
@@ -21679,7 +21679,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡐",
-    "name": "Padr?o Braille (U+2850)",
+    "name": "Padrão Braille (U+2850)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2850",
@@ -21694,7 +21694,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡑",
-    "name": "Padr?o Braille (U+2851)",
+    "name": "Padrão Braille (U+2851)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2851",
@@ -21709,7 +21709,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡒",
-    "name": "Padr?o Braille (U+2852)",
+    "name": "Padrão Braille (U+2852)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2852",
@@ -21724,7 +21724,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡓",
-    "name": "Padr?o Braille (U+2853)",
+    "name": "Padrão Braille (U+2853)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2853",
@@ -21739,7 +21739,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡔",
-    "name": "Padr?o Braille (U+2854)",
+    "name": "Padrão Braille (U+2854)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2854",
@@ -21754,7 +21754,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡕",
-    "name": "Padr?o Braille (U+2855)",
+    "name": "Padrão Braille (U+2855)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2855",
@@ -21769,7 +21769,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡖",
-    "name": "Padr?o Braille (U+2856)",
+    "name": "Padrão Braille (U+2856)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2856",
@@ -21784,7 +21784,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡗",
-    "name": "Padr?o Braille (U+2857)",
+    "name": "Padrão Braille (U+2857)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2857",
@@ -21799,7 +21799,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡘",
-    "name": "Padr?o Braille (U+2858)",
+    "name": "Padrão Braille (U+2858)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2858",
@@ -21814,7 +21814,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡙",
-    "name": "Padr?o Braille (U+2859)",
+    "name": "Padrão Braille (U+2859)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2859",
@@ -21829,7 +21829,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡚",
-    "name": "Padr?o Braille (U+285A)",
+    "name": "Padrão Braille (U+285A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+285A",
@@ -21844,7 +21844,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡛",
-    "name": "Padr?o Braille (U+285B)",
+    "name": "Padrão Braille (U+285B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+285B",
@@ -21859,7 +21859,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡜",
-    "name": "Padr?o Braille (U+285C)",
+    "name": "Padrão Braille (U+285C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+285C",
@@ -21874,7 +21874,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡝",
-    "name": "Padr?o Braille (U+285D)",
+    "name": "Padrão Braille (U+285D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+285D",
@@ -21889,7 +21889,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡞",
-    "name": "Padr?o Braille (U+285E)",
+    "name": "Padrão Braille (U+285E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+285E",
@@ -21904,7 +21904,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡟",
-    "name": "Padr?o Braille (U+285F)",
+    "name": "Padrão Braille (U+285F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+285F",
@@ -21919,7 +21919,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡠",
-    "name": "Padr?o Braille (U+2860)",
+    "name": "Padrão Braille (U+2860)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2860",
@@ -21934,7 +21934,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡡",
-    "name": "Padr?o Braille (U+2861)",
+    "name": "Padrão Braille (U+2861)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2861",
@@ -21949,7 +21949,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡢",
-    "name": "Padr?o Braille (U+2862)",
+    "name": "Padrão Braille (U+2862)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2862",
@@ -21964,7 +21964,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡣",
-    "name": "Padr?o Braille (U+2863)",
+    "name": "Padrão Braille (U+2863)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2863",
@@ -21979,7 +21979,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡤",
-    "name": "Padr?o Braille (U+2864)",
+    "name": "Padrão Braille (U+2864)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2864",
@@ -21994,7 +21994,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡥",
-    "name": "Padr?o Braille (U+2865)",
+    "name": "Padrão Braille (U+2865)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2865",
@@ -22009,7 +22009,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡦",
-    "name": "Padr?o Braille (U+2866)",
+    "name": "Padrão Braille (U+2866)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2866",
@@ -22024,7 +22024,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡧",
-    "name": "Padr?o Braille (U+2867)",
+    "name": "Padrão Braille (U+2867)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2867",
@@ -22039,7 +22039,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡨",
-    "name": "Padr?o Braille (U+2868)",
+    "name": "Padrão Braille (U+2868)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2868",
@@ -22054,7 +22054,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡩",
-    "name": "Padr?o Braille (U+2869)",
+    "name": "Padrão Braille (U+2869)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2869",
@@ -22069,7 +22069,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡪",
-    "name": "Padr?o Braille (U+286A)",
+    "name": "Padrão Braille (U+286A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+286A",
@@ -22084,7 +22084,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡫",
-    "name": "Padr?o Braille (U+286B)",
+    "name": "Padrão Braille (U+286B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+286B",
@@ -22099,7 +22099,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡬",
-    "name": "Padr?o Braille (U+286C)",
+    "name": "Padrão Braille (U+286C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+286C",
@@ -22114,7 +22114,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡭",
-    "name": "Padr?o Braille (U+286D)",
+    "name": "Padrão Braille (U+286D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+286D",
@@ -22129,7 +22129,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡮",
-    "name": "Padr?o Braille (U+286E)",
+    "name": "Padrão Braille (U+286E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+286E",
@@ -22144,7 +22144,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡯",
-    "name": "Padr?o Braille (U+286F)",
+    "name": "Padrão Braille (U+286F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+286F",
@@ -22159,7 +22159,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡰",
-    "name": "Padr?o Braille (U+2870)",
+    "name": "Padrão Braille (U+2870)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2870",
@@ -22174,7 +22174,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡱",
-    "name": "Padr?o Braille (U+2871)",
+    "name": "Padrão Braille (U+2871)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2871",
@@ -22189,7 +22189,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡲",
-    "name": "Padr?o Braille (U+2872)",
+    "name": "Padrão Braille (U+2872)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2872",
@@ -22204,7 +22204,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡳",
-    "name": "Padr?o Braille (U+2873)",
+    "name": "Padrão Braille (U+2873)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2873",
@@ -22219,7 +22219,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡴",
-    "name": "Padr?o Braille (U+2874)",
+    "name": "Padrão Braille (U+2874)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2874",
@@ -22234,7 +22234,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡵",
-    "name": "Padr?o Braille (U+2875)",
+    "name": "Padrão Braille (U+2875)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2875",
@@ -22249,7 +22249,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡶",
-    "name": "Padr?o Braille (U+2876)",
+    "name": "Padrão Braille (U+2876)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2876",
@@ -22264,7 +22264,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡷",
-    "name": "Padr?o Braille (U+2877)",
+    "name": "Padrão Braille (U+2877)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2877",
@@ -22279,7 +22279,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡸",
-    "name": "Padr?o Braille (U+2878)",
+    "name": "Padrão Braille (U+2878)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2878",
@@ -22294,7 +22294,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡹",
-    "name": "Padr?o Braille (U+2879)",
+    "name": "Padrão Braille (U+2879)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2879",
@@ -22309,7 +22309,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡺",
-    "name": "Padr?o Braille (U+287A)",
+    "name": "Padrão Braille (U+287A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+287A",
@@ -22324,7 +22324,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡻",
-    "name": "Padr?o Braille (U+287B)",
+    "name": "Padrão Braille (U+287B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+287B",
@@ -22339,7 +22339,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡼",
-    "name": "Padr?o Braille (U+287C)",
+    "name": "Padrão Braille (U+287C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+287C",
@@ -22354,7 +22354,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡽",
-    "name": "Padr?o Braille (U+287D)",
+    "name": "Padrão Braille (U+287D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+287D",
@@ -22369,7 +22369,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡾",
-    "name": "Padr?o Braille (U+287E)",
+    "name": "Padrão Braille (U+287E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+287E",
@@ -22384,7 +22384,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⡿",
-    "name": "Padr?o Braille (U+287F)",
+    "name": "Padrão Braille (U+287F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+287F",
@@ -22399,7 +22399,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢀",
-    "name": "Padr?o Braille (U+2880)",
+    "name": "Padrão Braille (U+2880)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2880",
@@ -22414,7 +22414,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢁",
-    "name": "Padr?o Braille (U+2881)",
+    "name": "Padrão Braille (U+2881)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2881",
@@ -22429,7 +22429,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢂",
-    "name": "Padr?o Braille (U+2882)",
+    "name": "Padrão Braille (U+2882)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2882",
@@ -22444,7 +22444,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢃",
-    "name": "Padr?o Braille (U+2883)",
+    "name": "Padrão Braille (U+2883)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2883",
@@ -22459,7 +22459,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢄",
-    "name": "Padr?o Braille (U+2884)",
+    "name": "Padrão Braille (U+2884)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2884",
@@ -22474,7 +22474,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢅",
-    "name": "Padr?o Braille (U+2885)",
+    "name": "Padrão Braille (U+2885)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2885",
@@ -22489,7 +22489,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢆",
-    "name": "Padr?o Braille (U+2886)",
+    "name": "Padrão Braille (U+2886)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2886",
@@ -22504,7 +22504,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢇",
-    "name": "Padr?o Braille (U+2887)",
+    "name": "Padrão Braille (U+2887)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2887",
@@ -22519,7 +22519,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢈",
-    "name": "Padr?o Braille (U+2888)",
+    "name": "Padrão Braille (U+2888)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2888",
@@ -22534,7 +22534,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢉",
-    "name": "Padr?o Braille (U+2889)",
+    "name": "Padrão Braille (U+2889)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2889",
@@ -22549,7 +22549,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢊",
-    "name": "Padr?o Braille (U+288A)",
+    "name": "Padrão Braille (U+288A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+288A",
@@ -22564,7 +22564,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢋",
-    "name": "Padr?o Braille (U+288B)",
+    "name": "Padrão Braille (U+288B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+288B",
@@ -22579,7 +22579,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢌",
-    "name": "Padr?o Braille (U+288C)",
+    "name": "Padrão Braille (U+288C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+288C",
@@ -22594,7 +22594,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢍",
-    "name": "Padr?o Braille (U+288D)",
+    "name": "Padrão Braille (U+288D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+288D",
@@ -22609,7 +22609,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢎",
-    "name": "Padr?o Braille (U+288E)",
+    "name": "Padrão Braille (U+288E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+288E",
@@ -22624,7 +22624,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢏",
-    "name": "Padr?o Braille (U+288F)",
+    "name": "Padrão Braille (U+288F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+288F",
@@ -22639,7 +22639,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢐",
-    "name": "Padr?o Braille (U+2890)",
+    "name": "Padrão Braille (U+2890)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2890",
@@ -22654,7 +22654,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢑",
-    "name": "Padr?o Braille (U+2891)",
+    "name": "Padrão Braille (U+2891)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2891",
@@ -22669,7 +22669,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢒",
-    "name": "Padr?o Braille (U+2892)",
+    "name": "Padrão Braille (U+2892)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2892",
@@ -22684,7 +22684,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢓",
-    "name": "Padr?o Braille (U+2893)",
+    "name": "Padrão Braille (U+2893)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2893",
@@ -22699,7 +22699,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢔",
-    "name": "Padr?o Braille (U+2894)",
+    "name": "Padrão Braille (U+2894)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2894",
@@ -22714,7 +22714,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢕",
-    "name": "Padr?o Braille (U+2895)",
+    "name": "Padrão Braille (U+2895)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2895",
@@ -22729,7 +22729,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢖",
-    "name": "Padr?o Braille (U+2896)",
+    "name": "Padrão Braille (U+2896)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2896",
@@ -22744,7 +22744,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢗",
-    "name": "Padr?o Braille (U+2897)",
+    "name": "Padrão Braille (U+2897)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2897",
@@ -22759,7 +22759,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢘",
-    "name": "Padr?o Braille (U+2898)",
+    "name": "Padrão Braille (U+2898)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2898",
@@ -22774,7 +22774,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢙",
-    "name": "Padr?o Braille (U+2899)",
+    "name": "Padrão Braille (U+2899)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+2899",
@@ -22789,7 +22789,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢚",
-    "name": "Padr?o Braille (U+289A)",
+    "name": "Padrão Braille (U+289A)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+289A",
@@ -22804,7 +22804,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢛",
-    "name": "Padr?o Braille (U+289B)",
+    "name": "Padrão Braille (U+289B)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+289B",
@@ -22819,7 +22819,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢜",
-    "name": "Padr?o Braille (U+289C)",
+    "name": "Padrão Braille (U+289C)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+289C",
@@ -22834,7 +22834,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢝",
-    "name": "Padr?o Braille (U+289D)",
+    "name": "Padrão Braille (U+289D)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+289D",
@@ -22849,7 +22849,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢞",
-    "name": "Padr?o Braille (U+289E)",
+    "name": "Padrão Braille (U+289E)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+289E",
@@ -22864,7 +22864,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢟",
-    "name": "Padr?o Braille (U+289F)",
+    "name": "Padrão Braille (U+289F)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+289F",
@@ -22879,7 +22879,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢠",
-    "name": "Padr?o Braille (U+28A0)",
+    "name": "Padrão Braille (U+28A0)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A0",
@@ -22894,7 +22894,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢡",
-    "name": "Padr?o Braille (U+28A1)",
+    "name": "Padrão Braille (U+28A1)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A1",
@@ -22909,7 +22909,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢢",
-    "name": "Padr?o Braille (U+28A2)",
+    "name": "Padrão Braille (U+28A2)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A2",
@@ -22924,7 +22924,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢣",
-    "name": "Padr?o Braille (U+28A3)",
+    "name": "Padrão Braille (U+28A3)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A3",
@@ -22939,7 +22939,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢤",
-    "name": "Padr?o Braille (U+28A4)",
+    "name": "Padrão Braille (U+28A4)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A4",
@@ -22954,7 +22954,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢥",
-    "name": "Padr?o Braille (U+28A5)",
+    "name": "Padrão Braille (U+28A5)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A5",
@@ -22969,7 +22969,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢦",
-    "name": "Padr?o Braille (U+28A6)",
+    "name": "Padrão Braille (U+28A6)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A6",
@@ -22984,7 +22984,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢧",
-    "name": "Padr?o Braille (U+28A7)",
+    "name": "Padrão Braille (U+28A7)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A7",
@@ -22999,7 +22999,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢨",
-    "name": "Padr?o Braille (U+28A8)",
+    "name": "Padrão Braille (U+28A8)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A8",
@@ -23014,7 +23014,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢩",
-    "name": "Padr?o Braille (U+28A9)",
+    "name": "Padrão Braille (U+28A9)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28A9",
@@ -23029,7 +23029,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢪",
-    "name": "Padr?o Braille (U+28AA)",
+    "name": "Padrão Braille (U+28AA)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28AA",
@@ -23044,7 +23044,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢫",
-    "name": "Padr?o Braille (U+28AB)",
+    "name": "Padrão Braille (U+28AB)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28AB",
@@ -23059,7 +23059,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢬",
-    "name": "Padr?o Braille (U+28AC)",
+    "name": "Padrão Braille (U+28AC)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28AC",
@@ -23074,7 +23074,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢭",
-    "name": "Padr?o Braille (U+28AD)",
+    "name": "Padrão Braille (U+28AD)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28AD",
@@ -23089,7 +23089,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢮",
-    "name": "Padr?o Braille (U+28AE)",
+    "name": "Padrão Braille (U+28AE)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28AE",
@@ -23104,7 +23104,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢯",
-    "name": "Padr?o Braille (U+28AF)",
+    "name": "Padrão Braille (U+28AF)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28AF",
@@ -23119,7 +23119,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢰",
-    "name": "Padr?o Braille (U+28B0)",
+    "name": "Padrão Braille (U+28B0)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B0",
@@ -23134,7 +23134,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢱",
-    "name": "Padr?o Braille (U+28B1)",
+    "name": "Padrão Braille (U+28B1)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B1",
@@ -23149,7 +23149,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢲",
-    "name": "Padr?o Braille (U+28B2)",
+    "name": "Padrão Braille (U+28B2)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B2",
@@ -23164,7 +23164,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢳",
-    "name": "Padr?o Braille (U+28B3)",
+    "name": "Padrão Braille (U+28B3)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B3",
@@ -23179,7 +23179,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢴",
-    "name": "Padr?o Braille (U+28B4)",
+    "name": "Padrão Braille (U+28B4)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B4",
@@ -23194,7 +23194,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢵",
-    "name": "Padr?o Braille (U+28B5)",
+    "name": "Padrão Braille (U+28B5)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B5",
@@ -23209,7 +23209,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢶",
-    "name": "Padr?o Braille (U+28B6)",
+    "name": "Padrão Braille (U+28B6)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B6",
@@ -23224,7 +23224,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢷",
-    "name": "Padr?o Braille (U+28B7)",
+    "name": "Padrão Braille (U+28B7)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B7",
@@ -23239,7 +23239,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢸",
-    "name": "Padr?o Braille (U+28B8)",
+    "name": "Padrão Braille (U+28B8)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B8",
@@ -23254,7 +23254,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢹",
-    "name": "Padr?o Braille (U+28B9)",
+    "name": "Padrão Braille (U+28B9)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28B9",
@@ -23269,7 +23269,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢺",
-    "name": "Padr?o Braille (U+28BA)",
+    "name": "Padrão Braille (U+28BA)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28BA",
@@ -23284,7 +23284,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢻",
-    "name": "Padr?o Braille (U+28BB)",
+    "name": "Padrão Braille (U+28BB)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28BB",
@@ -23299,7 +23299,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢼",
-    "name": "Padr?o Braille (U+28BC)",
+    "name": "Padrão Braille (U+28BC)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28BC",
@@ -23314,7 +23314,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢽",
-    "name": "Padr?o Braille (U+28BD)",
+    "name": "Padrão Braille (U+28BD)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28BD",
@@ -23329,7 +23329,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢾",
-    "name": "Padr?o Braille (U+28BE)",
+    "name": "Padrão Braille (U+28BE)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28BE",
@@ -23344,7 +23344,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⢿",
-    "name": "Padr?o Braille (U+28BF)",
+    "name": "Padrão Braille (U+28BF)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28BF",
@@ -23359,7 +23359,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣀",
-    "name": "Padr?o Braille (U+28C0)",
+    "name": "Padrão Braille (U+28C0)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C0",
@@ -23374,7 +23374,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣁",
-    "name": "Padr?o Braille (U+28C1)",
+    "name": "Padrão Braille (U+28C1)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C1",
@@ -23389,7 +23389,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣂",
-    "name": "Padr?o Braille (U+28C2)",
+    "name": "Padrão Braille (U+28C2)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C2",
@@ -23404,7 +23404,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣃",
-    "name": "Padr?o Braille (U+28C3)",
+    "name": "Padrão Braille (U+28C3)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C3",
@@ -23419,7 +23419,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣄",
-    "name": "Padr?o Braille (U+28C4)",
+    "name": "Padrão Braille (U+28C4)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C4",
@@ -23434,7 +23434,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣅",
-    "name": "Padr?o Braille (U+28C5)",
+    "name": "Padrão Braille (U+28C5)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C5",
@@ -23449,7 +23449,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣆",
-    "name": "Padr?o Braille (U+28C6)",
+    "name": "Padrão Braille (U+28C6)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C6",
@@ -23464,7 +23464,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣇",
-    "name": "Padr?o Braille (U+28C7)",
+    "name": "Padrão Braille (U+28C7)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C7",
@@ -23479,7 +23479,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣈",
-    "name": "Padr?o Braille (U+28C8)",
+    "name": "Padrão Braille (U+28C8)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C8",
@@ -23494,7 +23494,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣉",
-    "name": "Padr?o Braille (U+28C9)",
+    "name": "Padrão Braille (U+28C9)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28C9",
@@ -23509,7 +23509,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣊",
-    "name": "Padr?o Braille (U+28CA)",
+    "name": "Padrão Braille (U+28CA)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28CA",
@@ -23524,7 +23524,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣋",
-    "name": "Padr?o Braille (U+28CB)",
+    "name": "Padrão Braille (U+28CB)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28CB",
@@ -23539,7 +23539,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣌",
-    "name": "Padr?o Braille (U+28CC)",
+    "name": "Padrão Braille (U+28CC)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28CC",
@@ -23554,7 +23554,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣍",
-    "name": "Padr?o Braille (U+28CD)",
+    "name": "Padrão Braille (U+28CD)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28CD",
@@ -23569,7 +23569,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣎",
-    "name": "Padr?o Braille (U+28CE)",
+    "name": "Padrão Braille (U+28CE)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28CE",
@@ -23584,7 +23584,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣏",
-    "name": "Padr?o Braille (U+28CF)",
+    "name": "Padrão Braille (U+28CF)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28CF",
@@ -23599,7 +23599,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣐",
-    "name": "Padr?o Braille (U+28D0)",
+    "name": "Padrão Braille (U+28D0)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D0",
@@ -23614,7 +23614,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣑",
-    "name": "Padr?o Braille (U+28D1)",
+    "name": "Padrão Braille (U+28D1)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D1",
@@ -23629,7 +23629,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣒",
-    "name": "Padr?o Braille (U+28D2)",
+    "name": "Padrão Braille (U+28D2)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D2",
@@ -23644,7 +23644,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣓",
-    "name": "Padr?o Braille (U+28D3)",
+    "name": "Padrão Braille (U+28D3)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D3",
@@ -23659,7 +23659,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣔",
-    "name": "Padr?o Braille (U+28D4)",
+    "name": "Padrão Braille (U+28D4)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D4",
@@ -23674,7 +23674,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣕",
-    "name": "Padr?o Braille (U+28D5)",
+    "name": "Padrão Braille (U+28D5)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D5",
@@ -23689,7 +23689,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣖",
-    "name": "Padr?o Braille (U+28D6)",
+    "name": "Padrão Braille (U+28D6)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D6",
@@ -23704,7 +23704,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣗",
-    "name": "Padr?o Braille (U+28D7)",
+    "name": "Padrão Braille (U+28D7)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D7",
@@ -23719,7 +23719,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣘",
-    "name": "Padr?o Braille (U+28D8)",
+    "name": "Padrão Braille (U+28D8)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D8",
@@ -23734,7 +23734,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣙",
-    "name": "Padr?o Braille (U+28D9)",
+    "name": "Padrão Braille (U+28D9)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28D9",
@@ -23749,7 +23749,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣚",
-    "name": "Padr?o Braille (U+28DA)",
+    "name": "Padrão Braille (U+28DA)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28DA",
@@ -23764,7 +23764,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣛",
-    "name": "Padr?o Braille (U+28DB)",
+    "name": "Padrão Braille (U+28DB)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28DB",
@@ -23779,7 +23779,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣜",
-    "name": "Padr?o Braille (U+28DC)",
+    "name": "Padrão Braille (U+28DC)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28DC",
@@ -23794,7 +23794,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣝",
-    "name": "Padr?o Braille (U+28DD)",
+    "name": "Padrão Braille (U+28DD)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28DD",
@@ -23809,7 +23809,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣞",
-    "name": "Padr?o Braille (U+28DE)",
+    "name": "Padrão Braille (U+28DE)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28DE",
@@ -23824,7 +23824,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣟",
-    "name": "Padr?o Braille (U+28DF)",
+    "name": "Padrão Braille (U+28DF)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28DF",
@@ -23839,7 +23839,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣠",
-    "name": "Padr?o Braille (U+28E0)",
+    "name": "Padrão Braille (U+28E0)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E0",
@@ -23854,7 +23854,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣡",
-    "name": "Padr?o Braille (U+28E1)",
+    "name": "Padrão Braille (U+28E1)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E1",
@@ -23869,7 +23869,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣢",
-    "name": "Padr?o Braille (U+28E2)",
+    "name": "Padrão Braille (U+28E2)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E2",
@@ -23884,7 +23884,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣣",
-    "name": "Padr?o Braille (U+28E3)",
+    "name": "Padrão Braille (U+28E3)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E3",
@@ -23899,7 +23899,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣤",
-    "name": "Padr?o Braille (U+28E4)",
+    "name": "Padrão Braille (U+28E4)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E4",
@@ -23914,7 +23914,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣥",
-    "name": "Padr?o Braille (U+28E5)",
+    "name": "Padrão Braille (U+28E5)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E5",
@@ -23929,7 +23929,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣦",
-    "name": "Padr?o Braille (U+28E6)",
+    "name": "Padrão Braille (U+28E6)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E6",
@@ -23944,7 +23944,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣧",
-    "name": "Padr?o Braille (U+28E7)",
+    "name": "Padrão Braille (U+28E7)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E7",
@@ -23959,7 +23959,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣨",
-    "name": "Padr?o Braille (U+28E8)",
+    "name": "Padrão Braille (U+28E8)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E8",
@@ -23974,7 +23974,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣩",
-    "name": "Padr?o Braille (U+28E9)",
+    "name": "Padrão Braille (U+28E9)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28E9",
@@ -23989,7 +23989,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣪",
-    "name": "Padr?o Braille (U+28EA)",
+    "name": "Padrão Braille (U+28EA)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28EA",
@@ -24004,7 +24004,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣫",
-    "name": "Padr?o Braille (U+28EB)",
+    "name": "Padrão Braille (U+28EB)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28EB",
@@ -24019,7 +24019,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣬",
-    "name": "Padr?o Braille (U+28EC)",
+    "name": "Padrão Braille (U+28EC)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28EC",
@@ -24034,7 +24034,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣭",
-    "name": "Padr?o Braille (U+28ED)",
+    "name": "Padrão Braille (U+28ED)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28ED",
@@ -24049,7 +24049,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣮",
-    "name": "Padr?o Braille (U+28EE)",
+    "name": "Padrão Braille (U+28EE)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28EE",
@@ -24064,7 +24064,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣯",
-    "name": "Padr?o Braille (U+28EF)",
+    "name": "Padrão Braille (U+28EF)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28EF",
@@ -24079,7 +24079,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣰",
-    "name": "Padr?o Braille (U+28F0)",
+    "name": "Padrão Braille (U+28F0)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F0",
@@ -24094,7 +24094,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣱",
-    "name": "Padr?o Braille (U+28F1)",
+    "name": "Padrão Braille (U+28F1)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F1",
@@ -24109,7 +24109,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣲",
-    "name": "Padr?o Braille (U+28F2)",
+    "name": "Padrão Braille (U+28F2)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F2",
@@ -24124,7 +24124,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣳",
-    "name": "Padr?o Braille (U+28F3)",
+    "name": "Padrão Braille (U+28F3)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F3",
@@ -24139,7 +24139,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣴",
-    "name": "Padr?o Braille (U+28F4)",
+    "name": "Padrão Braille (U+28F4)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F4",
@@ -24154,7 +24154,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣵",
-    "name": "Padr?o Braille (U+28F5)",
+    "name": "Padrão Braille (U+28F5)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F5",
@@ -24169,7 +24169,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣶",
-    "name": "Padr?o Braille (U+28F6)",
+    "name": "Padrão Braille (U+28F6)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F6",
@@ -24184,7 +24184,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣷",
-    "name": "Padr?o Braille (U+28F7)",
+    "name": "Padrão Braille (U+28F7)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F7",
@@ -24199,7 +24199,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣸",
-    "name": "Padr?o Braille (U+28F8)",
+    "name": "Padrão Braille (U+28F8)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F8",
@@ -24214,7 +24214,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣹",
-    "name": "Padr?o Braille (U+28F9)",
+    "name": "Padrão Braille (U+28F9)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28F9",
@@ -24229,7 +24229,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣺",
-    "name": "Padr?o Braille (U+28FA)",
+    "name": "Padrão Braille (U+28FA)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28FA",
@@ -24244,7 +24244,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣻",
-    "name": "Padr?o Braille (U+28FB)",
+    "name": "Padrão Braille (U+28FB)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28FB",
@@ -24259,7 +24259,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣼",
-    "name": "Padr?o Braille (U+28FC)",
+    "name": "Padrão Braille (U+28FC)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28FC",
@@ -24274,7 +24274,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣽",
-    "name": "Padr?o Braille (U+28FD)",
+    "name": "Padrão Braille (U+28FD)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28FD",
@@ -24289,7 +24289,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣾",
-    "name": "Padr?o Braille (U+28FE)",
+    "name": "Padrão Braille (U+28FE)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28FE",
@@ -24304,7 +24304,7 @@ export const SOVEREIGN_SYMBOLS_CATALOG = [
   },
   {
     "char": "⣿",
-    "name": "Padr?o Braille (U+28FF)",
+    "name": "Padrão Braille (U+28FF)",
     "cat": "Braille",
     "subcat": "Acessibilidade & Tato",
     "hex": "U+28FF",
