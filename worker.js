@@ -13,6 +13,7 @@
 
 import { ICONS_CATALOG } from './catalog.js';
 import { TOP_VECTOR_PATHS } from './top-paths.js';
+import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -859,6 +860,19 @@ export default {
 
     
     // ── ROTA SOBERANA DE FONTES WOFF2 ANYCAST (/api/fonts/:name ou /fonts/:name) ──
+    if (path === '/api/fonts' || path === '/fonts' || path === '/api/fonts/list') {
+      return new Response(JSON.stringify({
+        ok: true,
+        service: 'Icons & Fontes Pro — Catálogo de Fontes de Borda',
+        totalFontes: SOVEREIGN_FONTS_CATALOG.length,
+        descricao: 'Catálogo oficial de tipografias WOFF2 das maiores plataformas de design e vídeo (Canva, CapCut, Adobe, TikTok)',
+        fontes: SOVEREIGN_FONTS_CATALOG
+      }, null, 2), {
+        status: 200,
+        headers: calcResponseHeaders('application/json')
+      });
+    }
+
     if (path.startsWith('/api/fonts/') || path.startsWith('/fonts/')) {
       const fontFile = path.split('/').pop().toLowerCase();
       try {
