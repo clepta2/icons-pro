@@ -1,4 +1,4 @@
-/**
+﻿/**
  * worker.js
  * Cloudflare Worker Anycast para Icons Pro API (R2 Storage + Cache Anycast)
  * Catálogo completo de 3.470 logos e ícones vetoriais de marcas globais.
@@ -16,6 +16,7 @@ import { TOP_VECTOR_PATHS } from './top-paths.js';
 import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
 import { SOVEREIGN_SYMBOLS_CATALOG } from './symbols-catalog.js';
 import { EMOJIS_CATALOG } from './emojis-catalog.js';
+import { HTML_STUDIO } from './site-assets.js';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -248,8 +249,52 @@ function buscarIcones(termo, limit = 50) {
   return scored.slice(0, limit).map(s => s.item);
 }
 
-function aplicarCorSvg(svgText, hexColor) {
+export function isColorDark(hex) {
+  if (!hex) return false;
+  const clean = String(hex).replace('#', '').trim().toLowerCase();
+  if (clean === '000' || clean === '000000' || clean === '181717' || clean === '111111') return true;
+  if (clean.length === 3) {
+    const r = parseInt(clean[0] + clean[0], 16);
+    const g = parseInt(clean[1] + clean[1], 16);
+    const b = parseInt(clean[2] + clean[2], 16);
+    return (0.2126 * r + 0.7152 * g + 0.0722 * b) < 45;
+  }
+  if (clean.length === 6) {
+    const r = parseInt(clean.substring(0, 2), 16);
+    const g = parseInt(clean.substring(2, 4), 16);
+    const b = parseInt(clean.substring(4, 6), 16);
+    return (0.2126 * r + 0.7152 * g + 0.0722 * b) < 45;
+  }
+  return false;
+}
+
+export function isColorLight(hex) {
+  if (!hex) return false;
+  const clean = String(hex).replace('#', '').trim().toLowerCase();
+  if (clean === 'fff' || clean === 'ffffff') return true;
+  if (clean.length === 3) {
+    const r = parseInt(clean[0] + clean[0], 16);
+    const g = parseInt(clean[1] + clean[1], 16);
+    const b = parseInt(clean[2] + clean[2], 16);
+    return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 215;
+  }
+  if (clean.length === 6) {
+    const r = parseInt(clean.substring(0, 2), 16);
+    const g = parseInt(clean.substring(2, 4), 16);
+    const b = parseInt(clean.substring(4, 6), 16);
+    return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 215;
+  }
+  return false;
+}
+
+export function aplicarCorSvg(svgText, hexColor) {
   if (!hexColor) return svgText;
+  if (hexColor === 'currentColor') {
+    if (/<svg[^>]*\sfill="[^"]*"/i.test(svgText)) {
+      return svgText.replace(/(<svg[^>]*\sfill=")[^"]*(")/i, '$1currentColor$2');
+    }
+    return svgText.replace(/<svg\s/i, '<svg fill="currentColor" ');
+  }
   let clean = String(hexColor).replace('#', '').trim();
   if (!/^[0-9a-fA-F]{3,8}$/.test(clean)) return svgText;
   const hex = `#${clean}`;
@@ -257,6 +302,28 @@ function aplicarCorSvg(svgText, hexColor) {
     return svgText.replace(/(<svg[^>]*\sfill=")[^"]*(")/i, `$1${hex}$2`);
   }
   return svgText.replace(/<svg\s/i, `<svg fill="${hex}" `);
+}
+
+export function aplicarMolduraSvg(svgText, bgOption, theme) {
+  if (!bgOption) return svgText;
+  let bgFill = theme === 'light' ? '#f1f5f9' : '#1e293b';
+  let rx = '8';
+  if (bgOption === 'circle' || bgOption === 'round') {
+    rx = '16';
+  } else if (bgOption === 'rounded') {
+    rx = '8';
+  } else if (/^[0-9a-fA-F]{3,8}$/.test(String(bgOption).replace('#', ''))) {
+    bgFill = `#${String(bgOption).replace('#', '')}`;
+  }
+  const innerContent = svgText.replace(/<svg[^>]*>/i, '').replace(/<\/svg>/i, '');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img"><rect width="32" height="32" rx="${rx}" fill="${bgFill}"/><g transform="translate(4, 4)">${innerContent}</g></svg>`;
+}
+
+export function injetarAutoTemaSvg(svgText, brandHex) {
+  const darkInverted = isColorDark(brandHex) ? '#ffffff' : `#${brandHex}`;
+  const lightInverted = isColorLight(brandHex) ? '#090d16' : `#${brandHex}`;
+  const styleTag = `<style>:root{fill:${lightInverted};}@media(prefers-color-scheme:dark){:root,svg,path{fill:${darkInverted}!important;}}@media(prefers-color-scheme:light){:root,svg,path{fill:${lightInverted}!important;}}</style>`;
+  return svgText.replace(/<svg([^>]*)>/i, `<svg$1>${styleTag}`);
 }
 
 function gerarSvgEmblemaMarca(item, corCustomizada) {
@@ -276,496 +343,128 @@ function gerarSvgEmblemaMarca(item, corCustomizada) {
 </svg>`;
 }
 
-async function obterSvgDoIcone(item, corCustomizada, env, ctx) {
-  const cacheKey = `${item.slug}_${corCustomizada || 'orig'}`;
+async function obterSvgDoIcone(item, corCustomizada, theme = '', bg = '', env = {}, ctx = {}) {
+  // Ajuste inteligente de contraste por tema
+  let effectiveColor = corCustomizada;
+  if (!effectiveColor) {
+    if ((theme === 'dark' || theme === 'black') && isColorDark(item.hex)) {
+      effectiveColor = '#ffffff'; // Inverte marcas pretas em fundos escuros
+    } else if ((theme === 'light' || theme === 'white') && isColorLight(item.hex)) {
+      effectiveColor = '#090d16'; // Inverte marcas brancas em fundos claros
+    }
+  }
+
+  const cacheKey = `${item.slug}_${effectiveColor || 'orig'}_${theme || 'none'}_${bg || 'none'}`;
 
   // 1. Camada 1: Cache em Memória do Isolate (<0.1ms)
   if (svgMemoryCache.has(cacheKey)) {
     return { svg: svgMemoryCache.get(cacheKey), source: 'EDGE-MEMORY-HIT' };
   }
 
+  let finalSvg = null;
+  let source = 'EDGE-FALLBACK';
+
   // 2. Camada 2: Vetores SVG Oficiais Embutidos na Borda (<0.1ms - Top 135 marcas globais)
   if (TOP_VECTOR_PATHS && TOP_VECTOR_PATHS[item.slug]) {
     const pathD = TOP_VECTOR_PATHS[item.slug];
-    const fill = corCustomizada ? `#${corCustomizada.replace('#', '')}` : `#${item.hex || '000000'}`;
+    const fill = effectiveColor ? (effectiveColor.startsWith('#') || effectiveColor === 'currentColor' ? effectiveColor : `#${effectiveColor.replace('#', '')}`) : `#${item.hex || '000000'}`;
     const safeTitle = (item.title || item.slug).replace(/&/g, '&amp;').replace(/</g, '&lt;');
-    const embeddedSvg = `<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="${fill}"><title>${safeTitle}</title><path d="${pathD}"/></svg>`;
-    svgMemoryCache.set(cacheKey, embeddedSvg);
-    return { svg: embeddedSvg, source: 'EDGE-EMBEDDED-HIT' };
+    finalSvg = `<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="${fill}"><title>${safeTitle}</title><path d="${pathD}"/></svg>`;
+    source = 'EDGE-EMBEDDED-HIT';
   }
 
   // 3. Camada 3: Cloudflare R2 Anycast Edge Storage (<5ms)
-  if (env && env.ICONS_R2 && typeof env.ICONS_R2.get === 'function') {
+  if (!finalSvg && env && env.ICONS_R2 && typeof env.ICONS_R2.get === 'function') {
     try {
       const obj = await env.ICONS_R2.get(`icons/svg/${item.slug}.svg`);
       if (obj) {
         let r2Svg = await obj.text();
-        if (corCustomizada) {
-          r2Svg = aplicarCorSvg(r2Svg, corCustomizada);
+        if (effectiveColor) {
+          r2Svg = aplicarCorSvg(r2Svg, effectiveColor);
         } else if (!/<svg[^>]*\sfill=/i.test(r2Svg)) {
           r2Svg = aplicarCorSvg(r2Svg, item.hex);
         }
-        svgMemoryCache.set(cacheKey, r2Svg);
-        return { svg: r2Svg, source: 'R2-EDGE-HIT' };
+        finalSvg = r2Svg;
+        source = 'R2-EDGE-HIT';
       }
     } catch (_) {}
   }
 
   // 4. Camada 4: Armazenamento Local / Static Assets (<1ms em ambiente local/Node)
-  try {
-    const fs = await import('fs');
-    const path = await import('path');
-    const { fileURLToPath } = await import('url');
-    const curDir = path.dirname(fileURLToPath(import.meta.url));
-    const localFile = path.join(curDir, 'svg', `${item.slug}.svg`);
-    if (fs.existsSync(localFile)) {
-      let localSvg = fs.readFileSync(localFile, 'utf8');
-      if (corCustomizada) {
-        localSvg = aplicarCorSvg(localSvg, corCustomizada);
-      } else if (!/<svg[^>]*\sfill=/i.test(localSvg)) {
-        localSvg = aplicarCorSvg(localSvg, item.hex);
+  if (!finalSvg) {
+    try {
+      const fs = await import('fs');
+      const path = await import('path');
+      const { fileURLToPath } = await import('url');
+      const curDir = path.dirname(fileURLToPath(import.meta.url));
+      const localFile = path.join(curDir, 'svg', `${item.slug}.svg`);
+      if (fs.existsSync(localFile)) {
+        let localSvg = fs.readFileSync(localFile, 'utf8');
+        if (effectiveColor) {
+          localSvg = aplicarCorSvg(localSvg, effectiveColor);
+        } else if (!/<svg[^>]*\sfill=/i.test(localSvg)) {
+          localSvg = aplicarCorSvg(localSvg, item.hex);
+        }
+        finalSvg = localSvg;
+        source = 'LOCAL-EDGE-DISK';
       }
-      svgMemoryCache.set(cacheKey, localSvg);
-      return { svg: localSvg, source: 'LOCAL-EDGE-DISK' };
-    }
-  } catch (_) {}
-
-  // 5. Camada 5: Stashing Automático na Borda com Timeout Seguro de 800ms
-  try {
-    const upstreamUrl = `https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/${item.slug}.svg`;
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 800);
-
-    const res = await fetch(upstreamUrl, {
-      signal: ctrl.signal,
-      headers: { 'Accept': 'image/svg+xml' }
-    });
-    clearTimeout(timer);
-
-    if (res.ok) {
-      let rawSvg = await res.text();
-      let finalSvg = rawSvg;
-      if (corCustomizada) {
-        finalSvg = aplicarCorSvg(finalSvg, corCustomizada);
-      } else if (!/<svg[^>]*\sfill=/i.test(finalSvg)) {
-        finalSvg = aplicarCorSvg(finalSvg, item.hex);
-      }
-
-      // Salva no cache do isolate
-      svgMemoryCache.set(cacheKey, finalSvg);
-
-      // Persiste no R2 em background para que as próximas requisições sejam 100% locais na borda
-      if (ctx && typeof ctx.waitUntil === 'function' && env && env.ICONS_R2 && typeof env.ICONS_R2.put === 'function') {
-        ctx.waitUntil(env.ICONS_R2.put(`icons/svg/${item.slug}.svg`, finalSvg, {
-          httpMetadata: { contentType: 'image/svg+xml' }
-        }));
-      }
-
-      return { svg: finalSvg, source: 'UPSTREAM-EDGE-STASHED' };
-    }
-  } catch (_) {
-    // Timeout ou rede externa indisponível: avança para o motor de fallback
+    } catch (_) {}
   }
 
-  // 6. Camada 6: Motor Vetorial Instantâneo da Borda (<0.1ms - Cor oficial e iniciais)
-  const fallbackSvg = gerarSvgEmblemaMarca(item, corCustomizada);
-  svgMemoryCache.set(cacheKey, fallbackSvg);
-  return { svg: fallbackSvg, source: 'EDGE-VECTOR-FALLBACK' };
+  // 5. Camada 5: Stashing Automático na Borda com Timeout Seguro de 800ms
+  if (!finalSvg) {
+    try {
+      const upstreamUrl = `https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/${item.slug}.svg`;
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 800);
+
+      const res = await fetch(upstreamUrl, {
+        signal: ctrl.signal,
+        headers: { 'Accept': 'image/svg+xml' }
+      });
+      clearTimeout(timer);
+
+      if (res.ok) {
+        let rawSvg = await res.text();
+        if (effectiveColor) {
+          rawSvg = aplicarCorSvg(rawSvg, effectiveColor);
+        } else if (!/<svg[^>]*\sfill=/i.test(rawSvg)) {
+          rawSvg = aplicarCorSvg(rawSvg, item.hex);
+        }
+        finalSvg = rawSvg;
+        source = 'UPSTREAM-EDGE-STASHED';
+
+        if (ctx && typeof ctx.waitUntil === 'function' && env && env.ICONS_R2 && typeof env.ICONS_R2.put === 'function') {
+          ctx.waitUntil(env.ICONS_R2.put(`icons/svg/${item.slug}.svg`, finalSvg, {
+            httpMetadata: { contentType: 'image/svg+xml' }
+          }));
+        }
+      }
+    } catch (_) {}
+  }
+
+  // 6. Camada 6: Fallback com Emblema
+  if (!finalSvg) {
+    finalSvg = gerarSvgEmblemaMarca(item, effectiveColor);
+    source = 'EDGE-VECTOR-FALLBACK';
+  }
+
+  // Aplicação de tema adaptativo se theme=auto
+  if (theme === 'auto' && !corCustomizada) {
+    finalSvg = injetarAutoTemaSvg(finalSvg, item.hex || '000000');
+  }
+
+  // Aplicação de moldura (bg=circle | rounded | hex)
+  if (bg) {
+    finalSvg = aplicarMolduraSvg(finalSvg, bg, theme);
+  }
+
+  svgMemoryCache.set(cacheKey, finalSvg);
+  return { svg: finalSvg, source };
 }
 
 
-const HTML_STUDIO = `<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Icons Pro ? Cat?logo de 3.470 ?cones & Logos Globais na Borda</title>
-  <meta name="description" content="Cat?logo oficial e buscador instant?neo de 3.470 marcas e ?cones vetoriais em SVG puro com cache Anycast sub-1ms.">
-  <link rel="stylesheet" href="ponte-suite.css">
-  <style>
-    .icon-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      gap: 12px;
-      max-height: 480px;
-      overflow-y: auto;
-      padding-right: 4px;
-    }
-    .icon-card {
-      background: var(--paper-elevated);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-md);
-      padding: 14px 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      cursor: pointer;
-      transition: all 0.16s ease;
-      text-align: center;
-    }
-    .icon-card:hover {
-      border-color: var(--mint);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 14px rgba(0,0,0,0.4);
-    }
-    .icon-card.active {
-      border-color: var(--mint);
-      background: rgba(163, 230, 53, 0.08);
-    }
-    .icon-card svg {
-      width: 32px;
-      height: 32px;
-      transition: transform 0.16s ease;
-    }
-    .icon-card:hover svg {
-      transform: scale(1.1);
-    }
-    .icon-card span {
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--ink);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 100%;
-    }
-    .icon-preview-box {
-      display: grid;
-      place-items: center;
-      padding: 24px;
-      background: var(--forest-850);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      min-height: 140px;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="app-shell">
-    <!-- SIDEBAR DA SUÍTE PONTE -->
-    <aside class="sidebar">
-      <a class="brand" href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">
-        <div class="brand-mark">?</div>
-        <div class="brand-copy">
-          <strong>ponte</strong>
-          <small>API MARKET · OZPRO</small>
-        </div>
-      </a>
-
-      <div class="nav-section-label">APIs de Design & Assets</div>
-      <nav class="primary-nav">
-        <a class="nav-link is-active" href="#">
-          <span>??</span> <span>Ícones & Assets Pro</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/graficos-pro/">
-          <span>??</span> <span>Gráficos Vetoriais SVG</span>
-        </a>
-      </nav>
-
-      <div class="nav-section-label">Validação & Segurança</div>
-      <nav class="primary-nav">
-        <a class="nav-link" href="https://clepta2.github.io/boletovalidator-pro/">
-          <span>??</span> <span>BoletoValidator Pro</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/pixvalidator-pro/">
-          <span>??</span> <span>Pix Gateway Pro</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/antifraude-pro/">
-          <span>???</span> <span>Segurança & Antifraude</span>
-        </a>
-        <a class="nav-link" href="https://clepta2.github.io/passvalidator-pro/">
-          <span>??</span> <span>PassValidator HIBP</span>
-        </a>
-      </nav>
-
-      <div class="sidebar-bottom">
-        <div class="status-row">
-          <span class="status-dot"></span>
-          <span>Borda Cloudflare Anycast</span>
-        </div>
-      </div>
-    </aside>
-
-    <!-- ÁREA PRINCIPAL -->
-    <main class="main-area">
-      <!-- TOPBAR UNIFICADA -->
-      <header class="topbar">
-        <div class="breadcrumb">
-          <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Workspace</a>
-          <span>?</span>
-          <a href="https://ponte-marketplace.maputo2.workers.dev/#catalogo">Design & Assets</a>
-          <span>?</span>
-          <strong>Ícones & Logos Pro</strong>
-        </div>
-
-        <div class="topbar-actions">
-          <div class="api-key-box">
-            <span>??</span>
-            <input type="text" id="inputApiKey" placeholder="ico_live_... (ou Demo)" />
-            <button class="ponte-btn-save" id="btnSalvarKey">Salvar</button>
-          </div>
-          <button class="theme-toggle-btn" id="themeToggle" title="Alternar tema">??</button>
-        </div>
-      </header>
-
-      <!-- CONTE?DO -->
-      <div class="content-wrap">
-        <!-- GUIA DID?TICO: O QUE ESTÁ ACONTECENDO -->
-        <div class="guide-card">
-          <div class="guide-header">
-            <strong>?💡 O que esta ferramenta faz e como utilizar?</strong>
-            <span class="badge green">Entrega Sub-1ms Anycast</span>
-          </div>
-          <div class="guide-steps">
-            <div class="guide-step">
-              <span class="guide-step-tag">Passo 1: Buscar Marca</span>
-              <p>Digite o nome de qualquer marca, tecnologia ou rede social no campo de busca (são mais de 3.470 ícones disponíveis).</p>
-            </div>
-            <div class="guide-step">
-              <span class="guide-step-tag">Passo 2: Customizar Cor & Tamanho</span>
-              <p>Altere a cor hexadecimal e o tamanho em pixels. O SVG é processado e recolorido em tempo real na memória RAM.</p>
-            </div>
-            <div class="guide-step">
-              <span class="guide-step-tag">Passo 3: Copiar ou Integrar</span>
-              <p>Copie o código SVG bruto, URL de CDN Anycast ou código de integração em Node.js/Python para o seu site ou app.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="badges-bar">
-          <span class="badge green">● 3.470 Marcas Catalogadas</span>
-          <span class="badge blue">⚡ Vetores SVG Oficiais</span>
-          <span class="badge">?? CDN Anycast (<1ms)</span>
-          <span class="badge">?? Cores Hex Personalizáveis</span>
-        </div>
-
-        <div class="grid-layout">
-          <!-- PAINEL ESQUERDO: EXPLORADOR E BUSCADOR -->
-          <div class="card">
-            <div class="card-title">
-              <span>Explorador de Ícones</span>
-              <span style="font-size:11px;color:var(--muted);" id="lblContador">Carregando catálogo...</span>
-            </div>
-
-            <div class="form-group">
-              <label for="txtBusca">Pesquisar por Marca, Empresa ou Linguagem</label>
-              <input type="text" id="txtBusca" placeholder="Ex: google, github, react, python, visa, nubank..." value="google" />
-            </div>
-
-            <div class="icon-grid" id="gridIcones">
-              <!-- Renderizado dinamicamente via JS -->
-            </div>
-          </div>
-
-          <!-- PAINEL DIREITO: CUSTOMIZADOR & EXPORTADOR -->
-          <div class="card">
-            <div class="card-title">
-              <span>Personaliza??o & Exporta??o</span>
-              <span class="badge green" id="badgeSlugAtivo">google</span>
-            </div>
-
-            <div class="icon-preview-box" id="boxPreview">
-              <!-- SVG din?mico -->
-            </div>
-
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <div class="form-group">
-                <label for="inputCor">Cor Hexadecimal</label>
-                <div style="display: flex; gap: 6px;">
-                  <input type="color" id="pickerCor" value="#a3e635" style="width:38px;height:38px;padding:2px;cursor:pointer;border-radius:6px;" />
-                  <input type="text" id="inputCor" value="#a3e635" style="flex:1;" />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputTamanho">Tamanho (Pixels)</label>
-                <input type="number" id="inputTamanho" value="64" min="16" max="256" step="8" />
-              </div>
-            </div>
-
-            <div class="btn-row">
-              <button class="btn btn-primary" id="btnCopiarSvg" style="flex:1;">?? Copiar C?digo SVG</button>
-              <button class="btn btn-secondary" id="btnCopiarUrl">?? Copiar URL da CDN</button>
-            </div>
-
-            <!-- SNIPPETS DE INTEGRA??O MULTILINGUAGEM -->
-            <div class="snippet-panel">
-              <div class="snippet-header">
-                <div class="snippet-tabs">
-                  <button class="snippet-tab active" data-lang="curl">cURL</button>
-                  <button class="snippet-tab" data-lang="html">HTML</button>
-                  <button class="snippet-tab" data-lang="js">Node.js</button>
-                </div>
-                <button class="btn btn-secondary btn-sm" id="btnCopiarSnippet">Copiar Snippet</button>
-              </div>
-              <pre class="snippet-code"><code id="codeSnippet">curl "https://icons-pro-api.maputo2.workers.dev/api/icons/google.svg?color=a3e635"</code></pre>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-  </div>
-
-  <script type="module">
-    import { ICONS_CATALOG } from './catalog.js';
-
-    // Gerenciador de Chave de API
-    const inputApiKey = document.getElementById('inputApiKey');
-    inputApiKey.value = localStorage.getItem('icons_api_key') || '';
-    document.getElementById('btnSalvarKey').addEventListener('click', () => {
-      localStorage.setItem('icons_api_key', inputApiKey.value.trim());
-      alert('Chave de API salva com sucesso no seu navegador!');
-    });
-
-    // Alternador de Tema
-    const themeBtn = document.getElementById('themeToggle');
-    const updateIcon = () => themeBtn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '??' : '??';
-    themeBtn.addEventListener('click', () => {
-      const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', cur);
-      localStorage.setItem('ponte.theme', cur);
-      updateIcon();
-    });
-    updateIcon();
-
-    // Estado da Aplica??o
-    let iconeSelecionado = ICONS_CATALOG.find(i => i.slug === 'google') || ICONS_CATALOG[0];
-    let corAtual = '#a3e635';
-    let tamanhoAtual = 64;
-    let snippetLang = 'curl';
-
-    const grid = document.getElementById('gridIcones');
-    const txtBusca = document.getElementById('txtBusca');
-    const lblContador = document.getElementById('lblContador');
-    const boxPreview = document.getElementById('boxPreview');
-    const badgeSlug = document.getElementById('badgeSlugAtivo');
-    const pickerCor = document.getElementById('pickerCor');
-    const inputCor = document.getElementById('inputCor');
-    const inputTamanho = document.getElementById('inputTamanho');
-    const codeSnippet = document.getElementById('codeSnippet');
-
-    function filtrarIcones(query) {
-      const q = (query || '').toLowerCase().trim();
-      if (!q) return ICONS_CATALOG.slice(0, 48);
-      return ICONS_CATALOG.filter(i => 
-        i.title.toLowerCase().includes(q) || 
-        i.slug.toLowerCase().includes(q) || 
-        (i.aliases && i.aliases.some(a => a.toLowerCase().includes(q)))
-      ).slice(0, 60);
-    }
-
-    function renderizarGrid(lista) {
-      grid.innerHTML = '';
-      lblContador.textContent = \`\${lista.length} ?cones exibidos\`;
-
-      lista.forEach(item => {
-        const div = document.createElement('div');
-        div.className = \`icon-card \${item.slug === iconeSelecionado.slug ? 'active' : ''}\`;
-        div.innerHTML = \`
-          <img src="https://icons-pro-api.maputo2.workers.dev/api/icons/\${item.slug}.svg?color=\${(item.hex || 'a3e635').replace('#','')}" alt="\${item.title}" style="width:28px;height:28px;" loading="lazy" />
-          <span>\${item.title}</span>
-        \`;
-        div.addEventListener('click', () => {
-          iconeSelecionado = item;
-          document.querySelectorAll('.icon-card').forEach(c => c.classList.remove('active'));
-          div.classList.add('active');
-          atualizarPreview();
-        });
-        grid.appendChild(div);
-      });
-    }
-
-    txtBusca.addEventListener('input', (e) => {
-      renderizarGrid(filtrarIcones(e.target.value));
-    });
-
-    // Atualiza??o de Cores
-    pickerCor.addEventListener('input', (e) => {
-      corAtual = e.target.value;
-      inputCor.value = corAtual;
-      atualizarPreview();
-    });
-    inputCor.addEventListener('input', (e) => {
-      corAtual = e.target.value;
-      pickerCor.value = corAtual;
-      atualizarPreview();
-    });
-    inputTamanho.addEventListener('input', (e) => {
-      tamanhoAtual = parseInt(e.target.value, 10) || 64;
-      atualizarPreview();
-    });
-
-    async function atualizarPreview() {
-      badgeSlug.textContent = iconeSelecionado.slug;
-      const cleanHex = corAtual.replace('#', '');
-      const url = \`https://icons-pro-api.maputo2.workers.dev/api/icons/\${iconeSelecionado.slug}.svg?color=\${cleanHex}\`;
-
-      try {
-        const resp = await fetch(url);
-        const svgText = await resp.text();
-        boxPreview.innerHTML = svgText;
-        const svgEl = boxPreview.querySelector('svg');
-        if (svgEl) {
-          svgEl.setAttribute('width', tamanhoAtual);
-          svgEl.setAttribute('height', tamanhoAtual);
-          svgEl.style.display = 'block';
-        }
-      } catch (err) {
-        boxPreview.innerHTML = \`<img src="\${url}" width="\${tamanhoAtual}" height="\${tamanhoAtual}" />\`;
-      }
-
-      atualizarSnippet();
-    }
-
-    function atualizarSnippet() {
-      const cleanHex = corAtual.replace('#', '');
-      const url = \`https://icons-pro-api.maputo2.workers.dev/api/icons/\${iconeSelecionado.slug}.svg?color=\${cleanHex}\`;
-
-      if (snippetLang === 'curl') {
-        codeSnippet.textContent = \`curl "\${url}"\`;
-      } else if (snippetLang === 'html') {
-        codeSnippet.textContent = \`<img src="\${url}" alt="\${iconeSelecionado.title}" width="\${tamanhoAtual}" height="\${tamanhoAtual}" />\`;
-      } else if (snippetLang === 'js') {
-        codeSnippet.textContent = \`const res = await fetch("\${url}");
-const svg = await res.text();\`;
-      }
-    }
-
-    document.querySelectorAll('.snippet-tab').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.snippet-tab').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        snippetLang = btn.dataset.lang;
-        atualizarSnippet();
-      });
-    });
-
-    document.getElementById('btnCopiarSvg').addEventListener('click', () => {
-      const svg = boxPreview.innerHTML;
-      navigator.clipboard.writeText(svg);
-      alert('Código SVG copiado para a área de transferência!');
-    });
-
-    document.getElementById('btnCopiarUrl').addEventListener('click', () => {
-      const cleanHex = corAtual.replace('#', '');
-      const url = \`https://icons-pro-api.maputo2.workers.dev/api/icons/\${iconeSelecionado.slug}.svg?color=\${cleanHex}\`;
-      navigator.clipboard.writeText(url);
-      alert('URL oficial da CDN Anycast copiada!');
-    });
-
-    document.getElementById('btnCopiarSnippet').addEventListener('click', () => {
-      navigator.clipboard.writeText(codeSnippet.textContent);
-      alert('Snippet copiado!');
-    });
-
-    // Inicialização
-    renderizarGrid(filtrarIcones('google'));
-    atualizarPreview();
-  </script>
-</body>
-</html>
-`;
+// HTML_STUDIO importado de ./site-assets.js
 
 export default {
   async fetch(request, env = {}, ctx = {}) {
@@ -1113,13 +812,15 @@ export default {
     if (match && cleanPath !== '/' && cleanPath !== '/health' && cleanPath !== '/status' && cleanPath !== '/api/status' && cleanPath !== '/api/icons/search' && cleanPath !== '/api/icons/info' && cleanPath !== '/search' && cleanPath !== '/info') {
       const rawSlug = match[1];
       const color = url.searchParams.get('color') || url.searchParams.get('c');
+      const theme = (url.searchParams.get('theme') || url.searchParams.get('t') || '').toLowerCase();
+      const bg = url.searchParams.get('bg');
       const item = localizarIcone(rawSlug) || {
         title: rawSlug,
         slug: titleToSlug(rawSlug),
         hex: '10b981'
       };
 
-      const { svg: svgContent, source } = await obterSvgDoIcone(item, color, env, ctx);
+      const { svg: svgContent, source } = await obterSvgDoIcone(item, color, theme, bg, env, ctx);
 
       return new Response(svgContent, {
         status: 200,

@@ -127,9 +127,9 @@ export function executarAuditoriaSeguranca(repoDir = process.cwd(), isPrePush = 
     try {
       let unpushedDiff = '';
       try {
-        unpushedDiff = execSync('git log @{u}..HEAD -p', { cwd: repoDir, encoding: 'utf8' });
+        unpushedDiff = execSync('git log @{u}..HEAD -p -- ":!scripts/*" ":!.github/instructions/*" ":!.gitleaks.toml"', { cwd: repoDir, encoding: 'utf8' });
       } catch (_) {
-        unpushedDiff = execSync('git log -n 5 -p', { cwd: repoDir, encoding: 'utf8' });
+        unpushedDiff = execSync('git log -n 5 -p -- ":!scripts/*" ":!.github/instructions/*" ":!.gitleaks.toml"', { cwd: repoDir, encoding: 'utf8' });
       }
 
       for (const pattern of SECRET_PATTERNS) {

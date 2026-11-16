@@ -166,5 +166,32 @@ assert(edgeReq1.headers.get('X-Edge-Anycast').includes('Cloudflare'), 'Header X-
 const edgeReq2 = await worker.fetch(new Request('https://api.test/api/icons/whatsapp.svg'));
 assert(edgeReq2.headers.get('X-Edge-Delivery') === 'EDGE-MEMORY-HIT', 'Segunda requisição é resolvida em memória do isolate (EDGE-MEMORY-HIT)');
 
+// ─── 8. TESTE DE CONTRASTE AUTOMÁTICO, TEMAS & MOLDURAS ───
+console.log('\n🎨 8. Teste de Contraste Automático, Temas & Molduras');
+
+// A. Teste de inversão automática para marcas pretas em tema dark (ex: GitHub)
+const resGhDark = await worker.fetch(new Request('https://api.test/api/icons/github.svg?theme=dark'));
+assert(resGhDark.status === 200, 'GitHub com theme=dark responde 200 OK');
+const svgGhDark = await resGhDark.text();
+assert(svgGhDark.includes('fill="#ffffff"'), 'GitHub (preto original) é automaticamente invertido para #ffffff em tema dark');
+
+// B. Teste de currentColor
+const resCurrentColor = await worker.fetch(new Request('https://api.test/api/icons/react.svg?color=currentColor'));
+assert(resCurrentColor.status === 200, 'React com color=currentColor responde 200 OK');
+const svgCurrentColor = await resCurrentColor.text();
+assert(svgCurrentColor.includes('fill="currentColor"'), 'SVG aplica fill="currentColor" com sucesso');
+
+// C. Teste de Moldura com Fundo (bg=circle)
+const resCircle = await worker.fetch(new Request('https://api.test/api/icons/apple.svg?theme=dark&bg=circle'));
+assert(resCircle.status === 200, 'Apple com theme=dark&bg=circle responde 200 OK');
+const svgCircle = await resCircle.text();
+assert(svgCircle.includes('<rect') && svgCircle.includes('rx="16"'), 'Aplica moldura circular com fundo contrastante');
+
+// D. Teste de Tema Auto (Media Query prefers-color-scheme)
+const resAuto = await worker.fetch(new Request('https://api.test/api/icons/github.svg?theme=auto'));
+assert(resAuto.status === 200, 'GitHub com theme=auto responde 200 OK');
+const svgAuto = await resAuto.text();
+assert(svgAuto.includes('prefers-color-scheme:dark'), 'Gera SVG adaptativo com media query para dark e light mode');
+
 console.log(`\n🎉 Todos os ${pass} testes do IconsPro passaram com 100% de sucesso!`);
 
