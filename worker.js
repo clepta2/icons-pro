@@ -14,6 +14,7 @@
 import { ICONS_CATALOG } from './catalog.js';
 import { TOP_VECTOR_PATHS } from './top-paths.js';
 import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
+import { SOVEREIGN_SYMBOLS_CATALOG } from './symbols-catalog.js';
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -937,6 +938,52 @@ export default {
           }
         } catch (_) {}
       }
+    }
+
+    
+    // ── ROTA SOBERANA DE SÍMBOLOS, MOEDAS E ENTIDADES HTML (/api/simbolos) ──
+    if (path === '/api/simbolos' || path === '/api/simbolos/todos' || path === '/simbolos') {
+      const q = (url.searchParams.get('q') || '').trim().toLowerCase();
+      const cat = (url.searchParams.get('categoria') || url.searchParams.get('cat') || '').trim().toLowerCase();
+      
+      let list = SOVEREIGN_SYMBOLS_CATALOG;
+      if (cat && cat !== 'todas') {
+        list = list.filter(s => s.cat.toLowerCase().includes(cat));
+      }
+      if (q) {
+        list = list.filter(s => 
+          s.name.toLowerCase().includes(q) ||
+          s.char.includes(q) ||
+          s.entity.toLowerCase().includes(q) ||
+          (s.tags && s.tags.some(t => t.toLowerCase().includes(q)))
+        );
+      }
+
+      return new Response(JSON.stringify({
+        ok: true,
+        service: 'Símbolos, Moedas & Entidades HTML Pro',
+        total: list.length,
+        totalCatalogo: SOVEREIGN_SYMBOLS_CATALOG.length,
+        categorias: ['Moedas', 'Matemática', 'Setas', 'Status & UI', 'Formas', 'Editorial & Marcas'],
+        simbolos: list
+      }, null, 2), {
+        status: 200,
+        headers: calcResponseHeaders('application/json')
+      });
+    }
+
+    if (path.startsWith('/api/simbolos/busca')) {
+      const q = (url.searchParams.get('q') || '').trim().toLowerCase();
+      const list = SOVEREIGN_SYMBOLS_CATALOG.filter(s => 
+        s.name.toLowerCase().includes(q) ||
+        s.char.includes(q) ||
+        s.entity.toLowerCase().includes(q) ||
+        (s.tags && s.tags.some(t => t.toLowerCase().includes(q)))
+      );
+      return new Response(JSON.stringify({ ok: true, query: q, total: list.length, resultados: list }, null, 2), {
+        status: 200,
+        headers: calcResponseHeaders('application/json')
+      });
     }
 
     // Busca de Marcas / Ícones

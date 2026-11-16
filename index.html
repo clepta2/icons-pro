@@ -117,6 +117,54 @@
     .app-tag.capcut { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
     .app-tag.adobe { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
     .app-tag.tech { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+    .symbol-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 10px;
+      max-height: 520px;
+      overflow-y: auto;
+      padding: 4px;
+    }
+    .symbol-card {
+      background: var(--paper-elevated, #162032);
+      border: 1px solid var(--line, #1e293b);
+      border-radius: var(--radius-md, 10px);
+      padding: 14px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.16s ease;
+    }
+    .symbol-card:hover {
+      border-color: var(--mint, #a3e635);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+    .symbol-char {
+      font-size: 32px;
+      line-height: 1.1;
+      color: var(--ink, #f8fafc);
+      font-family: 'JetBrains Mono', 'Plus Jakarta Sans', monospace;
+    }
+    .symbol-name {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--ink, #f8fafc);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+    .symbol-meta {
+      font-size: 9.5px;
+      color: var(--muted);
+      font-family: var(--font-mono, monospace);
+    }
+
   </style>
 </head>
 <body>
@@ -169,8 +217,9 @@
 
     <!-- Abas de Navegação -->
     <div class="ponte-tabs">
-      <button class="ponte-tab-btn active" data-tab="tab-fontes" onclick="switchTab('tab-fontes')">🅰️ Catálogo &amp; Download de Fontes (Canva / CapCut / Adobe)</button>
-      <button class="ponte-tab-btn" data-tab="tab-icones" onclick="switchTab('tab-icones')">🎨 Explorador de 3.470 Ícones SVG</button>
+      <button class="ponte-tab-btn active" data-tab="tab-fontes" onclick="switchTab('tab-fontes')">🅰️ Fontes WOFF2 (Canva / CapCut / Adobe)</button>
+      <button class="ponte-tab-btn" data-tab="tab-simbolos" onclick="switchTab('tab-simbolos')">🔣 Catálogo de Símbolos &amp; Caracteres</button>
+      <button class="ponte-tab-btn" data-tab="tab-icones" onclick="switchTab('tab-icones')">🎨 Explorador de 3.470 Logos SVG</button>
       <button class="ponte-tab-btn" data-tab="tab-api" onclick="switchTab('tab-api')">📚 Endpoints &amp; Integração</button>
     </div>
 
@@ -197,6 +246,36 @@
 
         <!-- Lista Dinâmica de Fontes -->
         <div id="fonts-list-container">
+          <!-- Renderizado via JS -->
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- ABA: SÍMBOLOS & CARACTERES ESPECIAIS -->
+    <div class="ponte-tab-content" id="tab-simbolos">
+      <div class="ponte-card">
+        <div class="ponte-card-title">
+          <h3>Símbolos Matemáticos, Moedas, Setas &amp; Caracteres Especiais</h3>
+          <span style="font-size:12px;color:var(--mint);font-family:var(--font-mono);" id="symbols-counter">109 símbolos</span>
+        </div>
+        <p class="ponte-card-desc">Clique em qualquer símbolo para <strong>copiar instantaneamente</strong> o caractere Unicode, entidade HTML ou código Hex para seu código.</p>
+
+        <!-- Filtros e Busca de Símbolos -->
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:18px;">
+          <input type="text" id="symbol-search-input" class="ponte-input" placeholder="Buscar símbolo por nome, tag ou caractere (ex: real, check, seta, infinito, delta, pi)..." style="flex:2;min-width:260px;" oninput="filtrarSimbolos(this.value)" />
+          <select id="symbol-cat-select" class="ponte-select" style="flex:1;min-width:180px;" onchange="filtrarSimbolosPorCategoria(this.value)">
+            <option value="todas">Todas as Categorias</option>
+            <option value="Moedas">💵 Moedas &amp; Financeiro</option>
+            <option value="Matemática">📐 Matemática &amp; Lógica</option>
+            <option value="Setas">➔ Setas &amp; Direcionais</option>
+            <option value="Status & UI">✅ Status, Check &amp; Alertas</option>
+            <option value="Formas">● Formas Geométricas</option>
+            <option value="Editorial & Marcas">© Editorial, Leis &amp; Marcas</option>
+          </select>
+        </div>
+
+        <div class="symbol-grid" id="symbols-grid-container">
           <!-- Renderizado via JS -->
         </div>
       </div>
@@ -252,6 +331,12 @@
           <h3>Endpoints Oficiais da API Anycast</h3>
         </div>
         <div style="display:grid;gap:8px;font-family:var(--font-mono);font-size:12px;">
+                    <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
+            <strong style="color:#10b981;">GET</strong> <code>/api/simbolos</code> — Catálogo JSON completo de símbolos, moedas, setas e entidades HTML
+          </div>
+          <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
+            <strong style="color:#3b82f6;">GET</strong> <code>/api/simbolos/busca?q={termo}</code> — Busca semântica por tags (ex: moedas, check, setas)
+          </div>
           <div style="background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">
             <strong style="color:#10b981;">GET</strong> <code>/api/fonts</code> — Catálogo JSON completo das 20 famílias de fontes com tags e especificações
           </div>
@@ -284,6 +369,7 @@
   <script type="module">
     import { ICONS_CATALOG } from './catalog.js';
     import { SOVEREIGN_FONTS_CATALOG } from './fonts-catalog.js';
+    import { SOVEREIGN_SYMBOLS_CATALOG } from './symbols-catalog.js';
 
     // ─── ABA 1: RENDERIZAÇÃO DO CATÁLOGO DE FONTES ───
     let textoAmostra = "Criatividade e Performance na Borda Anycast 2026";
@@ -361,6 +447,56 @@
     }
 
     renderizarListaFontes();
+
+    
+    // ─── ABA SÍMBOLOS & CARACTERES ESPECIAIS ───
+    let categoriaSimboloAtual = 'todas';
+    let buscaSimboloAtual = '';
+
+    window.filtrarSimbolos = function(q) {
+      buscaSimboloAtual = (q || '').trim().toLowerCase();
+      renderizarGridSimbolos();
+    };
+
+    window.filtrarSimbolosPorCategoria = function(cat) {
+      categoriaSimboloAtual = cat;
+      renderizarGridSimbolos();
+    };
+
+    window.copiarSimbolo = function(char, entity) {
+      navigator.clipboard.writeText(char);
+      alert('Símbolo "' + char + '" copiado!\nEntidade HTML: ' + entity);
+    };
+
+    function renderizarGridSimbolos() {
+      const container = document.getElementById('symbols-grid-container');
+      const counter = document.getElementById('symbols-counter');
+
+      let list = SOVEREIGN_SYMBOLS_CATALOG;
+      if (categoriaSimboloAtual !== 'todas') {
+        list = list.filter(s => s.cat.toLowerCase().includes(categoriaSimboloAtual.toLowerCase()));
+      }
+      if (buscaSimboloAtual) {
+        list = list.filter(s =>
+          s.name.toLowerCase().includes(buscaSimboloAtual) ||
+          s.char.includes(buscaSimboloAtual) ||
+          s.cat.toLowerCase().includes(buscaSimboloAtual) ||
+          (s.tags && s.tags.some(t => t.toLowerCase().includes(buscaSimboloAtual)))
+        );
+      }
+
+      counter.textContent = `${list.length} encontrados`;
+
+      container.innerHTML = list.map(s => `
+        <div class="symbol-card" onclick="copiarSimbolo('${s.char}', '${s.entity}')" title="Clique para copiar: ${s.name} (${s.entity})">
+          <div class="symbol-char">${s.char}</div>
+          <div class="symbol-name">${s.name}</div>
+          <div class="symbol-meta">${s.entity} &bull; ${s.hex}</div>
+        </div>
+      `).join('');
+    }
+
+    renderizarGridSimbolos();
 
     // ─── ABA 2: ÍCONES SVG ───
     let iconeSelecionado = ICONS_CATALOG.find(i => i.slug === 'google') || ICONS_CATALOG[0];
